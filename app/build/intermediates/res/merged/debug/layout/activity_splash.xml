@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background_material_dark" >
+
+    <TextView
+        android:text="Made with Love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3"
+        android:textColor="@color/dim_foreground_material_dark"
+        android:textSize="15sp"
+        android:paddingBottom="7dp" />
+
+    <TextView
+        android:text="Roger Anderson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4"
+        android:textColor="@color/dim_foreground_material_dark"
+        android:textSize="17sp"
+        android:paddingBottom="7dp" />
+
+    <TextView
+        android:text="@string/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/dim_foreground_material_dark"
+        android:paddingBottom="150dp" />
+
+</RelativeLayout>
