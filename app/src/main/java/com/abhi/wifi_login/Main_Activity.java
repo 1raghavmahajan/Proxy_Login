@@ -2,11 +2,10 @@ package com.abhi.wifi_login;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -16,20 +15,19 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONObject;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.VolleyLog;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.net.HttpURLConnection;
+import java.util.HashMap;
+import java.util.Map;
+
+import static com.android.volley.VolleyLog.TAG;
 
 public class Main_Activity extends Activity {
 
@@ -37,18 +35,6 @@ public class Main_Activity extends Activity {
     EditText eT, eT2;
     CheckBox cB;
     String id, pwd;
-    String pass1;
-    User_Info user;
-
-    private static String convertInputStreamToString(InputStream inputStream) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
-        String line = "";
-        String result = "";
-        while ((line = bufferedReader.readLine()) != null)
-            result += line;
-        inputStream.close();
-        return result;
-    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -84,7 +70,8 @@ public class Main_Activity extends Activity {
                         savePreferences("saved_id", eT.getText().toString());
                         savePreferences("saved_pwd", eT2.getText().toString());
                     }
-                    new HttpAsyncTask().execute("https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
+                    net_vol();
+                    //new HttpAsyncTask().execute("https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
                 }
                 else {
                     showAlertDialog(Main_Activity.this,
@@ -94,6 +81,87 @@ public class Main_Activity extends Activity {
 
             }
         });
+
+    }
+
+    private void net_vol()
+    {
+
+        // Tag used to cancel the request
+        String req_tag = "POST_REQUEST";
+
+        String url = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
+
+        final ProgressDialog pDialog = new ProgressDialog(this);
+        pDialog.setMessage("Loading...");
+        pDialog.show();
+
+        StringRequest strReq = new StringRequest(
+                Request.Method.POST,
+                url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        //Log.d(TAG, response.toString());
+                        pDialog.hide();
+                        if(response.toString().contains("Invalid"))
+                        {
+                            Toast.makeText(Main_Activity.this, "Invalid Credentials Provided.", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        VolleyLog.d(TAG, "pottyError: " + error.getMessage());
+                        pDialog.hide();
+                    }
+                }
+        )
+        {
+            @Override
+            protected Map<String, String> getParams() {
+
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("auth_user", id);
+                params.put("auth_pass", pwd);
+                params.put("zone", "lan_iiti");
+                params.put("redirurl", "http%3A%2F%2Fhanuman.iiti.ac.in%3A8003%2Findex.php%3Fzone%3Dlan_iiti");
+                params.put("auth_voucher", "");
+                params.put("accept", "Sign+In");
+                return params;
+            }
+
+            @Override
+            public void deliverError(final VolleyError error) {
+
+                //Log.d(TAG, "Redirect");
+                final int status = error.networkResponse.statusCode;
+                String mess_str = "Unknown Error";
+                // Handle 30x
+                if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
+                    final String location = error.networkResponse.headers.get("Location");
+
+                    if(location.contains("bing"))
+                    {
+                        mess_str = "Successfully Authenticated!";
+                    }
+                    else
+                    {
+                        mess_str = "Invalid Credentials Provided.";
+                    }
+                }
+                pDialog.hide();
+                Toast.makeText(Main_Activity.this, mess_str, Toast.LENGTH_SHORT).show();
+            }
+
+        };
+
+        // Adding request to request queue
+        RequestQueue mRequestQueue;
+        mRequestQueue = Volley.newRequestQueue(getApplicationContext());
+        strReq.setTag(req_tag);
+        mRequestQueue.add(strReq);
 
     }
 
@@ -118,7 +186,7 @@ public class Main_Activity extends Activity {
                 .getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putBoolean(key, value);
-        editor.commit();
+        editor.apply();
     }
 
     private void savePreferences(String key, String value) {
@@ -126,7 +194,7 @@ public class Main_Activity extends Activity {
                 .getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(key, value);
-        editor.commit();
+        editor.apply();
     }
 
     public void showAlertDialog(Context context, String title, String message,
@@ -153,98 +221,4 @@ public class Main_Activity extends Activity {
         alertDialog.show();
     }
 
-    public String POST(String url, User_Info user) {
-        InputStream inputStream = null;
-        String result = "";
-        try {
-
-            // 1. create HttpClient
-            //HttpClient httpclient = new DefaultHttpClient();
-            DefaultHttpClient client = (DefaultHttpClient) WebClientDevWrapper.getNewHttpClient();
-
-            // 2. make POST request to the given URL
-            //HttpPost httpPost = new HttpPost(url);
-            HttpPost post = new HttpPost(url);
-
-            String json = "";
-
-
-            // Add your data
-            List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
-            nameValuePairs.add(new BasicNameValuePair("auth_user", user.getId()));
-            nameValuePairs.add(new BasicNameValuePair("auth_pass", user.getPwd()));
-            //nameValuePairs.add(new BasicNameValuePair("fw_domain", "gpra.in"));
-            nameValuePairs.add(new BasicNameValuePair("zone", "lan_iiti"));
-            nameValuePairs.add(new BasicNameValuePair("redirurl", "http%3A%2F%2Fhanuman.iiti.ac.in%3A8003%2Findex.php%3Fzone%3Dlan_iiti"));
-            nameValuePairs.add(new BasicNameValuePair("auth_voucher", ""));
-            nameValuePairs.add(new BasicNameValuePair("accept", "Sign+In"));
-            //nameValuePairs.add(new BasicNameValuePair("submit", "Login"));
-            //nameValuePairs.add(new BasicNameValuePair("action", "fw_logon"));
-            //nameValuePairs.add(new BasicNameValuePair("fw_logon_type", "logon"));
-            //nameValuePairs.add(new BasicNameValuePair("redirect", ""));
-            //nameValuePairs.add(new BasicNameValuePair("lang", "en-US"));
-            post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-
-            // Execute HTTP Post Request
-            HttpResponse response = client.execute(post);
-
-            // 9. receive response as inputStream
-            inputStream = response.getEntity().getContent();
-
-            // 10. convert inputstream to string
-            if (inputStream != null) {
-                result = convertInputStreamToString(inputStream);
-                Log.i("result123",result);
-            } else
-                result = "Did not work!";
-
-        } catch (Exception e) {
-            Log.d("InputStream", e.getLocalizedMessage());
-        }
-
-        // 11. return result
-        return result;
-    }
-
-    private class HttpAsyncTask extends AsyncTask<String, Void, String> {
-
-        @Override
-        protected String doInBackground(String... urls) {
-            user = new User_Info();
-            user.setId(id);
-            user.setPwd(pwd);
-
-            return POST(urls[0], user);
-        }
-
-        // onPostExecute displays the results of the AsyncTask.
-        @Override
-        protected void onPostExecute(String result) {
-
-            //Log.i("result1234", result);
-            String str2 = "bing";
-            if(result.contains(str2)) {
-            try {
-                Toast.makeText(getBaseContext(), "Successfully Authenticated", Toast.LENGTH_LONG).show();
-                JSONObject pass = new JSONObject();
-                pass.accumulate("id", id);
-                pass.accumulate("pwd", pwd);
-                pass1 = pass.toString();
-            } catch (Exception e) {
-                Log.d("makepass", e.getLocalizedMessage());
-            }
-
-            // Intent i = new Intent(Main_Activity.this, Logged_In.class);
-            // sending data to new activity
-            //i.putExtra("data", pass1);
-            //startActivity(i);
-            //finish();
-            }
-            else
-            {
-                Toast.makeText(getBaseContext(), "Not Authenticated, Please Check your Credentials!", Toast.LENGTH_LONG).show();
-            }
-
-        }
-    }
 }
