@@ -1,4 +1,4 @@
-#Wed Feb 22 01:01:49 PST 2017
+#Tue Feb 21 05:18:28 PST 2017
 base.0=C\:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eb1f5b44dedb5fc892de8d6b90f2d45168d77e07
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -12,7 +12,7 @@ public class Connection_Detector {
         this._context = context;
     }
 
-    public boolean isConnectedtoWifi() {
+    public boolean isConnectingToInternet() {
         ConnectivityManager connectivity = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivity != null) {
             NetworkInfo[] info = connectivity.getAllNetworkInfo();
