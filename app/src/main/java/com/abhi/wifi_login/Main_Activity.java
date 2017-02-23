@@ -5,10 +5,7 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -31,52 +28,59 @@ import static com.android.volley.VolleyLog.TAG;
 
 public class Main_Activity extends Activity {
 
-    Button btn;
-    EditText eT, eT2;
-    CheckBox cB;
-    String id, pwd;
+    Button btn_Login;
+    EditText editText_ID, editText_pwd;
+    CheckBox checkBox;
+    User_Info user1 ;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button) findViewById(R.id.button);
-        eT = (EditText) findViewById(R.id.editText);
-        eT2 = (EditText) findViewById(R.id.editText2);
-        cB = (CheckBox) findViewById(R.id.checkBox);
+        btn_Login = (Button) findViewById(R.id.button);
+        editText_ID = (EditText) findViewById(R.id.editText);
+        editText_pwd = (EditText) findViewById(R.id.editText2);
+        checkBox = (CheckBox) findViewById(R.id.checkBox);
 
-        loadSavedPreferences();
-        // show location button click event
-        btn.setOnClickListener(new View.OnClickListener() {
+        user1 = new User_Info();
+        if(user1.load_Cred(getApplicationContext())) //if cred are saved
+        {
+            editText_ID.setText(user1.getID());
+            editText_pwd.setText(user1.getpwd());
+            checkBox.setChecked(true);
+        }
+
+        btn_Login.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
+
                 Connection_Detector cd = new Connection_Detector(getApplicationContext());
-                id = eT.getText().toString().trim();
-                pwd = eT2.getText().toString().trim();
-                if (id.equals("")) {
-                    Toast.makeText(Main_Activity.this,
-                            "Name Field is empty", Toast.LENGTH_SHORT).show();
-                } else if (pwd.equals("")) {
-                    Toast.makeText(Main_Activity.this,
-                            "Contact Field is empty", Toast.LENGTH_SHORT).show();
-                }
-                else if (cd.isConnectingToInternet())
-                // true or false
+
+                user1.setID(editText_ID.getText().toString().trim());
+                user1.setpwd(editText_pwd.getText().toString().trim());
+
+                if (user1.getID().equals(""))
                 {
-                    savePreferences("CheckBox_Value", cB.isChecked());
-                    if (cB.isChecked()) {
-                        savePreferences("saved_id", eT.getText().toString());
-                        savePreferences("saved_pwd", eT2.getText().toString());
-                    }
-                    net_vol();
-                    //new HttpAsyncTask().execute("https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
+                    Toast.makeText(Main_Activity.this,"Name Field is empty", Toast.LENGTH_SHORT).show();
                 }
-                else {
+                else if (user1.getpwd().equals(""))
+                {
+                    Toast.makeText(Main_Activity.this,"Contact Field is empty", Toast.LENGTH_SHORT).show();
+                }
+                else if (cd.isConnectedtoWifi())
+                {
+                    if (checkBox.isChecked()) {
+                        user1.save_cred(getApplicationContext());
+                    }
+                    Login_task();
+                }
+                else
+                {
                     showAlertDialog(Main_Activity.this,
                             "No Internet Connection",
-                            "No internet connection.", false);
+                            "No internet connection.");
                 }
 
             }
@@ -84,8 +88,7 @@ public class Main_Activity extends Activity {
 
     }
 
-    private void net_vol()
-    {
+    private void Login_task()    {
 
         // Tag used to cancel the request
         String req_tag = "POST_REQUEST";
@@ -123,10 +126,10 @@ public class Main_Activity extends Activity {
             protected Map<String, String> getParams() {
 
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("auth_user", id);
-                params.put("auth_pass", pwd);
+                params.put("auth_user", user1.getID());
+                params.put("auth_pass", user1.getpwd());
                 params.put("zone", "lan_iiti");
-                params.put("redirurl", "http%3A%2F%2Fhanuman.iiti.ac.in%3A8003%2Findex.php%3Fzone%3Dlan_iiti");
+                params.put("redirurl", "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
                 params.put("auth_voucher", "");
                 params.put("accept", "Sign+In");
                 return params;
@@ -165,40 +168,7 @@ public class Main_Activity extends Activity {
 
     }
 
-    private void loadSavedPreferences() {
-        SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(this);
-        boolean checkBoxValue = sharedPreferences.getBoolean("CheckBox_Value", false);
-        String saved_id = sharedPreferences.getString("saved_id", "");
-        String saved_pwd = sharedPreferences.getString("saved_pwd", "");
-        if (checkBoxValue) {
-            cB.setChecked(true);
-        } else {
-            cB.setChecked(false);
-        }
-
-        eT.setText(saved_id);
-        eT2.setText(saved_pwd);
-    }
-
-    private void savePreferences(String key, boolean value) {
-        SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(this);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putBoolean(key, value);
-        editor.apply();
-    }
-
-    private void savePreferences(String key, String value) {
-        SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(this);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(key, value);
-        editor.apply();
-    }
-
-    public void showAlertDialog(Context context, String title, String message,
-                                Boolean status) {
+    public void showAlertDialog(Context context, String title, String message) {
         AlertDialog alertDialog = new AlertDialog.Builder(context).create();
 
         // Setting Dialog Title

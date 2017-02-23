@@ -5,40 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="46925171090105"
+    timestamp="29512424703664"
     token="2390514628598114961"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="26" />
+        duration="397" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2" />
+        duration="107" />
     <task
         name="verifier"
-        duration="2" />
+        duration="8" />
 
     <artifact
-        location="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
+        location="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="46758246883458"
+        timestamp="29512424703664"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="46925171090105"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
