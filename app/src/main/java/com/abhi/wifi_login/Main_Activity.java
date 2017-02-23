@@ -32,7 +32,6 @@ public class Main_Activity extends Activity {
     EditText editText_ID, editText_pwd;
     CheckBox checkBox;
     User_Info user1 ;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
