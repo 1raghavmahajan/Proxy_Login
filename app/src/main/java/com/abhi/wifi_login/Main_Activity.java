@@ -115,7 +115,7 @@ public class Main_Activity extends Activity {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        VolleyLog.d(TAG, "pottyError: " + error.getMessage());
+                        VolleyLog.d(TAG, "Error: " + error.getMessage());
                         pDialog.hide();
                     }
                 }

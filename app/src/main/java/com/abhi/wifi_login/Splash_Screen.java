@@ -1,20 +1,13 @@
 package com.abhi.wifi_login;
 
-/**
- * Created by Abhi on 22-10-2015.
- */
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-/**
- * Created by Abhi on 14-08-2015.
- */
 public class Splash_Screen extends Activity {
     // Splash screen timer
-    private static int SPLASH_TIME_OUT = 3000;
+    static int SPLASH_TIME_OUT = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
