@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\Keyur Panchal\\Git\\Wifi_Login2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 63,
-                    "endOffset": 114
-                },
-                "from": {
-                    "file": "C:\\Users\\Keyur Panchal\\Git\\Wifi_Login2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-xlarge-land\\values-xlarge-land.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 299,
-                        "endColumn": 63,
-                        "endOffset": 358
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
@@ -35,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "file": "C:\\Users\\raghav\\.android\\build-cache\\59a1ce586b8ef9c843ca820b3ad01d422605bc3f\\output\\res\\values-xlarge-land\\values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

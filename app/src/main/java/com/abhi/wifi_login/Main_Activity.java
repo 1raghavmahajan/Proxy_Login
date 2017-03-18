@@ -6,10 +6,12 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -31,7 +33,7 @@ public class Main_Activity extends Activity {
     Button btn_Login;
     EditText editText_ID, editText_pwd;
     CheckBox checkBox;
-    User_Info user1 ;
+    User_Info user;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,11 +44,11 @@ public class Main_Activity extends Activity {
         editText_pwd = (EditText) findViewById(R.id.editText2);
         checkBox = (CheckBox) findViewById(R.id.checkBox);
 
-        user1 = new User_Info();
-        if(user1.load_Cred(getApplicationContext())) //if cred are saved
+        user = new User_Info();
+        if(user.load_Cred(getApplicationContext())) //if cred are saved
         {
-            editText_ID.setText(user1.getID());
-            editText_pwd.setText(user1.getpwd());
+            editText_ID.setText(user.getID());
+            editText_pwd.setText(user.getpwd());
             checkBox.setChecked(true);
         }
 
@@ -57,34 +59,49 @@ public class Main_Activity extends Activity {
 
                 Connection_Detector cd = new Connection_Detector(getApplicationContext());
 
-                user1.setID(editText_ID.getText().toString().trim());
-                user1.setpwd(editText_pwd.getText().toString().trim());
+                user.setID(editText_ID.getText().toString().trim());
+                user.setpwd(editText_pwd.getText().toString().trim());
 
-                if (user1.getID().equals(""))
+                if (user.getID().equals(""))
                 {
                     Toast.makeText(Main_Activity.this,"Name Field is empty", Toast.LENGTH_SHORT).show();
                 }
-                else if (user1.getpwd().equals(""))
+                else if (user.getpwd().equals(""))
                 {
                     Toast.makeText(Main_Activity.this,"Contact Field is empty", Toast.LENGTH_SHORT).show();
                 }
-                else if (cd.isConnectedtoWifi())
-                {
-                    if (checkBox.isChecked()) {
-                        user1.save_cred(getApplicationContext());
-                    }
-                    Login_task();
-                }
                 else
                 {
-                    showAlertDialog(Main_Activity.this,
-                            "No Internet Connection",
-                            "No internet connection.");
+                    int Con_Status = cd.isConnectedtoWifi();
+                    String Alert_Status = "No connectivity";
+                    switch (Con_Status) {
+
+                        case 1:
+                            Alert_Status = "Please turn on the wifi.";
+                            break;
+                        case 2:
+                            Alert_Status = "Please turn off Mobile data.";
+                            break;
+                        case 3:
+                            Alert_Status = "You are not on an IITI network.";
+                            break;
+                    }
+                    if(Con_Status != 4) {
+                        showAlertDialog(Main_Activity.this,
+                                "Error",
+                                Alert_Status);
+                    }
+                    else
+                    {
+                        if (checkBox.isChecked()) {
+                            user.save_cred(getApplicationContext());
+                        }
+                        Login_task();
+                    }
                 }
 
             }
         });
-
     }
 
     private void Login_task()    {
@@ -125,8 +142,8 @@ public class Main_Activity extends Activity {
             protected Map<String, String> getParams() {
 
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("auth_user", user1.getID());
-                params.put("auth_pass", user1.getpwd());
+                params.put("auth_user", user.getID());
+                params.put("auth_pass", user.getpwd());
                 params.put("zone", "lan_iiti");
                 params.put("redirurl", "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
                 params.put("auth_voucher", "");
@@ -137,25 +154,35 @@ public class Main_Activity extends Activity {
             @Override
             public void deliverError(final VolleyError error) {
 
-                //Log.d(TAG, "Redirect");
-                final int status = error.networkResponse.statusCode;
                 String mess_str = "Unknown Error";
-                // Handle 30x
-                if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
-                    final String location = error.networkResponse.headers.get("Location");
+                Log.d(TAG, "deliveryError : " + error.toString());
+                if(error.toString().contains("Timeout"))
+                {
+                    mess_str = "Authentication server not reachable. Please try after some time.";
+                }
+                else if(error.toString().contains("NoConnectionError"))
+                {
+                    mess_str = "No Connection. Please try after some time.";
+                }
+                else
+                {
+                    final int status = error.networkResponse.statusCode;
+                    Log.d(TAG, "Status : " + status);
+                    // Handle 30x
+                    if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
+                        final String location = error.networkResponse.headers.get("Location");
 
-                    if(location.contains("bing"))
-                    {
-                        mess_str = "Successfully Authenticated!";
-                    }
-                    else
-                    {
-                        mess_str = "Invalid Credentials Provided.";
+                        if (location.contains("bing")) {
+                            mess_str = "Successfully Authenticated!";
+                        } else {
+                            mess_str = "Invalid Credentials Provided.";
+                        }
                     }
                 }
                 pDialog.hide();
-                Toast.makeText(Main_Activity.this, mess_str, Toast.LENGTH_SHORT).show();
+                Toast.makeText(Main_Activity.this, mess_str, Toast.LENGTH_LONG).show();
             }
+
 
         };
 

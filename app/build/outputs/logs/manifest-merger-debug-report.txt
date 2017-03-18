@@ -23,9 +23,9 @@ ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\An
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:6:22-76
 application
 ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:8:5-32:19
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\raghav\.android\build-cache\59a1ce586b8ef9c843ca820b3ad01d422605bc3f\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\raghav\.android\build-cache\db3bc92c424e86d7d67e78dea6fa2dbc2aa0ab7d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\raghav\.android\build-cache\0fa60be1c428bbe983208d098f9930f844cc63cf\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:11:9-41
 	android:allowBackup
@@ -60,9 +60,9 @@ ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\An
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:26:25-66
 uses-sdk
 INJECTED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\raghav\.android\build-cache\59a1ce586b8ef9c843ca820b3ad01d422605bc3f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\raghav\.android\build-cache\db3bc92c424e86d7d67e78dea6fa2dbc2aa0ab7d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\raghav\.android\build-cache\0fa60be1c428bbe983208d098f9930f844cc63cf\output\AndroidManifest.xml:7:5-43
 	android:targetSdkVersion
 		INJECTED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml

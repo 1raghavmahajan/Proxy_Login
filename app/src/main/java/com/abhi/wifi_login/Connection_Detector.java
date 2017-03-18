@@ -4,25 +4,54 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-public class Connection_Detector {
+/*
+0 : No connectivity
+1 : No wifi OR Just data
+2 : Wifi + Data
+3 : Not IIT wifi
+4 : All fine
+
+*/
+
+
+ class Connection_Detector {
 
     private Context _context;
 
-    public Connection_Detector(Context context) {
+    Connection_Detector(Context context) {
         this._context = context;
     }
 
-    public boolean isConnectedtoWifi() {
-        ConnectivityManager connectivity = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        if (connectivity != null) {
-            NetworkInfo[] info = connectivity.getAllNetworkInfo();
-            if (info != null)
-                for (int i = 0; i < info.length; i++)
-                    if (info[i].getState() == NetworkInfo.State.CONNECTED) {
-                        return true;
-                    }
+    int isConnectedtoWifi() {
 
+        ConnectivityManager connectivity = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connectivity != null)
+        {
+            NetworkInfo[] info = connectivity.getAllNetworkInfo();
+
+            if (info != null)
+            {
+                if(info[0].isConnected()) // if data on
+                {
+                    return 2;
+                }
+                else
+                {
+                    if (info[1].isConnected()) // if wifi connected
+                    {
+                        if (info[1].getExtraInfo().contains("IIT"))
+                            return 4;
+                        else
+                            return 3;
+                    }
+                    else
+                    {
+                        return 1;
+                    }
+                }
+
+            }
         }
-        return false;
+        return 0;
     }
 }
