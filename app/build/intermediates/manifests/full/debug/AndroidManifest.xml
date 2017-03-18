@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.BlackBox.IITI_Proxy_Login"
+    package="com.BlackBox.IITI_Proxy_Login"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,14 +17,14 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.abhi.wifi_login.Main_Activity"
+            android:name="com.BlackBox.IITI_Proxy_Login.Main_Activity"
             android:label="@string/app_name" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.abhi.wifi_login.Splash_Screen"
+            android:name="com.BlackBox.IITI_Proxy_Login.Splash_Screen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

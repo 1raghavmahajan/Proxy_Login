@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.BlackBox.IITI_Proxy_Login.test">
+    package="com.BlackBox.IITI_Proxy_Login.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="app.BlackBox.IITI_Proxy_Login"
+                     android:targetPackage="com.BlackBox.IITI_Proxy_Login"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for app.BlackBox.IITI_Proxy_Login"/>
+                     android:label="Tests for com.BlackBox.IITI_Proxy_Login"/>
 </manifest>

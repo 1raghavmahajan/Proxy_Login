@@ -4,7 +4,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion '25.0.2'
     defaultConfig {
-        applicationId 'app.BlackBox.IITI_Proxy_Login'
+        applicationId 'com.BlackBox.IITI_Proxy_Login'
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 1

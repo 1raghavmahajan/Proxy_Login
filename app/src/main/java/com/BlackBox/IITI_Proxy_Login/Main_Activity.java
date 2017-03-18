@@ -1,4 +1,4 @@
-package com.abhi.wifi_login;
+package com.BlackBox.IITI_Proxy_Login;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Switch;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -182,8 +181,6 @@ public class Main_Activity extends Activity {
                 pDialog.hide();
                 Toast.makeText(Main_Activity.this, mess_str, Toast.LENGTH_LONG).show();
             }
-
-
         };
 
         // Adding request to request queue
@@ -191,7 +188,6 @@ public class Main_Activity extends Activity {
         mRequestQueue = Volley.newRequestQueue(getApplicationContext());
         strReq.setTag(req_tag);
         mRequestQueue.add(strReq);
-
     }
 
     public void showAlertDialog(Context context, String title, String message) {
