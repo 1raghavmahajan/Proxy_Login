@@ -84,7 +84,7 @@ class User_Info {
          * @param secretKey - a secret key used for encryption
          * @param data      - data to encrypt
          * @return Encrypted data
-         * @throws Exception
+         * @throws Exception unknown
          */
         private static String encrypt(String secretKey, String data) throws Exception {
 
@@ -105,7 +105,7 @@ class User_Info {
          * @param secretKey - a secret key used for decryption
          * @param data      - data to decrypt
          * @return Decrypted data
-         * @throws Exception
+         * @throws Exception unknown
          */
         private static String decrypt(String secretKey, String data) throws Exception {
 
@@ -145,6 +145,5 @@ class User_Info {
 
         private final static String HEX = "0123456789ABCDEF";
     }
-
 
 }

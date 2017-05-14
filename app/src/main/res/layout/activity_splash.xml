@@ -5,7 +5,18 @@ android:layout_height="match_parent"
 android:background="@color/background_material_dark" >
 
     <TextView
-        android:text="Made with Love"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:text="@string/Coder1"
+        android:textColor="@color/dim_foreground_material_dark"
+        android:textSize="17sp"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/special_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -16,15 +27,16 @@ android:background="@color/background_material_dark" >
         android:paddingBottom="7dp" />
 
     <TextView
-        android:text="Roger Anderson"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView4"
+        android:layout_centerInParent="false"
+        android:paddingBottom="7dp"
+        android:text="@string/Coder2"
         android:textColor="@color/dim_foreground_material_dark"
         android:textSize="17sp"
-        android:paddingBottom="7dp" />
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="@string/title_name"
@@ -34,6 +46,7 @@ android:background="@color/background_material_dark" >
         android:layout_centerHorizontal="true"
         android:textSize="30sp"
         android:textColor="@color/dim_foreground_material_dark"
-        android:paddingBottom="150dp" />
+        android:paddingBottom="150dp"
+        android:id="@+id/textView7" />
 
 </RelativeLayout>

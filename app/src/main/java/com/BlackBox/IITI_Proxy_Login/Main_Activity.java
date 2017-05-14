@@ -33,6 +33,7 @@ public class Main_Activity extends Activity {
     EditText editText_ID, editText_pwd;
     CheckBox checkBox;
     User_Info user;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,59 +52,91 @@ public class Main_Activity extends Activity {
             checkBox.setChecked(true);
         }
 
+
+
         btn_Login.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
-                Connection_Detector cd = new Connection_Detector(getApplicationContext());
-
-                user.setID(editText_ID.getText().toString().trim());
-                user.setpwd(editText_pwd.getText().toString().trim());
-
-                if (user.getID().equals(""))
+                /*if(DoIT(arg0))
                 {
-                    Toast.makeText(Main_Activity.this,"Name Field is empty", Toast.LENGTH_SHORT).show();
-                }
-                else if (user.getpwd().equals(""))
-                {
-                    Toast.makeText(Main_Activity.this,"Contact Field is empty", Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
-                    int Con_Status = cd.isConnectedtoWifi();
-                    String Alert_Status = "No connectivity";
-                    switch (Con_Status) {
+                    //start receiver
+                    /*
+                    WifiStateMonitor WifiMonitor = new WifiStateMonitor();
+                    IntentFilter i = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
+                    registerReceiver(WifiMonitor,i);
 
-                        case 1:
-                            Alert_Status = "Please turn on the wifi.";
-                            break;
-                        case 2:
-                            Alert_Status = "Please turn off Mobile data.";
-                            break;
-                        case 3:
-                            Alert_Status = "You are not on an IITI network.";
-                            break;
-                    }
-                    if(Con_Status != 4) {
-                        showAlertDialog(Main_Activity.this,
-                                "Error",
-                                Alert_Status);
-                    }
-                    else
-                    {
-                        if (checkBox.isChecked()) {
-                            user.save_cred(getApplicationContext());
-                        }
-                        Login_task();
-                    }
-                }
-
+                }*/
             }
         });
     }
 
-    private void Login_task()    {
+    @Override
+    protected void onPause() {
+        super.onPause();
+        /*WifiStateMonitor WifiMonitor = new WifiStateMonitor();
+        IntentFilter i = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
+        registerReceiver(WifiMonitor,i);*/
+    }
+
+    public boolean DoIT(View v) {
+
+         boolean allGood = false;
+
+        Connection_Detector cd = new Connection_Detector(getApplicationContext());
+
+        user.setID(editText_ID.getText().toString().trim());
+        user.setpwd(editText_pwd.getText().toString().trim());
+
+        if (user.getID().equals(""))
+        {
+            Toast.makeText(Main_Activity.this,"Name Field is empty", Toast.LENGTH_SHORT).show();
+        }
+        else if (user.getpwd().equals(""))
+        {
+            Toast.makeText(Main_Activity.this,"Contact Field is empty", Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+            int Con_Status = cd.isConnectedToWifi();
+            String Alert_Status = "No connectivity";
+            switch (Con_Status) {
+
+                case 1:
+                    Alert_Status = "Please turn on the wifi.";
+                    break;
+                case 2:
+                    Alert_Status = "Please turn off Mobile data.";
+                    break;
+                case 3:
+                    Alert_Status = "You are not on an IITI network.";
+                    break;
+            }
+            if(Con_Status != 4) {
+                showAlertDialog(Main_Activity.this,
+                        "Error",
+                        Alert_Status);
+            }
+            else
+            {
+                if (checkBox.isChecked()) {
+                    user.save_cred(getApplicationContext());
+                }
+                allGood = Login_task();
+            }
+        }
+        return allGood;
+     }
+
+    private boolean Login_task()    {
+
+        class t{
+            private boolean f;
+            private t(){f = false;}
+            void sett(){f=true;}
+        }
+        final t bool = new t();
 
         // Tag used to cancel the request
         String req_tag = "POST_REQUEST";
@@ -140,7 +173,7 @@ public class Main_Activity extends Activity {
             @Override
             protected Map<String, String> getParams() {
 
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("auth_user", user.getID());
                 params.put("auth_pass", user.getpwd());
                 params.put("zone", "lan_iiti");
@@ -173,6 +206,7 @@ public class Main_Activity extends Activity {
 
                         if (location.contains("bing")) {
                             mess_str = "Successfully Authenticated!";
+                            bool.sett();
                         } else {
                             mess_str = "Invalid Credentials Provided.";
                         }
@@ -188,6 +222,7 @@ public class Main_Activity extends Activity {
         mRequestQueue = Volley.newRequestQueue(getApplicationContext());
         strReq.setTag(req_tag);
         mRequestQueue.add(strReq);
+        return(bool.f);
     }
 
     public void showAlertDialog(Context context, String title, String message) {

@@ -22,7 +22,8 @@ import android.net.NetworkInfo;
         this._context = context;
     }
 
-    int isConnectedtoWifi() {
+    //checks if connected to IITI network (Returns 4 if true)
+    int isConnectedToWifi() {
 
         ConnectivityManager connectivity = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivity != null)
