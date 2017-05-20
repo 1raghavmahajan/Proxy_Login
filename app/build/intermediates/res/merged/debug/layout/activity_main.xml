@@ -1,72 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#303032"
     android:orientation="vertical"
-    android:background="@color/background_material_dark"
     android:theme="@android:style/Theme.Black.NoTitleBar">
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/tV_Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/title_name"
+        android:textColor="#bdbdbd"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/eT_UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eT_Password"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/te_User"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart" />
+
+
+    <EditText
+        android:id="@+id/eT_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eT_UserName"
+        android:layout_alignStart="@+id/eT_UserName"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10"
-        android:hint="user name"
-        android:inputType="textPersonName"
-        android:layout_margin="5dp"
-        android:layout_centerInParent="false"
-        android:textAlignment="viewStart"
-        android:layout_gravity = "start"/>
+        android:hint="@string/te_Password"
+        android:inputType="textPassword" />
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkBox"
-
+        android:layout_below="@+id/cB_startService"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
         android:background="@android:drawable/btn_default"
+        android:onClick="Onclick_Login"
         android:paddingLeft="17dp"
         android:paddingRight="17dp"
-        android:text="Log In"
+        android:text="@string/btn_Login"
         android:textSize="20sp" />
 
     <CheckBox
+        android:id="@+id/cB_saveCred"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save Credentials"
-        android:id="@+id/checkBox"
+        android:layout_below="@+id/eT_Password"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/editText2"
-        android:textColor="@color/button_material_light"
         android:layout_margin="5dp"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:text="@string/cB_SaveCred"
+        android:textColor="#cfd8dc" />
 
-    <EditText
-        android:id="@+id/editText2"
+    <CheckBox
+        android:id="@+id/cB_startService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textPassword"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
-
-    <TextView
-        android:text="@string/title_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="@color/dim_foreground_material_dark"
-        android:id="@+id/textView5"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/cB_saveCred"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp" />
+        android:text="@string/cB_Service"
+        android:textColor="#cfd8dc" />
 
 
 </RelativeLayout>

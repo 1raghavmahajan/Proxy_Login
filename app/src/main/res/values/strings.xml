@@ -6,11 +6,14 @@
     <string name="te_User">user name</string>
     <string name="te_Password">password</string>
     <string name="btn_Login">Log In</string>
-    <string name="checkbox_Title">Save Credentials</string>
+    <string name="cB_SaveCred">Save Credentials</string>
+    <string name="cB_Service">Start Service</string>
     <string name="special_msg">Made with Love</string>
+    <string name="btn_stopService">Stop Service</string>
 
-    <string name="Coder1">Roger Anderson</string>
-    <string name="Coder2">Keyur Panchal</string>
+
+    <string name="Coder1" translatable="false">Roger Anderson</string>
+    <string name="Coder2" translatable="false">Keyur Panchal</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
