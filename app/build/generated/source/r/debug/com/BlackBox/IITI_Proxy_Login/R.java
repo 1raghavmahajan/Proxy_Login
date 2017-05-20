@@ -2516,23 +2516,22 @@ containing a value of this type.
         public static final int action_settings=0x7f060023;
         public static final int app_name=0x7f060024;
         public static final int btn_Login=0x7f060025;
-        public static final int cB_SaveCred=0x7f060026;
-        public static final int cB_Service=0x7f060027;
-        public static final int hello_world=0x7f060028;
+        public static final int btn_stopService=0x7f060026;
+        public static final int cB_SaveCred=0x7f060027;
+        public static final int cB_Service=0x7f060028;
+        public static final int hello_world=0x7f060029;
         public static final int search_menu_title=0x7f060013;
-        public static final int special_msg=0x7f060029;
+        public static final int special_msg=0x7f06002a;
         public static final int status_bar_notification_info_overflow=0x7f060014;
-        public static final int te_Password=0x7f06002a;
-        public static final int te_User=0x7f06002b;
-        public static final int title_name=0x7f06002c;
+        public static final int te_Password=0x7f06002b;
+        public static final int te_User=0x7f06002c;
+        public static final int title_name=0x7f06002d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08009f;
         public static final int AlertDialog_AppCompat_Light=0x7f0800a0;
         public static final int Animation_AppCompat_Dialog=0x7f0800a1;
         public static final int Animation_AppCompat_DropDownUp=0x7f0800a2;
-        /**  Customize your theme here. 
-         */
         public static final int AppTheme=0x7f0800a3;
         public static final int Base_AlertDialog_AppCompat=0x7f0800a4;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a5;

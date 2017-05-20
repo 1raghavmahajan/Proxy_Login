@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\An
 	android:name
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:8:5-36:19
+ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:8:5-38:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\raghav\.android\build-cache\680ec5b7b64c4d0392b7a5c007a17369e9639bdc\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\raghav\.android\build-cache\4d6a580859699a74768484a9f49bfe782f9dd21a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\raghav\.android\build-cache\59be1cd01b23624f5666a6278834a64598b244aa\output\AndroidManifest.xml:29:5-20
@@ -77,7 +77,9 @@ ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\An
 	android:name
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:33:18-51
 activity#com.BlackBox.IITI_Proxy_Login.StopServiceActivity
-ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:35:9-66
+ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:35:9-36:48
+	android:excludeFromRecents
+		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:36:13-46
 	android:name
 		ADDED from C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\src\main\AndroidManifest.xml:35:19-54
 uses-sdk

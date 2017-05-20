@@ -19,8 +19,9 @@ public class BackgroundService extends Service {
 
     private MyBroadcastReceiver br;
 
-    final public String TAG = BackgroundService.class.getSimpleName();
+    final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
     public static final String ACTION_LOGIN = "com.BlackBox.IITI_Proxy_Login.action.LOGIN";
+    public static final String EXTRA_URL = "com.BlackBox.IITI_Proxy_Login.extra.URL";
     RequestQueue requestQueue;
     Context context;
 
@@ -35,6 +36,8 @@ public class BackgroundService extends Service {
         br = new MyBroadcastReceiver();
 
         Intent notificationIntent = new Intent(this, StopServiceActivity.class);
+        //notificationIntent.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+        //notificationIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         Notification notification = new Notification.Builder(this)
@@ -56,6 +59,7 @@ public class BackgroundService extends Service {
     @Override
     public void onDestroy() {
         Log.i(TAG, "onDestroy");
+        unregisterReceiver(br);
         stopForeground(true);
         stopSelf();
         super.onDestroy();
@@ -73,6 +77,7 @@ public class BackgroundService extends Service {
             if (connection_Status == 4) {
                 Intent i = new Intent(context, Login_Service.class);
                 i.setAction(ACTION_LOGIN);
+                i.putExtra(EXTRA_URL, "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
                 startService(i);
             }
         }
@@ -81,6 +86,7 @@ public class BackgroundService extends Service {
     @Override
     public void onLowMemory() {
         Toast.makeText(context, "Low Memory", Toast.LENGTH_SHORT).show();
+        unregisterReceiver(br);
         stopForeground(true);
         stopSelf();
         super.onLowMemory();

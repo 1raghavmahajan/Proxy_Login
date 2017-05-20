@@ -17,7 +17,7 @@ import com.android.volley.toolbox.Volley;
 
 public class Main_Activity extends Activity {
 
-    final public String TAG = Main_Activity.class.getSimpleName();
+    final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
     final private String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
 
     Button btn_Login;
@@ -47,6 +47,14 @@ public class Main_Activity extends Activity {
             eT_Password.setText(user.getpwd());
             cB_saveCred.setChecked(true);
         }
+
+        btn_Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("YOYO", "OnCLick");
+                Login();
+            }
+        });
     }
 
     public void Login() {
@@ -97,7 +105,7 @@ public class Main_Activity extends Activity {
 
                 Log.i(TAG, "All Good: " + String.valueOf(allGood));
 
-                if (cB_startService.isChecked())
+                if (allGood && cB_startService.isChecked())
                 {
                     Log.i(TAG, "Starting Service..");
                     Intent i = new Intent(context, BackgroundService.class);
@@ -121,8 +129,4 @@ public class Main_Activity extends Activity {
         alertDialog.show();
     }
 
-    public void Onclick_Login(View view) {
-        Log.i("YOYO", "OnCLick");
-        Login();
-    }
 }

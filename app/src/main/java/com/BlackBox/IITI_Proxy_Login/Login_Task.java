@@ -19,7 +19,7 @@ import java.util.Map;
 class Login_Task {
 
     private User_Info user;
-    private static final String TAG = Login_Task.class.getSimpleName();
+    private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
 
     Login_Task(User_Info user_info) {
         user = user_info;

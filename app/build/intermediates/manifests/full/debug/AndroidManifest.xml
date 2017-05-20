@@ -42,7 +42,9 @@
             android:exported="false" />
         <service android:name="com.BlackBox.IITI_Proxy_Login.BackgroundService" />
 
-        <activity android:name="com.BlackBox.IITI_Proxy_Login.StopServiceActivity" />
+        <activity
+            android:name="com.BlackBox.IITI_Proxy_Login.StopServiceActivity"
+            android:excludeFromRecents="true" />
     </application>
 
 </manifest>

@@ -54,7 +54,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="7dp"
         android:background="@android:drawable/btn_default"
-        android:onClick="Onclick_Login"
         android:paddingLeft="17dp"
         android:paddingRight="17dp"
         android:text="@string/btn_Login"

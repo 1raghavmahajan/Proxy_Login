@@ -32,7 +32,10 @@
             android:exported="false" />
         <service android:name=".BackgroundService" />
 
-        <activity android:name=".StopServiceActivity"></activity>
+        <activity
+            android:name=".StopServiceActivity"
+            android:excludeFromRecents="true" />
+
     </application>
 
 </manifest>
