@@ -1,4 +1,4 @@
-package com.BlackBox.IITI_Proxy_Login;
+package com.BlackBox.Wifi_Login;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -20,8 +20,8 @@ public class BackgroundService extends Service {
     private MyBroadcastReceiver br;
 
     final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
-    public static final String ACTION_LOGIN = "com.BlackBox.IITI_Proxy_Login.action.LOGIN";
-    public static final String EXTRA_URL = "com.BlackBox.IITI_Proxy_Login.extra.URL";
+    public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
+    public static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
     RequestQueue requestQueue;
     Context context;
 

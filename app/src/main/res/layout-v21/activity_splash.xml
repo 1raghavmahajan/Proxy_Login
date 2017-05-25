@@ -48,6 +48,6 @@
         android:paddingBottom="150dp"
         android:text="@string/title_name"
         android:textColor="#bdbdbd"
-        android:textSize="30sp" />
+        android:textSize="50sp" />
 
 </RelativeLayout>

@@ -441,7 +441,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">IITI Proxy Login</string>
+    <string name="app_name">Wifi Login</string>
     <string name="btn_Login">Log In</string>
     <string name="btn_stopService">Stop Service</string>
     <string name="cB_SaveCred">Remember Password</string>

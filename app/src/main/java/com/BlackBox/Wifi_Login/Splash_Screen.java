@@ -1,4 +1,4 @@
-package com.BlackBox.IITI_Proxy_Login;
+package com.BlackBox.Wifi_Login;
 
 import android.app.Activity;
 import android.content.Intent;

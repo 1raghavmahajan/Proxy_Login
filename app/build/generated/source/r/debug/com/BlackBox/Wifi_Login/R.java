@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.BlackBox.IITI_Proxy_Login;
+package com.BlackBox.Wifi_Login;
 
 public final class R {
     public static final class anim {
@@ -2890,35 +2890,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.BlackBox.IITI_Proxy_Login:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.BlackBox.IITI_Proxy_Login:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.BlackBox.IITI_Proxy_Login:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.BlackBox.IITI_Proxy_Login:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.BlackBox.IITI_Proxy_Login:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.BlackBox.IITI_Proxy_Login:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.BlackBox.IITI_Proxy_Login:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.BlackBox.IITI_Proxy_Login:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.BlackBox.IITI_Proxy_Login:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.BlackBox.IITI_Proxy_Login:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.BlackBox.IITI_Proxy_Login:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.BlackBox.IITI_Proxy_Login:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.BlackBox.IITI_Proxy_Login:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.BlackBox.IITI_Proxy_Login:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.BlackBox.IITI_Proxy_Login:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.BlackBox.IITI_Proxy_Login:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.BlackBox.IITI_Proxy_Login:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.BlackBox.IITI_Proxy_Login:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.BlackBox.IITI_Proxy_Login:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.BlackBox.IITI_Proxy_Login:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.BlackBox.IITI_Proxy_Login:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.BlackBox.IITI_Proxy_Login:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.BlackBox.IITI_Proxy_Login:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.BlackBox.IITI_Proxy_Login:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.BlackBox.IITI_Proxy_Login:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.BlackBox.IITI_Proxy_Login:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.BlackBox.IITI_Proxy_Login:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.BlackBox.IITI_Proxy_Login:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.BlackBox.IITI_Proxy_Login:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.BlackBox.Wifi_Login:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.BlackBox.Wifi_Login:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.BlackBox.Wifi_Login:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.BlackBox.Wifi_Login:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.BlackBox.Wifi_Login:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.BlackBox.Wifi_Login:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.BlackBox.Wifi_Login:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.BlackBox.Wifi_Login:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.BlackBox.Wifi_Login:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.BlackBox.Wifi_Login:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.BlackBox.Wifi_Login:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.BlackBox.Wifi_Login:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.BlackBox.Wifi_Login:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.BlackBox.Wifi_Login:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.BlackBox.Wifi_Login:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.BlackBox.Wifi_Login:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.BlackBox.Wifi_Login:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.BlackBox.Wifi_Login:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.BlackBox.Wifi_Login:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.BlackBox.Wifi_Login:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.BlackBox.Wifi_Login:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.BlackBox.Wifi_Login:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.BlackBox.Wifi_Login:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.BlackBox.Wifi_Login:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.BlackBox.Wifi_Login:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.BlackBox.Wifi_Login:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.BlackBox.Wifi_Login:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.BlackBox.Wifi_Login:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.BlackBox.Wifi_Login:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2961,17 +2961,17 @@ containing a value of this type.
             0x7f010087
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#background}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:background
+          @attr name com.BlackBox.Wifi_Login:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2979,11 +2979,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:backgroundSplit
+          @attr name com.BlackBox.Wifi_Login:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2991,11 +2991,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:backgroundStacked
+          @attr name com.BlackBox.Wifi_Login:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3007,11 +3007,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetEnd
+          @attr name com.BlackBox.Wifi_Login:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3023,11 +3023,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetEndWithActions
+          @attr name com.BlackBox.Wifi_Login:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3039,11 +3039,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetLeft
+          @attr name com.BlackBox.Wifi_Login:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3055,11 +3055,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetRight
+          @attr name com.BlackBox.Wifi_Login:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3071,11 +3071,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetStart
+          @attr name com.BlackBox.Wifi_Login:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3087,21 +3087,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetStartWithNavigation
+          @attr name com.BlackBox.Wifi_Login:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:customNavigationLayout
+          @attr name com.BlackBox.Wifi_Login:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3119,21 +3119,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:displayOptions
+          @attr name com.BlackBox.Wifi_Login:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:divider
+          @attr name com.BlackBox.Wifi_Login:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3145,11 +3145,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:elevation
+          @attr name com.BlackBox.Wifi_Login:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#height}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3161,11 +3161,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:height
+          @attr name com.BlackBox.Wifi_Login:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3175,51 +3175,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:hideOnContentScroll
+          @attr name com.BlackBox.Wifi_Login:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:homeAsUpIndicator
+          @attr name com.BlackBox.Wifi_Login:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:homeLayout
+          @attr name com.BlackBox.Wifi_Login:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:icon
+          @attr name com.BlackBox.Wifi_Login:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:indeterminateProgressStyle
+          @attr name com.BlackBox.Wifi_Login:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3231,21 +3231,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:itemPadding
+          @attr name com.BlackBox.Wifi_Login:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:logo
+          @attr name com.BlackBox.Wifi_Login:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3259,21 +3259,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:navigationMode
+          @attr name com.BlackBox.Wifi_Login:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:popupTheme
+          @attr name com.BlackBox.Wifi_Login:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3285,21 +3285,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:progressBarPadding
+          @attr name com.BlackBox.Wifi_Login:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:progressBarStyle
+          @attr name com.BlackBox.Wifi_Login:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3309,21 +3309,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:subtitle
+          @attr name com.BlackBox.Wifi_Login:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:subtitleTextStyle
+          @attr name com.BlackBox.Wifi_Login:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#title}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3333,17 +3333,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:title
+          @attr name com.BlackBox.Wifi_Login:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:titleTextStyle
+          @attr name com.BlackBox.Wifi_Login:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3395,12 +3395,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.BlackBox.IITI_Proxy_Login:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.BlackBox.IITI_Proxy_Login:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.BlackBox.IITI_Proxy_Login:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.BlackBox.IITI_Proxy_Login:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.BlackBox.IITI_Proxy_Login:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.BlackBox.IITI_Proxy_Login:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.BlackBox.Wifi_Login:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.BlackBox.Wifi_Login:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.BlackBox.Wifi_Login:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.BlackBox.Wifi_Login:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.BlackBox.Wifi_Login:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.BlackBox.Wifi_Login:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3414,17 +3414,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01003a, 0x7f01004a
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#background}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:background
+          @attr name com.BlackBox.Wifi_Login:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3432,21 +3432,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:backgroundSplit
+          @attr name com.BlackBox.Wifi_Login:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:closeItemLayout
+          @attr name com.BlackBox.Wifi_Login:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#height}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3458,27 +3458,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:height
+          @attr name com.BlackBox.Wifi_Login:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:subtitleTextStyle
+          @attr name com.BlackBox.Wifi_Login:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:titleTextStyle
+          @attr name com.BlackBox.Wifi_Login:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3487,8 +3487,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.BlackBox.IITI_Proxy_Login:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.BlackBox.IITI_Proxy_Login:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.BlackBox.Wifi_Login:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.BlackBox.Wifi_Login:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3497,17 +3497,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01004b, 0x7f01004c
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:expandActivityOverflowButtonDrawable
+          @attr name com.BlackBox.Wifi_Login:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3517,7 +3517,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:initialActivityCount
+          @attr name com.BlackBox.Wifi_Login:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3527,12 +3527,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.BlackBox.IITI_Proxy_Login:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.BlackBox.IITI_Proxy_Login:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.BlackBox.IITI_Proxy_Login:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.BlackBox.IITI_Proxy_Login:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle com.BlackBox.IITI_Proxy_Login:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.BlackBox.IITI_Proxy_Login:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.BlackBox.Wifi_Login:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.BlackBox.Wifi_Login:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.BlackBox.Wifi_Login:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.BlackBox.Wifi_Login:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle com.BlackBox.Wifi_Login:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.BlackBox.Wifi_Login:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -3553,47 +3553,47 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonPanelSideLayout
+          @attr name com.BlackBox.Wifi_Login:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:listItemLayout
+          @attr name com.BlackBox.Wifi_Login:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:listLayout
+          @attr name com.BlackBox.Wifi_Login:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:multiChoiceItemLayout
+          @attr name com.BlackBox.Wifi_Login:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3603,17 +3603,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:showTitle
+          @attr name com.BlackBox.Wifi_Login:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:singleChoiceItemLayout
+          @attr name com.BlackBox.Wifi_Login:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatImageView.
@@ -3623,7 +3623,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.BlackBox.IITI_Proxy_Login:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.BlackBox.Wifi_Login:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -3638,13 +3638,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:srcCompat
+          @attr name com.BlackBox.Wifi_Login:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -3654,9 +3654,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.BlackBox.IITI_Proxy_Login:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.BlackBox.IITI_Proxy_Login:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.BlackBox.IITI_Proxy_Login:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.BlackBox.Wifi_Login:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.BlackBox.Wifi_Login:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.BlackBox.Wifi_Login:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -3673,17 +3673,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:tickMark
+          @attr name com.BlackBox.Wifi_Login:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3694,11 +3694,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:tickMarkTint
+          @attr name com.BlackBox.Wifi_Login:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3715,7 +3715,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:tickMarkTintMode
+          @attr name com.BlackBox.Wifi_Login:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -3793,7 +3793,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.BlackBox.IITI_Proxy_Login:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.BlackBox.Wifi_Login:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -3808,14 +3808,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAllCaps
+          @attr name com.BlackBox.Wifi_Login:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -3824,121 +3824,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.BlackBox.IITI_Proxy_Login:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.BlackBox.IITI_Proxy_Login:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.BlackBox.IITI_Proxy_Login:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.BlackBox.IITI_Proxy_Login:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.BlackBox.IITI_Proxy_Login:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.BlackBox.IITI_Proxy_Login:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.BlackBox.IITI_Proxy_Login:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.BlackBox.IITI_Proxy_Login:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.BlackBox.IITI_Proxy_Login:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.BlackBox.IITI_Proxy_Login:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.BlackBox.IITI_Proxy_Login:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.BlackBox.IITI_Proxy_Login:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.BlackBox.IITI_Proxy_Login:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.BlackBox.IITI_Proxy_Login:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.BlackBox.IITI_Proxy_Login:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.BlackBox.IITI_Proxy_Login:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.BlackBox.IITI_Proxy_Login:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.BlackBox.IITI_Proxy_Login:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.BlackBox.IITI_Proxy_Login:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.BlackBox.IITI_Proxy_Login:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.BlackBox.IITI_Proxy_Login:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.BlackBox.IITI_Proxy_Login:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.BlackBox.IITI_Proxy_Login:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.BlackBox.IITI_Proxy_Login:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.BlackBox.IITI_Proxy_Login:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.BlackBox.IITI_Proxy_Login:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.BlackBox.IITI_Proxy_Login:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.BlackBox.IITI_Proxy_Login:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.BlackBox.IITI_Proxy_Login:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.BlackBox.IITI_Proxy_Login:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.BlackBox.IITI_Proxy_Login:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.BlackBox.IITI_Proxy_Login:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.BlackBox.IITI_Proxy_Login:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.BlackBox.IITI_Proxy_Login:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.BlackBox.IITI_Proxy_Login:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.BlackBox.Wifi_Login:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.BlackBox.Wifi_Login:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.BlackBox.Wifi_Login:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.BlackBox.Wifi_Login:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.BlackBox.Wifi_Login:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.BlackBox.Wifi_Login:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.BlackBox.Wifi_Login:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.BlackBox.Wifi_Login:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.BlackBox.Wifi_Login:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.BlackBox.Wifi_Login:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.BlackBox.Wifi_Login:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.BlackBox.Wifi_Login:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.BlackBox.Wifi_Login:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.BlackBox.Wifi_Login:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.BlackBox.Wifi_Login:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.BlackBox.Wifi_Login:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.BlackBox.Wifi_Login:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.BlackBox.Wifi_Login:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.BlackBox.Wifi_Login:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.BlackBox.Wifi_Login:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.BlackBox.Wifi_Login:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.BlackBox.Wifi_Login:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.BlackBox.Wifi_Login:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.BlackBox.Wifi_Login:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.BlackBox.Wifi_Login:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.BlackBox.Wifi_Login:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.BlackBox.Wifi_Login:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.BlackBox.Wifi_Login:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.BlackBox.Wifi_Login:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.BlackBox.Wifi_Login:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.BlackBox.Wifi_Login:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.BlackBox.Wifi_Login:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.BlackBox.Wifi_Login:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.BlackBox.Wifi_Login:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.BlackBox.Wifi_Login:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.BlackBox.IITI_Proxy_Login:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.BlackBox.IITI_Proxy_Login:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.BlackBox.IITI_Proxy_Login:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.BlackBox.IITI_Proxy_Login:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.BlackBox.IITI_Proxy_Login:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.BlackBox.IITI_Proxy_Login:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.BlackBox.IITI_Proxy_Login:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.BlackBox.IITI_Proxy_Login:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.BlackBox.IITI_Proxy_Login:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.BlackBox.IITI_Proxy_Login:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.BlackBox.IITI_Proxy_Login:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.BlackBox.IITI_Proxy_Login:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.BlackBox.IITI_Proxy_Login:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.BlackBox.IITI_Proxy_Login:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.BlackBox.IITI_Proxy_Login:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.BlackBox.IITI_Proxy_Login:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.BlackBox.IITI_Proxy_Login:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.BlackBox.IITI_Proxy_Login:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.BlackBox.IITI_Proxy_Login:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.BlackBox.IITI_Proxy_Login:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.BlackBox.IITI_Proxy_Login:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.BlackBox.IITI_Proxy_Login:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.BlackBox.IITI_Proxy_Login:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.BlackBox.IITI_Proxy_Login:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.BlackBox.IITI_Proxy_Login:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.BlackBox.IITI_Proxy_Login:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.BlackBox.IITI_Proxy_Login:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.BlackBox.IITI_Proxy_Login:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.BlackBox.IITI_Proxy_Login:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.BlackBox.IITI_Proxy_Login:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.BlackBox.IITI_Proxy_Login:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.BlackBox.IITI_Proxy_Login:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.BlackBox.IITI_Proxy_Login:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.BlackBox.IITI_Proxy_Login:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.BlackBox.IITI_Proxy_Login:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.BlackBox.IITI_Proxy_Login:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.BlackBox.IITI_Proxy_Login:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.BlackBox.IITI_Proxy_Login:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.BlackBox.IITI_Proxy_Login:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.BlackBox.IITI_Proxy_Login:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.BlackBox.IITI_Proxy_Login:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.BlackBox.IITI_Proxy_Login:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.BlackBox.IITI_Proxy_Login:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.BlackBox.IITI_Proxy_Login:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.BlackBox.IITI_Proxy_Login:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.BlackBox.IITI_Proxy_Login:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.BlackBox.IITI_Proxy_Login:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.BlackBox.IITI_Proxy_Login:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.BlackBox.IITI_Proxy_Login:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.BlackBox.IITI_Proxy_Login:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.BlackBox.IITI_Proxy_Login:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.BlackBox.IITI_Proxy_Login:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.BlackBox.IITI_Proxy_Login:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.BlackBox.IITI_Proxy_Login:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.BlackBox.IITI_Proxy_Login:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.BlackBox.IITI_Proxy_Login:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.BlackBox.IITI_Proxy_Login:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.BlackBox.IITI_Proxy_Login:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.BlackBox.IITI_Proxy_Login:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.BlackBox.IITI_Proxy_Login:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.BlackBox.IITI_Proxy_Login:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.BlackBox.IITI_Proxy_Login:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.BlackBox.IITI_Proxy_Login:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.BlackBox.IITI_Proxy_Login:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.BlackBox.IITI_Proxy_Login:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.BlackBox.IITI_Proxy_Login:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.BlackBox.IITI_Proxy_Login:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.BlackBox.IITI_Proxy_Login:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.BlackBox.IITI_Proxy_Login:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.BlackBox.IITI_Proxy_Login:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.BlackBox.IITI_Proxy_Login:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.BlackBox.IITI_Proxy_Login:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.BlackBox.IITI_Proxy_Login:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.BlackBox.IITI_Proxy_Login:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.BlackBox.IITI_Proxy_Login:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.BlackBox.IITI_Proxy_Login:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.BlackBox.IITI_Proxy_Login:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.BlackBox.IITI_Proxy_Login:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.BlackBox.Wifi_Login:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.BlackBox.Wifi_Login:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.BlackBox.Wifi_Login:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.BlackBox.Wifi_Login:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.BlackBox.Wifi_Login:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.BlackBox.Wifi_Login:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.BlackBox.Wifi_Login:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.BlackBox.Wifi_Login:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.BlackBox.Wifi_Login:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.BlackBox.Wifi_Login:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.BlackBox.Wifi_Login:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.BlackBox.Wifi_Login:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.BlackBox.Wifi_Login:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.BlackBox.Wifi_Login:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.BlackBox.Wifi_Login:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.BlackBox.Wifi_Login:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.BlackBox.Wifi_Login:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.BlackBox.Wifi_Login:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.BlackBox.Wifi_Login:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.BlackBox.Wifi_Login:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.BlackBox.Wifi_Login:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.BlackBox.Wifi_Login:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.BlackBox.Wifi_Login:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.BlackBox.Wifi_Login:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.BlackBox.Wifi_Login:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.BlackBox.Wifi_Login:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.BlackBox.Wifi_Login:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.BlackBox.Wifi_Login:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.BlackBox.Wifi_Login:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.BlackBox.Wifi_Login:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.BlackBox.Wifi_Login:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.BlackBox.Wifi_Login:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.BlackBox.Wifi_Login:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.BlackBox.Wifi_Login:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.BlackBox.Wifi_Login:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.BlackBox.Wifi_Login:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.BlackBox.Wifi_Login:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.BlackBox.Wifi_Login:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.BlackBox.Wifi_Login:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.BlackBox.Wifi_Login:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.BlackBox.Wifi_Login:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.BlackBox.Wifi_Login:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.BlackBox.Wifi_Login:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.BlackBox.Wifi_Login:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.BlackBox.Wifi_Login:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.BlackBox.Wifi_Login:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.BlackBox.Wifi_Login:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.BlackBox.Wifi_Login:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.BlackBox.Wifi_Login:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.BlackBox.Wifi_Login:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.BlackBox.Wifi_Login:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.BlackBox.Wifi_Login:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.BlackBox.Wifi_Login:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.BlackBox.Wifi_Login:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.BlackBox.Wifi_Login:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.BlackBox.Wifi_Login:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.BlackBox.Wifi_Login:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.BlackBox.Wifi_Login:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.BlackBox.Wifi_Login:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.BlackBox.Wifi_Login:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.BlackBox.Wifi_Login:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.BlackBox.Wifi_Login:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.BlackBox.Wifi_Login:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.BlackBox.Wifi_Login:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.BlackBox.Wifi_Login:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.BlackBox.Wifi_Login:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.BlackBox.Wifi_Login:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.BlackBox.Wifi_Login:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.BlackBox.Wifi_Login:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.BlackBox.Wifi_Login:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.BlackBox.Wifi_Login:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.BlackBox.Wifi_Login:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.BlackBox.Wifi_Login:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.BlackBox.Wifi_Login:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.BlackBox.Wifi_Login:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.BlackBox.Wifi_Login:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.BlackBox.Wifi_Login:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.BlackBox.Wifi_Login:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4088,37 +4088,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100c6, 0x7f0100c7, 0x7f0100c8
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarDivider
+          @attr name com.BlackBox.Wifi_Login:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarItemBackground
+          @attr name com.BlackBox.Wifi_Login:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarPopupTheme
+          @attr name com.BlackBox.Wifi_Login:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4138,111 +4138,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarSize
+          @attr name com.BlackBox.Wifi_Login:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarSplitStyle
+          @attr name com.BlackBox.Wifi_Login:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarStyle
+          @attr name com.BlackBox.Wifi_Login:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarTabBarStyle
+          @attr name com.BlackBox.Wifi_Login:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarTabStyle
+          @attr name com.BlackBox.Wifi_Login:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarTabTextStyle
+          @attr name com.BlackBox.Wifi_Login:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarTheme
+          @attr name com.BlackBox.Wifi_Login:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionBarWidgetTheme
+          @attr name com.BlackBox.Wifi_Login:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionButtonStyle
+          @attr name com.BlackBox.Wifi_Login:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionDropDownStyle
+          @attr name com.BlackBox.Wifi_Login:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionMenuTextAppearance
+          @attr name com.BlackBox.Wifi_Login:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4250,181 +4250,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionMenuTextColor
+          @attr name com.BlackBox.Wifi_Login:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeBackground
+          @attr name com.BlackBox.Wifi_Login:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeCloseButtonStyle
+          @attr name com.BlackBox.Wifi_Login:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeCloseDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeCopyDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeCutDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeFindDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModePasteDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModePopupWindowStyle
+          @attr name com.BlackBox.Wifi_Login:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeSelectAllDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeShareDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeSplitBackground
+          @attr name com.BlackBox.Wifi_Login:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeStyle
+          @attr name com.BlackBox.Wifi_Login:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionModeWebSearchDrawable
+          @attr name com.BlackBox.Wifi_Login:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionOverflowButtonStyle
+          @attr name com.BlackBox.Wifi_Login:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionOverflowMenuStyle
+          @attr name com.BlackBox.Wifi_Login:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:activityChooserViewStyle
+          @attr name com.BlackBox.Wifi_Login:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:alertDialogButtonGroupStyle
+          @attr name com.BlackBox.Wifi_Login:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4434,27 +4434,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:alertDialogCenterButtons
+          @attr name com.BlackBox.Wifi_Login:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:alertDialogStyle
+          @attr name com.BlackBox.Wifi_Login:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:alertDialogTheme
+          @attr name com.BlackBox.Wifi_Login:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -4470,117 +4470,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:autoCompleteTextViewStyle
+          @attr name com.BlackBox.Wifi_Login:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:borderlessButtonStyle
+          @attr name com.BlackBox.Wifi_Login:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonBarButtonStyle
+          @attr name com.BlackBox.Wifi_Login:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonBarNegativeButtonStyle
+          @attr name com.BlackBox.Wifi_Login:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonBarNeutralButtonStyle
+          @attr name com.BlackBox.Wifi_Login:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonBarPositiveButtonStyle
+          @attr name com.BlackBox.Wifi_Login:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonBarStyle
+          @attr name com.BlackBox.Wifi_Login:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonStyle
+          @attr name com.BlackBox.Wifi_Login:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonStyleSmall
+          @attr name com.BlackBox.Wifi_Login:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:checkboxStyle
+          @attr name com.BlackBox.Wifi_Login:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:checkedTextViewStyle
+          @attr name com.BlackBox.Wifi_Login:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4591,11 +4591,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorAccent
+          @attr name com.BlackBox.Wifi_Login:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4606,11 +4606,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorBackgroundFloating
+          @attr name com.BlackBox.Wifi_Login:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4621,11 +4621,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorButtonNormal
+          @attr name com.BlackBox.Wifi_Login:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4636,11 +4636,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorControlActivated
+          @attr name com.BlackBox.Wifi_Login:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4651,11 +4651,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorControlHighlight
+          @attr name com.BlackBox.Wifi_Login:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4666,11 +4666,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorControlNormal
+          @attr name com.BlackBox.Wifi_Login:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4681,11 +4681,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorPrimary
+          @attr name com.BlackBox.Wifi_Login:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4696,11 +4696,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorPrimaryDark
+          @attr name com.BlackBox.Wifi_Login:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4711,21 +4711,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:colorSwitchThumbNormal
+          @attr name com.BlackBox.Wifi_Login:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:controlBackground
+          @attr name com.BlackBox.Wifi_Login:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4737,51 +4737,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:dialogPreferredPadding
+          @attr name com.BlackBox.Wifi_Login:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:dialogTheme
+          @attr name com.BlackBox.Wifi_Login:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:dividerHorizontal
+          @attr name com.BlackBox.Wifi_Login:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:dividerVertical
+          @attr name com.BlackBox.Wifi_Login:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:dropDownListViewStyle
+          @attr name com.BlackBox.Wifi_Login:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4793,21 +4793,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:dropdownListPreferredItemHeight
+          @attr name com.BlackBox.Wifi_Login:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:editTextBackground
+          @attr name com.BlackBox.Wifi_Login:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4815,81 +4815,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:editTextColor
+          @attr name com.BlackBox.Wifi_Login:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:editTextStyle
+          @attr name com.BlackBox.Wifi_Login:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:homeAsUpIndicator
+          @attr name com.BlackBox.Wifi_Login:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:imageButtonStyle
+          @attr name com.BlackBox.Wifi_Login:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:listChoiceBackgroundIndicator
+          @attr name com.BlackBox.Wifi_Login:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:listDividerAlertDialog
+          @attr name com.BlackBox.Wifi_Login:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:listMenuViewStyle
+          @attr name com.BlackBox.Wifi_Login:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:listPopupWindowStyle
+          @attr name com.BlackBox.Wifi_Login:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4901,11 +4901,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:listPreferredItemHeight
+          @attr name com.BlackBox.Wifi_Login:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4917,11 +4917,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:listPreferredItemHeightLarge
+          @attr name com.BlackBox.Wifi_Login:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4933,11 +4933,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:listPreferredItemHeightSmall
+          @attr name com.BlackBox.Wifi_Login:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4949,11 +4949,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:listPreferredItemPaddingLeft
+          @attr name com.BlackBox.Wifi_Login:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4965,31 +4965,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:listPreferredItemPaddingRight
+          @attr name com.BlackBox.Wifi_Login:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:panelBackground
+          @attr name com.BlackBox.Wifi_Login:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:panelMenuListTheme
+          @attr name com.BlackBox.Wifi_Login:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5001,211 +5001,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:panelMenuListWidth
+          @attr name com.BlackBox.Wifi_Login:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:popupMenuStyle
+          @attr name com.BlackBox.Wifi_Login:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:popupWindowStyle
+          @attr name com.BlackBox.Wifi_Login:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:radioButtonStyle
+          @attr name com.BlackBox.Wifi_Login:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:ratingBarStyle
+          @attr name com.BlackBox.Wifi_Login:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:ratingBarStyleIndicator
+          @attr name com.BlackBox.Wifi_Login:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:ratingBarStyleSmall
+          @attr name com.BlackBox.Wifi_Login:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:searchViewStyle
+          @attr name com.BlackBox.Wifi_Login:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:seekBarStyle
+          @attr name com.BlackBox.Wifi_Login:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:selectableItemBackground
+          @attr name com.BlackBox.Wifi_Login:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:selectableItemBackgroundBorderless
+          @attr name com.BlackBox.Wifi_Login:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:spinnerDropDownItemStyle
+          @attr name com.BlackBox.Wifi_Login:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:spinnerStyle
+          @attr name com.BlackBox.Wifi_Login:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:switchStyle
+          @attr name com.BlackBox.Wifi_Login:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearanceLargePopupMenu
+          @attr name com.BlackBox.Wifi_Login:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearanceListItem
+          @attr name com.BlackBox.Wifi_Login:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearanceListItemSmall
+          @attr name com.BlackBox.Wifi_Login:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearancePopupMenuHeader
+          @attr name com.BlackBox.Wifi_Login:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearanceSearchResultSubtitle
+          @attr name com.BlackBox.Wifi_Login:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearanceSearchResultTitle
+          @attr name com.BlackBox.Wifi_Login:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAppearanceSmallPopupMenu
+          @attr name com.BlackBox.Wifi_Login:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5213,11 +5213,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textColorAlertDialogListItem
+          @attr name com.BlackBox.Wifi_Login:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5225,31 +5225,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textColorSearchUrl
+          @attr name com.BlackBox.Wifi_Login:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:toolbarNavigationButtonStyle
+          @attr name com.BlackBox.Wifi_Login:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:toolbarStyle
+          @attr name com.BlackBox.Wifi_Login:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5259,11 +5259,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowActionBar
+          @attr name com.BlackBox.Wifi_Login:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5273,11 +5273,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowActionBarOverlay
+          @attr name com.BlackBox.Wifi_Login:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5287,11 +5287,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowActionModeOverlay
+          @attr name com.BlackBox.Wifi_Login:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5306,11 +5306,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowFixedHeightMajor
+          @attr name com.BlackBox.Wifi_Login:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5325,11 +5325,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowFixedHeightMinor
+          @attr name com.BlackBox.Wifi_Login:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5344,11 +5344,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowFixedWidthMajor
+          @attr name com.BlackBox.Wifi_Login:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5363,11 +5363,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowFixedWidthMinor
+          @attr name com.BlackBox.Wifi_Login:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5382,11 +5382,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowMinWidthMajor
+          @attr name com.BlackBox.Wifi_Login:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5401,11 +5401,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowMinWidthMinor
+          @attr name com.BlackBox.Wifi_Login:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5415,7 +5415,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:windowNoTitle
+          @attr name com.BlackBox.Wifi_Login:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -5424,7 +5424,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.BlackBox.IITI_Proxy_Login:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.BlackBox.Wifi_Login:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -5432,7 +5432,7 @@ containing a value of this type.
             0x7f0100c9
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -5442,7 +5442,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:allowStacking
+          @attr name com.BlackBox.Wifi_Login:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a ColorStateListItem.
@@ -5451,7 +5451,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha com.BlackBox.IITI_Proxy_Login:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha com.BlackBox.Wifi_Login:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -5463,7 +5463,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100ca
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#alpha}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -5473,7 +5473,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:alpha
+          @attr name com.BlackBox.Wifi_Login:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -5495,8 +5495,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.BlackBox.IITI_Proxy_Login:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.BlackBox.IITI_Proxy_Login:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.BlackBox.Wifi_Login:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.BlackBox.Wifi_Login:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -5512,7 +5512,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5523,11 +5523,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonTint
+          @attr name com.BlackBox.Wifi_Login:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5543,7 +5543,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonTintMode
+          @attr name com.BlackBox.Wifi_Login:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a ConstraintLayout_Layout.
@@ -5557,50 +5557,50 @@ containing a value of this type.
            <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.BlackBox.IITI_Proxy_Login:constraintSet}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.BlackBox.IITI_Proxy_Login:layout_constraintDimensionRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_begin}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_end}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.BlackBox.IITI_Proxy_Login:layout_constraintRight_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.BlackBox.IITI_Proxy_Login:layout_constraintTop_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.BlackBox.IITI_Proxy_Login:layout_goneMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.BlackBox.IITI_Proxy_Login:layout_goneMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.BlackBox.IITI_Proxy_Login:layout_goneMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.BlackBox.IITI_Proxy_Login:layout_goneMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.BlackBox.IITI_Proxy_Login:layout_goneMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.BlackBox.IITI_Proxy_Login:layout_goneMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.BlackBox.IITI_Proxy_Login:layout_optimizationLevel}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.BlackBox.Wifi_Login:constraintSet}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.BlackBox.Wifi_Login:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.BlackBox.Wifi_Login:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.BlackBox.Wifi_Login:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.BlackBox.Wifi_Login:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.BlackBox.Wifi_Login:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.BlackBox.Wifi_Login:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.BlackBox.Wifi_Login:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.BlackBox.Wifi_Login:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.BlackBox.Wifi_Login:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.BlackBox.Wifi_Login:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.BlackBox.Wifi_Login:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.BlackBox.Wifi_Login:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.BlackBox.Wifi_Login:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.BlackBox.Wifi_Login:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.BlackBox.Wifi_Login:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.BlackBox.Wifi_Login:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.BlackBox.Wifi_Login:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.BlackBox.Wifi_Login:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.BlackBox.Wifi_Login:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.BlackBox.Wifi_Login:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.BlackBox.Wifi_Login:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.BlackBox.Wifi_Login:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.BlackBox.Wifi_Login:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.BlackBox.Wifi_Login:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.BlackBox.Wifi_Login:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.BlackBox.Wifi_Login:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.BlackBox.Wifi_Login:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.BlackBox.Wifi_Login:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.BlackBox.Wifi_Login:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.BlackBox.Wifi_Login:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.BlackBox.Wifi_Login:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.BlackBox.Wifi_Login:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.BlackBox.Wifi_Login:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.BlackBox.Wifi_Login:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.BlackBox.Wifi_Login:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.BlackBox.Wifi_Login:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.BlackBox.Wifi_Login:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.BlackBox.Wifi_Login:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.BlackBox.Wifi_Login:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.BlackBox.Wifi_Login:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.BlackBox.Wifi_Login:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.BlackBox.Wifi_Login:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.BlackBox.Wifi_Login:layout_optimizationLevel}</code></td><td></td></tr>
            </table>
            @see #ConstraintLayout_Layout_android_maxHeight
            @see #ConstraintLayout_Layout_android_maxWidth
@@ -5698,17 +5698,17 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#constraintSet}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#constraintSet}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:constraintSet
+          @attr name com.BlackBox.Wifi_Login:constraintSet
         */
         public static final int ConstraintLayout_Layout_constraintSet = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5718,11 +5718,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBaseline_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5736,11 +5736,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_toBaselineOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBaseline_toBaselineOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 7;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5750,11 +5750,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBottom_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_creator = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5768,11 +5768,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toBottomOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBottom_toBottomOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 9;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5786,11 +5786,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toTopOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBottom_toTopOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 10;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5800,11 +5800,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintDimensionRatio
+          @attr name com.BlackBox.Wifi_Login:layout_constraintDimensionRatio
         */
         public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio = 11;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5818,11 +5818,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toEndOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintEnd_toEndOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 12;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5836,11 +5836,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toStartOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintEnd_toStartOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 13;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5852,11 +5852,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_begin
+          @attr name com.BlackBox.Wifi_Login:layout_constraintGuide_begin
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_begin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5868,11 +5868,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_end
+          @attr name com.BlackBox.Wifi_Login:layout_constraintGuide_end
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_end = 15;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5882,11 +5882,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_percent
+          @attr name com.BlackBox.Wifi_Login:layout_constraintGuide_percent
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_percent = 16;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5899,11 +5899,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_default
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHeight_default
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_default = 17;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5915,11 +5915,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_max
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHeight_max
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_max = 18;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5931,11 +5931,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_min
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHeight_min
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_min = 19;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5945,11 +5945,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_bias
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHorizontal_bias
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 20;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5963,11 +5963,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_chainStyle
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHorizontal_chainStyle
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 21;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5977,11 +5977,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_weight
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHorizontal_weight
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 22;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5991,11 +5991,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintLeft_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_creator = 23;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6009,11 +6009,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toLeftOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintLeft_toLeftOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 24;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6027,11 +6027,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toRightOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintLeft_toRightOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 25;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6041,11 +6041,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintRight_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintRight_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_creator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6059,11 +6059,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toLeftOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintRight_toLeftOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 27;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6077,11 +6077,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toRightOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintRight_toRightOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 28;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6095,11 +6095,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toEndOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintStart_toEndOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 29;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6113,11 +6113,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toStartOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintStart_toStartOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 30;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6127,11 +6127,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintTop_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintTop_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_creator = 31;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6145,11 +6145,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toBottomOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintTop_toBottomOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 32;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6163,11 +6163,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toTopOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintTop_toTopOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 33;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6177,11 +6177,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_bias
+          @attr name com.BlackBox.Wifi_Login:layout_constraintVertical_bias
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_bias = 34;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6195,11 +6195,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_chainStyle
+          @attr name com.BlackBox.Wifi_Login:layout_constraintVertical_chainStyle
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6209,11 +6209,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_weight
+          @attr name com.BlackBox.Wifi_Login:layout_constraintVertical_weight
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_weight = 36;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6226,11 +6226,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_default
+          @attr name com.BlackBox.Wifi_Login:layout_constraintWidth_default
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_default = 37;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6242,11 +6242,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_max
+          @attr name com.BlackBox.Wifi_Login:layout_constraintWidth_max
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_max = 38;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6258,11 +6258,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_min
+          @attr name com.BlackBox.Wifi_Login:layout_constraintWidth_min
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_min = 39;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6274,11 +6274,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteX
+          @attr name com.BlackBox.Wifi_Login:layout_editor_absoluteX
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteX = 40;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6290,11 +6290,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteY
+          @attr name com.BlackBox.Wifi_Login:layout_editor_absoluteY
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteY = 41;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6306,11 +6306,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginBottom
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginBottom
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginBottom = 42;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6322,11 +6322,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginEnd
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginEnd
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginEnd = 43;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6338,11 +6338,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginLeft
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginLeft
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginLeft = 44;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6354,11 +6354,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginRight
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginRight
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginRight = 45;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6370,11 +6370,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginStart
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginStart
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginStart = 46;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6386,11 +6386,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginTop
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginTop
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginTop = 47;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_optimizationLevel}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_optimizationLevel}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6405,7 +6405,7 @@ containing a value of this type.
 <tr><td><code>basic</code></td><td>4</td><td></td></tr>
 <tr><td><code>chains</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_optimizationLevel
+          @attr name com.BlackBox.Wifi_Login:layout_optimizationLevel
         */
         public static final int ConstraintLayout_Layout_layout_optimizationLevel = 48;
         /** Attributes that can be used with a ConstraintSet.
@@ -6436,48 +6436,48 @@ containing a value of this type.
            <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.BlackBox.IITI_Proxy_Login:layout_constraintDimensionRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_begin}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_end}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.BlackBox.IITI_Proxy_Login:layout_constraintRight_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.BlackBox.IITI_Proxy_Login:layout_constraintTop_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.BlackBox.IITI_Proxy_Login:layout_goneMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.BlackBox.IITI_Proxy_Login:layout_goneMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.BlackBox.IITI_Proxy_Login:layout_goneMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.BlackBox.IITI_Proxy_Login:layout_goneMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.BlackBox.IITI_Proxy_Login:layout_goneMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.BlackBox.IITI_Proxy_Login:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.BlackBox.Wifi_Login:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.BlackBox.Wifi_Login:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.BlackBox.Wifi_Login:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.BlackBox.Wifi_Login:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.BlackBox.Wifi_Login:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.BlackBox.Wifi_Login:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.BlackBox.Wifi_Login:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.BlackBox.Wifi_Login:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.BlackBox.Wifi_Login:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.BlackBox.Wifi_Login:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.BlackBox.Wifi_Login:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.BlackBox.Wifi_Login:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.BlackBox.Wifi_Login:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.BlackBox.Wifi_Login:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.BlackBox.Wifi_Login:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.BlackBox.Wifi_Login:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.BlackBox.Wifi_Login:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.BlackBox.Wifi_Login:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.BlackBox.Wifi_Login:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.BlackBox.Wifi_Login:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.BlackBox.Wifi_Login:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.BlackBox.Wifi_Login:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.BlackBox.Wifi_Login:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.BlackBox.Wifi_Login:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.BlackBox.Wifi_Login:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.BlackBox.Wifi_Login:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.BlackBox.Wifi_Login:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.BlackBox.Wifi_Login:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.BlackBox.Wifi_Login:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.BlackBox.Wifi_Login:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.BlackBox.Wifi_Login:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.BlackBox.Wifi_Login:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.BlackBox.Wifi_Login:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.BlackBox.Wifi_Login:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.BlackBox.Wifi_Login:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.BlackBox.Wifi_Login:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.BlackBox.Wifi_Login:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.BlackBox.Wifi_Login:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.BlackBox.Wifi_Login:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.BlackBox.Wifi_Login:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.BlackBox.Wifi_Login:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.BlackBox.Wifi_Login:layout_goneMarginTop}</code></td><td></td></tr>
            </table>
            @see #ConstraintSet_android_alpha
            @see #ConstraintSet_android_elevation
@@ -6695,7 +6695,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_android_visibility = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6705,11 +6705,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBaseline_creator
         */
         public static final int ConstraintSet_layout_constraintBaseline_creator = 22;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6723,11 +6723,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBaseline_toBaselineOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBaseline_toBaselineOf
         */
         public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf = 23;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6737,11 +6737,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBottom_creator
         */
         public static final int ConstraintSet_layout_constraintBottom_creator = 24;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6755,11 +6755,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toBottomOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBottom_toBottomOf
         */
         public static final int ConstraintSet_layout_constraintBottom_toBottomOf = 25;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6773,11 +6773,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintBottom_toTopOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintBottom_toTopOf
         */
         public static final int ConstraintSet_layout_constraintBottom_toTopOf = 26;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6787,11 +6787,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintDimensionRatio
+          @attr name com.BlackBox.Wifi_Login:layout_constraintDimensionRatio
         */
         public static final int ConstraintSet_layout_constraintDimensionRatio = 27;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6805,11 +6805,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toEndOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintEnd_toEndOf
         */
         public static final int ConstraintSet_layout_constraintEnd_toEndOf = 28;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6823,11 +6823,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintEnd_toStartOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintEnd_toStartOf
         */
         public static final int ConstraintSet_layout_constraintEnd_toStartOf = 29;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6839,11 +6839,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_begin
+          @attr name com.BlackBox.Wifi_Login:layout_constraintGuide_begin
         */
         public static final int ConstraintSet_layout_constraintGuide_begin = 30;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6855,11 +6855,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_end
+          @attr name com.BlackBox.Wifi_Login:layout_constraintGuide_end
         */
         public static final int ConstraintSet_layout_constraintGuide_end = 31;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6869,11 +6869,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintGuide_percent
+          @attr name com.BlackBox.Wifi_Login:layout_constraintGuide_percent
         */
         public static final int ConstraintSet_layout_constraintGuide_percent = 32;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6886,11 +6886,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_default
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHeight_default
         */
         public static final int ConstraintSet_layout_constraintHeight_default = 33;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6902,11 +6902,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_max
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHeight_max
         */
         public static final int ConstraintSet_layout_constraintHeight_max = 34;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6918,11 +6918,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHeight_min
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHeight_min
         */
         public static final int ConstraintSet_layout_constraintHeight_min = 35;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6932,11 +6932,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_bias
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHorizontal_bias
         */
         public static final int ConstraintSet_layout_constraintHorizontal_bias = 36;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6950,11 +6950,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_chainStyle
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHorizontal_chainStyle
         */
         public static final int ConstraintSet_layout_constraintHorizontal_chainStyle = 37;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6964,11 +6964,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintHorizontal_weight
+          @attr name com.BlackBox.Wifi_Login:layout_constraintHorizontal_weight
         */
         public static final int ConstraintSet_layout_constraintHorizontal_weight = 38;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6978,11 +6978,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintLeft_creator
         */
         public static final int ConstraintSet_layout_constraintLeft_creator = 39;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6996,11 +6996,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toLeftOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintLeft_toLeftOf
         */
         public static final int ConstraintSet_layout_constraintLeft_toLeftOf = 40;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7014,11 +7014,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintLeft_toRightOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintLeft_toRightOf
         */
         public static final int ConstraintSet_layout_constraintLeft_toRightOf = 41;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7028,11 +7028,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintRight_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintRight_creator
         */
         public static final int ConstraintSet_layout_constraintRight_creator = 42;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7046,11 +7046,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toLeftOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintRight_toLeftOf
         */
         public static final int ConstraintSet_layout_constraintRight_toLeftOf = 43;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7064,11 +7064,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintRight_toRightOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintRight_toRightOf
         */
         public static final int ConstraintSet_layout_constraintRight_toRightOf = 44;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7082,11 +7082,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toEndOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintStart_toEndOf
         */
         public static final int ConstraintSet_layout_constraintStart_toEndOf = 45;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7100,11 +7100,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintStart_toStartOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintStart_toStartOf
         */
         public static final int ConstraintSet_layout_constraintStart_toStartOf = 46;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7114,11 +7114,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintTop_creator
+          @attr name com.BlackBox.Wifi_Login:layout_constraintTop_creator
         */
         public static final int ConstraintSet_layout_constraintTop_creator = 47;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7132,11 +7132,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toBottomOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintTop_toBottomOf
         */
         public static final int ConstraintSet_layout_constraintTop_toBottomOf = 48;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7150,11 +7150,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintTop_toTopOf
+          @attr name com.BlackBox.Wifi_Login:layout_constraintTop_toTopOf
         */
         public static final int ConstraintSet_layout_constraintTop_toTopOf = 49;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7164,11 +7164,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_bias
+          @attr name com.BlackBox.Wifi_Login:layout_constraintVertical_bias
         */
         public static final int ConstraintSet_layout_constraintVertical_bias = 50;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7182,11 +7182,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_chainStyle
+          @attr name com.BlackBox.Wifi_Login:layout_constraintVertical_chainStyle
         */
         public static final int ConstraintSet_layout_constraintVertical_chainStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7196,11 +7196,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintVertical_weight
+          @attr name com.BlackBox.Wifi_Login:layout_constraintVertical_weight
         */
         public static final int ConstraintSet_layout_constraintVertical_weight = 52;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7213,11 +7213,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_default
+          @attr name com.BlackBox.Wifi_Login:layout_constraintWidth_default
         */
         public static final int ConstraintSet_layout_constraintWidth_default = 53;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7229,11 +7229,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_max
+          @attr name com.BlackBox.Wifi_Login:layout_constraintWidth_max
         */
         public static final int ConstraintSet_layout_constraintWidth_max = 54;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7245,11 +7245,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_constraintWidth_min
+          @attr name com.BlackBox.Wifi_Login:layout_constraintWidth_min
         */
         public static final int ConstraintSet_layout_constraintWidth_min = 55;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7261,11 +7261,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteX
+          @attr name com.BlackBox.Wifi_Login:layout_editor_absoluteX
         */
         public static final int ConstraintSet_layout_editor_absoluteX = 56;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7277,11 +7277,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_editor_absoluteY
+          @attr name com.BlackBox.Wifi_Login:layout_editor_absoluteY
         */
         public static final int ConstraintSet_layout_editor_absoluteY = 57;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7293,11 +7293,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginBottom
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginBottom
         */
         public static final int ConstraintSet_layout_goneMarginBottom = 58;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7309,11 +7309,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginEnd
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginEnd
         */
         public static final int ConstraintSet_layout_goneMarginEnd = 59;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7325,11 +7325,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginLeft
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginLeft
         */
         public static final int ConstraintSet_layout_goneMarginLeft = 60;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7341,11 +7341,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginRight
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginRight
         */
         public static final int ConstraintSet_layout_goneMarginRight = 61;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7357,11 +7357,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginStart
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginStart
         */
         public static final int ConstraintSet_layout_goneMarginStart = 62;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7373,7 +7373,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:layout_goneMarginTop
+          @attr name com.BlackBox.Wifi_Login:layout_goneMarginTop
         */
         public static final int ConstraintSet_layout_goneMarginTop = 63;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -7382,14 +7382,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.BlackBox.IITI_Proxy_Login:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.BlackBox.IITI_Proxy_Login:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.BlackBox.IITI_Proxy_Login:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.BlackBox.IITI_Proxy_Login:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.BlackBox.IITI_Proxy_Login:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.BlackBox.IITI_Proxy_Login:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.BlackBox.IITI_Proxy_Login:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.BlackBox.IITI_Proxy_Login:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.BlackBox.Wifi_Login:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.BlackBox.Wifi_Login:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.BlackBox.Wifi_Login:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.BlackBox.Wifi_Login:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.BlackBox.Wifi_Login:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.BlackBox.Wifi_Login:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.BlackBox.Wifi_Login:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.BlackBox.Wifi_Login:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -7405,7 +7405,7 @@ containing a value of this type.
             0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7417,11 +7417,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:arrowHeadLength
+          @attr name com.BlackBox.Wifi_Login:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7433,11 +7433,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:arrowShaftLength
+          @attr name com.BlackBox.Wifi_Login:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7449,11 +7449,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:barLength
+          @attr name com.BlackBox.Wifi_Login:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#color}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7464,11 +7464,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:color
+          @attr name com.BlackBox.Wifi_Login:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7480,11 +7480,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:drawableSize
+          @attr name com.BlackBox.Wifi_Login:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7496,11 +7496,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:gapBetweenBars
+          @attr name com.BlackBox.Wifi_Login:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7510,11 +7510,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:spinBars
+          @attr name com.BlackBox.Wifi_Login:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7526,7 +7526,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:thickness
+          @attr name com.BlackBox.Wifi_Login:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a LinearConstraintLayout.
@@ -7559,10 +7559,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.BlackBox.IITI_Proxy_Login:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.BlackBox.IITI_Proxy_Login:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.BlackBox.IITI_Proxy_Login:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.BlackBox.IITI_Proxy_Login:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.BlackBox.Wifi_Login:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.BlackBox.Wifi_Login:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.BlackBox.Wifi_Login:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.BlackBox.Wifi_Login:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7610,17 +7610,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:divider
+          @attr name com.BlackBox.Wifi_Login:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7632,11 +7632,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:dividerPadding
+          @attr name com.BlackBox.Wifi_Login:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7646,11 +7646,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:measureWithLargestChild
+          @attr name com.BlackBox.Wifi_Login:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7665,7 +7665,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:showDividers
+          @attr name com.BlackBox.Wifi_Login:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7804,9 +7804,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.BlackBox.IITI_Proxy_Login:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.BlackBox.IITI_Proxy_Login:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.BlackBox.IITI_Proxy_Login:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.BlackBox.Wifi_Login:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.BlackBox.Wifi_Login:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.BlackBox.Wifi_Login:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7820,7 +7820,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.BlackBox.IITI_Proxy_Login:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.BlackBox.Wifi_Login:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7848,17 +7848,17 @@ containing a value of this type.
             0x7f0100db
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:actionLayout
+          @attr name com.BlackBox.Wifi_Login:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7868,11 +7868,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:actionProviderClass
+          @attr name com.BlackBox.Wifi_Login:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7882,7 +7882,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:actionViewClass
+          @attr name com.BlackBox.Wifi_Login:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -7964,7 +7964,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7980,7 +7980,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:showAsAction
+          @attr name com.BlackBox.Wifi_Login:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -7996,8 +7996,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.BlackBox.IITI_Proxy_Login:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow com.BlackBox.IITI_Proxy_Login:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.BlackBox.Wifi_Login:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow com.BlackBox.Wifi_Login:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -8057,7 +8057,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -8067,17 +8067,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:preserveIconSpacing
+          @attr name com.BlackBox.Wifi_Login:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:subMenuArrow
+          @attr name com.BlackBox.Wifi_Login:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a PopupWindow.
@@ -8088,7 +8088,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.BlackBox.IITI_Proxy_Login:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.BlackBox.Wifi_Login:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -8110,7 +8110,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -8120,7 +8120,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:overlapAnchor
+          @attr name com.BlackBox.Wifi_Login:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -8129,7 +8129,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.BlackBox.IITI_Proxy_Login:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.BlackBox.Wifi_Login:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -8137,7 +8137,7 @@ containing a value of this type.
             0x7f0100df
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -8147,7 +8147,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:state_above_anchor
+          @attr name com.BlackBox.Wifi_Login:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -8156,8 +8156,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.BlackBox.IITI_Proxy_Login:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.BlackBox.IITI_Proxy_Login:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.BlackBox.Wifi_Login:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.BlackBox.Wifi_Login:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
@@ -8166,7 +8166,7 @@ containing a value of this type.
             0x7f0100e0, 0x7f0100e1
         };
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8178,11 +8178,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:paddingBottomNoButtons
+          @attr name com.BlackBox.Wifi_Login:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8194,7 +8194,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:paddingTopNoTitle
+          @attr name com.BlackBox.Wifi_Login:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a SearchView.
@@ -8207,19 +8207,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.BlackBox.IITI_Proxy_Login:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.BlackBox.IITI_Proxy_Login:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.BlackBox.IITI_Proxy_Login:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.BlackBox.IITI_Proxy_Login:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.BlackBox.IITI_Proxy_Login:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.BlackBox.IITI_Proxy_Login:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.BlackBox.IITI_Proxy_Login:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.BlackBox.IITI_Proxy_Login:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.BlackBox.IITI_Proxy_Login:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.BlackBox.IITI_Proxy_Login:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.BlackBox.IITI_Proxy_Login:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.BlackBox.IITI_Proxy_Login:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.BlackBox.IITI_Proxy_Login:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.BlackBox.Wifi_Login:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.BlackBox.Wifi_Login:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.BlackBox.Wifi_Login:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.BlackBox.Wifi_Login:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.BlackBox.Wifi_Login:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.BlackBox.Wifi_Login:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.BlackBox.Wifi_Login:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.BlackBox.Wifi_Login:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.BlackBox.Wifi_Login:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.BlackBox.Wifi_Login:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.BlackBox.Wifi_Login:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.BlackBox.Wifi_Login:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.BlackBox.Wifi_Login:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -8271,27 +8271,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:closeIcon
+          @attr name com.BlackBox.Wifi_Login:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:commitIcon
+          @attr name com.BlackBox.Wifi_Login:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8301,21 +8301,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:defaultQueryHint
+          @attr name com.BlackBox.Wifi_Login:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:goIcon
+          @attr name com.BlackBox.Wifi_Login:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8325,31 +8325,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:iconifiedByDefault
+          @attr name com.BlackBox.Wifi_Login:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:layout
+          @attr name com.BlackBox.Wifi_Login:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:queryBackground
+          @attr name com.BlackBox.Wifi_Login:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8359,57 +8359,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:queryHint
+          @attr name com.BlackBox.Wifi_Login:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:searchHintIcon
+          @attr name com.BlackBox.Wifi_Login:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:searchIcon
+          @attr name com.BlackBox.Wifi_Login:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:submitBackground
+          @attr name com.BlackBox.Wifi_Login:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:suggestionRowLayout
+          @attr name com.BlackBox.Wifi_Login:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:voiceIcon
+          @attr name com.BlackBox.Wifi_Login:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Spinner.
@@ -8422,7 +8422,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.BlackBox.IITI_Proxy_Login:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.BlackBox.Wifi_Login:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8459,13 +8459,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:popupTheme
+          @attr name com.BlackBox.Wifi_Login:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -8477,17 +8477,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.BlackBox.IITI_Proxy_Login:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.BlackBox.IITI_Proxy_Login:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.BlackBox.IITI_Proxy_Login:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.BlackBox.IITI_Proxy_Login:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.BlackBox.IITI_Proxy_Login:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.BlackBox.IITI_Proxy_Login:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint com.BlackBox.IITI_Proxy_Login:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.BlackBox.IITI_Proxy_Login:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.BlackBox.IITI_Proxy_Login:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint com.BlackBox.IITI_Proxy_Login:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode com.BlackBox.IITI_Proxy_Login:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.BlackBox.Wifi_Login:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.BlackBox.Wifi_Login:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.BlackBox.Wifi_Login:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.BlackBox.Wifi_Login:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.BlackBox.Wifi_Login:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.BlackBox.Wifi_Login:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint com.BlackBox.Wifi_Login:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.BlackBox.Wifi_Login:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.BlackBox.Wifi_Login:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint com.BlackBox.Wifi_Login:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode com.BlackBox.Wifi_Login:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8529,7 +8529,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8539,11 +8539,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:showText
+          @attr name com.BlackBox.Wifi_Login:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8553,11 +8553,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:splitTrack
+          @attr name com.BlackBox.Wifi_Login:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8569,11 +8569,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:switchMinWidth
+          @attr name com.BlackBox.Wifi_Login:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8585,21 +8585,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:switchPadding
+          @attr name com.BlackBox.Wifi_Login:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:switchTextAppearance
+          @attr name com.BlackBox.Wifi_Login:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8611,11 +8611,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:thumbTextPadding
+          @attr name com.BlackBox.Wifi_Login:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8626,11 +8626,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:thumbTint
+          @attr name com.BlackBox.Wifi_Login:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8647,21 +8647,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:thumbTintMode
+          @attr name com.BlackBox.Wifi_Login:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#track}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:track
+          @attr name com.BlackBox.Wifi_Login:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8672,11 +8672,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:trackTint
+          @attr name com.BlackBox.Wifi_Login:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8693,7 +8693,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:trackTintMode
+          @attr name com.BlackBox.Wifi_Login:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TextAppearance.
@@ -8711,7 +8711,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.BlackBox.IITI_Proxy_Login:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.BlackBox.Wifi_Login:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -8784,14 +8784,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:textAllCaps
+          @attr name com.BlackBox.Wifi_Login:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 9;
         /** Attributes that can be used with a Toolbar.
@@ -8802,33 +8802,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.BlackBox.IITI_Proxy_Login:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.BlackBox.IITI_Proxy_Login:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.BlackBox.IITI_Proxy_Login:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.BlackBox.IITI_Proxy_Login:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.BlackBox.IITI_Proxy_Login:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.BlackBox.IITI_Proxy_Login:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.BlackBox.IITI_Proxy_Login:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.BlackBox.IITI_Proxy_Login:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.BlackBox.IITI_Proxy_Login:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.BlackBox.IITI_Proxy_Login:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.BlackBox.IITI_Proxy_Login:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.BlackBox.IITI_Proxy_Login:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.BlackBox.IITI_Proxy_Login:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.BlackBox.IITI_Proxy_Login:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.BlackBox.IITI_Proxy_Login:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.BlackBox.IITI_Proxy_Login:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.BlackBox.IITI_Proxy_Login:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.BlackBox.IITI_Proxy_Login:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.BlackBox.IITI_Proxy_Login:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin com.BlackBox.IITI_Proxy_Login:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.BlackBox.IITI_Proxy_Login:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.BlackBox.IITI_Proxy_Login:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.BlackBox.IITI_Proxy_Login:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.BlackBox.IITI_Proxy_Login:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.BlackBox.IITI_Proxy_Login:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.BlackBox.IITI_Proxy_Login:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.BlackBox.IITI_Proxy_Login:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity com.BlackBox.Wifi_Login:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.BlackBox.Wifi_Login:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.BlackBox.Wifi_Login:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.BlackBox.Wifi_Login:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.BlackBox.Wifi_Login:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.BlackBox.Wifi_Login:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.BlackBox.Wifi_Login:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.BlackBox.Wifi_Login:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.BlackBox.Wifi_Login:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.BlackBox.Wifi_Login:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.BlackBox.Wifi_Login:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.BlackBox.Wifi_Login:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.BlackBox.Wifi_Login:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.BlackBox.Wifi_Login:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.BlackBox.Wifi_Login:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.BlackBox.Wifi_Login:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.BlackBox.Wifi_Login:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.BlackBox.Wifi_Login:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.BlackBox.Wifi_Login:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin com.BlackBox.Wifi_Login:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.BlackBox.Wifi_Login:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.BlackBox.Wifi_Login:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.BlackBox.Wifi_Login:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.BlackBox.Wifi_Login:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.BlackBox.Wifi_Login:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.BlackBox.Wifi_Login:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.BlackBox.Wifi_Login:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8883,7 +8883,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8896,11 +8896,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:buttonGravity
+          @attr name com.BlackBox.Wifi_Login:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8910,21 +8910,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:collapseContentDescription
+          @attr name com.BlackBox.Wifi_Login:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:collapseIcon
+          @attr name com.BlackBox.Wifi_Login:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8936,11 +8936,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetEnd
+          @attr name com.BlackBox.Wifi_Login:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8952,11 +8952,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetEndWithActions
+          @attr name com.BlackBox.Wifi_Login:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8968,11 +8968,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetLeft
+          @attr name com.BlackBox.Wifi_Login:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8984,11 +8984,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetRight
+          @attr name com.BlackBox.Wifi_Login:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9000,11 +9000,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetStart
+          @attr name com.BlackBox.Wifi_Login:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9016,21 +9016,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:contentInsetStartWithNavigation
+          @attr name com.BlackBox.Wifi_Login:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:logo
+          @attr name com.BlackBox.Wifi_Login:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9040,11 +9040,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:logoDescription
+          @attr name com.BlackBox.Wifi_Login:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9056,11 +9056,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:maxButtonHeight
+          @attr name com.BlackBox.Wifi_Login:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9070,31 +9070,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:navigationContentDescription
+          @attr name com.BlackBox.Wifi_Login:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:navigationIcon
+          @attr name com.BlackBox.Wifi_Login:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:popupTheme
+          @attr name com.BlackBox.Wifi_Login:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9104,21 +9104,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:subtitle
+          @attr name com.BlackBox.Wifi_Login:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:subtitleTextAppearance
+          @attr name com.BlackBox.Wifi_Login:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9129,11 +9129,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:subtitleTextColor
+          @attr name com.BlackBox.Wifi_Login:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#title}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9143,11 +9143,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:title
+          @attr name com.BlackBox.Wifi_Login:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9159,11 +9159,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleMargin
+          @attr name com.BlackBox.Wifi_Login:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9175,11 +9175,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleMarginBottom
+          @attr name com.BlackBox.Wifi_Login:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9191,11 +9191,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleMarginEnd
+          @attr name com.BlackBox.Wifi_Login:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9207,11 +9207,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleMarginStart
+          @attr name com.BlackBox.Wifi_Login:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9223,11 +9223,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleMarginTop
+          @attr name com.BlackBox.Wifi_Login:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9239,21 +9239,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleMargins
+          @attr name com.BlackBox.Wifi_Login:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:titleTextAppearance
+          @attr name com.BlackBox.Wifi_Login:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9264,7 +9264,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:titleTextColor
+          @attr name com.BlackBox.Wifi_Login:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -9275,9 +9275,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.BlackBox.IITI_Proxy_Login:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.BlackBox.IITI_Proxy_Login:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.BlackBox.IITI_Proxy_Login:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.BlackBox.Wifi_Login:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.BlackBox.Wifi_Login:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.BlackBox.Wifi_Login:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9302,7 +9302,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9314,11 +9314,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:paddingEnd
+          @attr name com.BlackBox.Wifi_Login:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9330,17 +9330,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:paddingStart
+          @attr name com.BlackBox.Wifi_Login:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.BlackBox.IITI_Proxy_Login:theme
+          @attr name com.BlackBox.Wifi_Login:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9350,8 +9350,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.BlackBox.IITI_Proxy_Login:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.BlackBox.IITI_Proxy_Login:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.BlackBox.Wifi_Login:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.BlackBox.Wifi_Login:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -9367,7 +9367,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9378,11 +9378,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.BlackBox.IITI_Proxy_Login:backgroundTint
+          @attr name com.BlackBox.Wifi_Login:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.BlackBox.IITI_Proxy_Login.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.BlackBox.Wifi_Login.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9398,7 +9398,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.BlackBox.IITI_Proxy_Login:backgroundTintMode
+          @attr name com.BlackBox.Wifi_Login:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

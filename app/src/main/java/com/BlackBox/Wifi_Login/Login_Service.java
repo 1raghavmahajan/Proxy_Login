@@ -1,4 +1,4 @@
-package com.BlackBox.IITI_Proxy_Login;
+package com.BlackBox.Wifi_Login;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -9,8 +9,8 @@ import com.android.volley.toolbox.Volley;
 
 public class Login_Service extends IntentService {
 
-    public static final String ACTION_LOGIN = "com.BlackBox.IITI_Proxy_Login.action.LOGIN";
-    public static final String EXTRA_URL = "com.BlackBox.IITI_Proxy_Login.extra.URL";
+    public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
+    public static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
     RequestQueue requestQueue;
 
     Context context;

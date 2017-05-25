@@ -10,10 +10,10 @@
         android:id="@+id/tV_Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="83dp"
+        android:layout_marginTop="90dp"
         android:text="@string/title_name"
 
-        android:textSize="31sp"
+        android:textSize="40sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 

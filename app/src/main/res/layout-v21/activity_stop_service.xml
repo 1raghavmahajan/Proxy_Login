@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:theme="@style/OtherTheme"
     android:background="@color/colorBackground"
-    tools:context="com.BlackBox.IITI_Proxy_Login.StopServiceActivity">
+    tools:context="com.BlackBox.Wifi_Login.StopServiceActivity">
 
     <Button
         android:id="@+id/button"

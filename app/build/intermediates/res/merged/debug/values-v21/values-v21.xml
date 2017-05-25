@@ -14,7 +14,7 @@
     <string name="Coder1" translatable="false">Roger Anderson</string>
     <string name="Coder2" translatable="false">Keyur Panchal</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">IITI Proxy Login</string>
+    <string name="app_name">Wifi Login</string>
     <string name="btn_Login">Log In</string>
     <string name="btn_stopService">Stop Service</string>
     <string name="cB_SaveCred">Remember Password</string>
@@ -23,7 +23,7 @@
     <string name="special_msg">Made with Love</string>
     <string name="te_Password">password</string>
     <string name="te_User">user name</string>
-    <string name="title_name">IITI Proxy Authenticator</string>
+    <string name="title_name">Wifi Login</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
     </style>

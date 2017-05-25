@@ -15,7 +15,7 @@
         android:layout_marginTop="70dp"
         android:text="@string/title_name"
         android:textColor="#bdbdbd"
-        android:textSize="30sp" />
+        android:textSize="40sp" />
 
     <EditText
         android:id="@+id/eT_UserName"
