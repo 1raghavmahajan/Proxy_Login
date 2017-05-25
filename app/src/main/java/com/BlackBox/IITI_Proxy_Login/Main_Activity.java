@@ -2,9 +2,11 @@ package com.BlackBox.IITI_Proxy_Login;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,6 +21,7 @@ public class Main_Activity extends Activity {
 
     final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
     final private String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
+    final String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
     Button btn_Login;
     EditText eT_UserName, eT_Password;
@@ -61,6 +64,7 @@ public class Main_Activity extends Activity {
             public void onClick(View v) {
                 if (cB_startService.isChecked()) {
                     if (!cB_saveCred.isChecked()) {
+                        Toast.makeText(context, "You need to remember password to automatically login.", Toast.LENGTH_SHORT).show();
                         cB_saveCred.setChecked(true);
                     }
                 }
@@ -112,23 +116,15 @@ public class Main_Activity extends Activity {
                     user.clear_cred(context);
                 }
 
+                Toast.makeText(context, "Logging in...", Toast.LENGTH_LONG).show();
+
                 Login_Task login_task = new Login_Task(user);
 
-                Boolean allGood = login_task.Login(URL, context, Volley.newRequestQueue(context));
+                login_task.Login(URL, context, Volley.newRequestQueue(context));
 
-                Log.i(TAG, "All Good: " + String.valueOf(allGood));
+                IntentFilter intentFilter = new IntentFilter(ACTION_RESULT);
+                registerReceiver(new MyOtherBroadcastReceiver(), intentFilter);
 
-                if (allGood && cB_startService.isChecked())
-                {
-                    if (cB_saveCred.isChecked()) {
-                        Log.i(TAG, "Starting Service..");
-                        Intent i = new Intent(context, BackgroundService.class);
-                        startService(i);
-                    } else {
-                        Toast.makeText(context, "You need to save credentials to automatically login.", Toast.LENGTH_SHORT).show();
-                        cB_startService.setChecked(false);
-                    }
-                }
             }
         }
     }
@@ -145,6 +141,29 @@ public class Main_Activity extends Activity {
             }
         });
         alertDialog.show();
+    }
+
+    class MyOtherBroadcastReceiver extends BroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            boolean resultStatus = intent.getBooleanExtra("resultStatus", false);
+            Log.i("resultStatus: ", String.valueOf(resultStatus));
+
+            if (resultStatus && cB_startService.isChecked()) {
+                if (cB_saveCred.isChecked()) {
+                    Log.i(TAG, "Starting Service..");
+                    Intent i = new Intent(context, BackgroundService.class);
+                    startService(i);
+                } else {
+                    Toast.makeText(context, "You need to remember password to automatically login.", Toast.LENGTH_SHORT).show();
+                    cB_startService.setChecked(false);
+                }
+            }
+
+            unregisterReceiver(this);
+        }
     }
 
 }

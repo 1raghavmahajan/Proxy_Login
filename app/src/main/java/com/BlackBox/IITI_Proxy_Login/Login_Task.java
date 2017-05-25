@@ -1,6 +1,7 @@
 package com.BlackBox.IITI_Proxy_Login;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -26,27 +27,11 @@ class Login_Task {
         user = user_info;
     }
 
-    boolean Login(String url, final Context context, RequestQueue requestQueue) {
-
-        class ResultStatus {
-            private boolean f;
-
-            private ResultStatus() {
-                f = false;
-            }
-
-            void set(boolean i) {
-                f = i;
-            }
-
-            private boolean getStatus() {
-                return f;
-            }
-        }
-        final ResultStatus resultStatus = new ResultStatus();
+    void Login(String url, final Context context, RequestQueue requestQueue) {
 
         // Tag used to cancel the request
         String request_Tag = "POST_REQUEST";
+        final String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
         StringRequest strReq = new StringRequest
                 (
@@ -55,16 +40,25 @@ class Login_Task {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
+
+                                Intent i = new Intent(ACTION_RESULT);
+                                i.putExtra("resultStatus", false);
                                 if (response.toString().contains("Invalid")) {
                                     Toast.makeText(context, "Invalid Credentials Provided.", Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Toast.makeText(context, "Unknown error.", Toast.LENGTH_SHORT).show();
                                 }
+                                context.sendBroadcast(i);
                             }
                         },
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-                                VolleyLog.d(TAG, "Error: " + error.getMessage());
+                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
                                 Toast.makeText(context, "Error: " + error.getMessage(), Toast.LENGTH_SHORT).show();
+                                Intent i = new Intent(ACTION_RESULT);
+                                i.putExtra("resultStatus", false);
+                                context.sendBroadcast(i);
                             }
                         }
                 ) {
@@ -84,9 +78,11 @@ class Login_Task {
             @Override
             public void deliverError(final VolleyError error) {
 
+                Intent i = new Intent(ACTION_RESULT);
+
                 String mess_str = "Unknown deliveryError";
                 if (error != null) {
-                    Log.i(TAG, "deliveryError : " + error.toString());
+                    Log.i(TAG, "Error details: " + error.toString());
                     if (error.toString().contains("Timeout")) {
                         mess_str = "Authentication server not reachable. Please try after some time.";
                     } else if (error.toString().contains("NoConnectionError")) {
@@ -102,7 +98,7 @@ class Login_Task {
 
                                 if (location.contains("bing")) {
                                     mess_str = "Successfully Authenticated!";
-                                    resultStatus.set(true);
+                                    i.putExtra("resultStatus", true);
                                 } else {
                                     mess_str = "Invalid Credentials Provided.";
                                 }
@@ -112,16 +108,15 @@ class Login_Task {
                         }
                     }
                 }
-                Log.i("YOYO", "Delivery Error: " + mess_str);
+                Log.i("YOYO", "Message for noobs: " + mess_str);
                 Toast.makeText(context, mess_str, Toast.LENGTH_SHORT).show();
+                context.sendBroadcast(i);
             }
         };
 
         // Adding request to request queue
         strReq.setTag(request_Tag);
         requestQueue.add(strReq);
-
-        return (resultStatus.getStatus());
     }
 
 }

@@ -12,14 +12,16 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Main_Activity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Splash_Screen"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +36,8 @@
 
         <activity
             android:name=".StopServiceActivity"
-            android:excludeFromRecents="true" />
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
 
     </application>
 
