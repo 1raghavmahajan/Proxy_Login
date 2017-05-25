@@ -5,8 +5,8 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Base64;
 
-import java.security.spec.KeySpec;
 import java.security.MessageDigest;
+import java.security.spec.KeySpec;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
@@ -71,6 +71,17 @@ class User_Info {
         editor.putString("saved_seed", seed);
         editor.apply();
 
+    }
+
+    void clear_cred(Context context) {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        String tmp_id = "";
+        String tmp_pwd = "";
+        editor.putBoolean("CheckBox_Value", false);
+        editor.putString("saved_id", tmp_id);
+        editor.putString("saved_pwd", tmp_pwd);
+        editor.apply();
     }
 
     private static class CryptoHelper {

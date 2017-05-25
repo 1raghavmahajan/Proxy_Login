@@ -8,6 +8,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 
 import java.net.HttpURLConnection;
@@ -34,8 +35,8 @@ class Login_Task {
                 f = false;
             }
 
-            void set() {
-                f = true;
+            void set(boolean i) {
+                f = i;
             }
 
             private boolean getStatus() {
@@ -54,14 +55,16 @@ class Login_Task {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-                                if (response.toString().contains("Invalid"))
+                                if (response.toString().contains("Invalid")) {
                                     Toast.makeText(context, "Invalid Credentials Provided.", Toast.LENGTH_SHORT).show();
+                                }
                             }
                         },
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-                                Log.i(TAG, "Error: " + error.getMessage());
+                                VolleyLog.d(TAG, "Error: " + error.getMessage());
+                                Toast.makeText(context, "Error: " + error.getMessage(), Toast.LENGTH_SHORT).show();
                             }
                         }
                 ) {
@@ -90,7 +93,6 @@ class Login_Task {
                         mess_str = "No Connection. Please try after some time.";
                     } else {
                         if (error.networkResponse != null) //network response
-
                         {
                             final int status = error.networkResponse.statusCode;
                             Log.i(TAG, "Status : " + status);
@@ -100,7 +102,7 @@ class Login_Task {
 
                                 if (location.contains("bing")) {
                                     mess_str = "Successfully Authenticated!";
-                                    resultStatus.set();
+                                    resultStatus.set(true);
                                 } else {
                                     mess_str = "Invalid Credentials Provided.";
                                 }
@@ -111,7 +113,7 @@ class Login_Task {
                     }
                 }
                 Log.i("YOYO", "Delivery Error: " + mess_str);
-                Toast.makeText(context, mess_str, Toast.LENGTH_LONG).show();
+                Toast.makeText(context, mess_str, Toast.LENGTH_SHORT).show();
             }
         };
 

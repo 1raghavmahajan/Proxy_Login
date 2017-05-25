@@ -4,6 +4,9 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+import static android.net.ConnectivityManager.TYPE_MOBILE;
+import static android.net.ConnectivityManager.TYPE_WIFI;
+
 /*
 0 : No connectivity
 1 : No wifi OR Just data
@@ -25,32 +28,27 @@ import android.net.NetworkInfo;
     //checks if connected to IITI network (Returns 4 if true)
     int isConnectedToWifi() {
 
-        ConnectivityManager connectivity = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        if (connectivity != null)
+        ConnectivityManager connectivityManager = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connectivityManager != null)
         {
-            NetworkInfo[] info = connectivity.getAllNetworkInfo();
 
-            if (info != null)
-            {
-                if(info[0].isConnected()) // if data on
-                {
-                    return 2;
-                }
-                else
-                {
-                    if (info[1].isConnected()) // if wifi connected
-                    {
-                        if (info[1].getExtraInfo().contains("IIT"))
-                            return 4;
-                        else
+            NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+
+            if (activeNetworkInfo != null) {
+                switch (activeNetworkInfo.getType()) {
+                    case TYPE_WIFI:
+                        if (activeNetworkInfo.getExtraInfo().contains("IIT") || activeNetworkInfo.getExtraInfo().contains("captive")) {
+                            return 4; // all fine
+                        } else {
                             return 3;
-                    }
-                    else
-                    {
+                        }
+                    case TYPE_MOBILE:
+                        return 2;
+                    default:
                         return 1;
-                    }
                 }
-
+            } else {
+                return 1;
             }
         }
         return 0;

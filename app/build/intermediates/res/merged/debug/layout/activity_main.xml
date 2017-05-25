@@ -57,7 +57,7 @@
         android:paddingLeft="17dp"
         android:paddingRight="17dp"
         android:text="@string/btn_Login"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <CheckBox
         android:id="@+id/cB_saveCred"

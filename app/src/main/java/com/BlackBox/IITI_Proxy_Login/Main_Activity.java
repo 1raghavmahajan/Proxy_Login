@@ -55,6 +55,17 @@ public class Main_Activity extends Activity {
                 Login();
             }
         });
+
+        cB_startService.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (cB_startService.isChecked()) {
+                    if (!cB_saveCred.isChecked()) {
+                        cB_saveCred.setChecked(true);
+                    }
+                }
+            }
+        });
     }
 
     public void Login() {
@@ -97,19 +108,26 @@ public class Main_Activity extends Activity {
             {
                 if (cB_saveCred.isChecked()) {
                     user.save_cred(context);
+                } else {
+                    user.clear_cred(context);
                 }
 
                 Login_Task login_task = new Login_Task(user);
 
-                boolean allGood = login_task.Login(URL, context, Volley.newRequestQueue(context));
+                Boolean allGood = login_task.Login(URL, context, Volley.newRequestQueue(context));
 
                 Log.i(TAG, "All Good: " + String.valueOf(allGood));
 
                 if (allGood && cB_startService.isChecked())
                 {
-                    Log.i(TAG, "Starting Service..");
-                    Intent i = new Intent(context, BackgroundService.class);
-                    startService(i);
+                    if (cB_saveCred.isChecked()) {
+                        Log.i(TAG, "Starting Service..");
+                        Intent i = new Intent(context, BackgroundService.class);
+                        startService(i);
+                    } else {
+                        Toast.makeText(context, "You need to save credentials to automatically login.", Toast.LENGTH_SHORT).show();
+                        cB_startService.setChecked(false);
+                    }
                 }
             }
         }

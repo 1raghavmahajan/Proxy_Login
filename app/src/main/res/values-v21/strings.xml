@@ -7,7 +7,7 @@
     <string name="te_Password">password</string>
     <string name="btn_Login">Log In</string>
     <string name="cB_SaveCred">Save Credentials</string>
-    <string name="cB_Service">Automatically Login</string>
+    <string name="cB_Service">Start Service</string>
     <string name="special_msg">Made with Love</string>
     <string name="btn_stopService">Stop Service</string>
 
@@ -17,5 +17,4 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
 </resources>
