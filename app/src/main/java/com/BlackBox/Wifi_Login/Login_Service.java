@@ -9,11 +9,11 @@ import com.android.volley.toolbox.Volley;
 
 public class Login_Service extends IntentService {
 
-    public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
-    public static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
-    RequestQueue requestQueue;
+    private static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
+    private static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
+    private RequestQueue requestQueue;
 
-    Context context;
+    private Context context;
 
     public Login_Service() {
         super("Login_Service");

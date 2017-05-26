@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#303032"
+    android:theme="@style/StopServiceTheme"
     tools:context="com.BlackBox.Wifi_Login.StopServiceActivity">
 
     <Button
@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@android:drawable/btn_default"
         android:onClick="stopService"
+        android:textColor="@color/colorPrimaryDark"
         android:text="@string/btn_stopService"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -9,29 +9,25 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.widget.Toast;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
+//import android.util.Log;
 
 public class BackgroundService extends Service {
 
     private MyBroadcastReceiver br;
 
-    final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
-    public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
-    public static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
-    public static final int Notification_ID = 1459;
-    RequestQueue requestQueue;
-    Context context;
+    //final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
+    private static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
+    private static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
+    private static final int Notification_ID = 1459;
+    private Context context;
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
+        //Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
         context = getApplicationContext();
-        requestQueue = Volley.newRequestQueue(context);
 
         IntentFilter intentFilter = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
         br = new MyBroadcastReceiver();
@@ -58,7 +54,7 @@ public class BackgroundService extends Service {
 
     @Override
     public void onDestroy() {
-        Log.i(TAG, "onDestroy");
+        //Log.i(TAG, "onDestroy");
         unregisterReceiver(br);
         stopForeground(true);
         stopSelf();
@@ -69,11 +65,11 @@ public class BackgroundService extends Service {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.i(TAG, "received " + Thread.currentThread().getName());
+            //Log.i(TAG, "received " + Thread.currentThread().getName());
 
             Connection_Detector connection_detector = new Connection_Detector(context);
             int connection_Status = connection_detector.isConnectedToWifi();
-            Log.i(TAG, "connection_Status: " + connection_Status);
+            //Log.i(TAG, "connection_Status: " + connection_Status);
             if (connection_Status == 4) {
                 Intent i = new Intent(context, Login_Service.class);
                 i.setAction(ACTION_LOGIN);

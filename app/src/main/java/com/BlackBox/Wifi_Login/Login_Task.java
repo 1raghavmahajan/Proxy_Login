@@ -2,7 +2,6 @@ package com.BlackBox.Wifi_Login;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -20,7 +19,7 @@ import java.util.Map;
 
 class Login_Task {
 
-    private User_Info user;
+    private final User_Info user;
     private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
 
     Login_Task(User_Info user_info) {
@@ -82,7 +81,7 @@ class Login_Task {
 
                 String mess_str = "Unknown deliveryError";
                 if (error != null) {
-                    Log.i(TAG, "Error details: " + error.toString());
+                    //Log.i(TAG, "Error details: " + error.toString());
                     if (error.toString().contains("Timeout")) {
                         mess_str = "Authentication server not reachable. Please try after some time.";
                     } else if (error.toString().contains("NoConnectionError")) {
@@ -91,7 +90,7 @@ class Login_Task {
                         if (error.networkResponse != null) //network response
                         {
                             final int status = error.networkResponse.statusCode;
-                            Log.i(TAG, "Status : " + status);
+                            //Log.i(TAG, "Status : " + status);
                             // Handle 30x
                             if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
                                 final String location = error.networkResponse.headers.get("Location");
@@ -108,7 +107,7 @@ class Login_Task {
                         }
                     }
                 }
-                Log.i("YOYO", "Message for noobs: " + mess_str);
+                //Log.i("YOYO", "Message for noobs: " + mess_str);
                 Toast.makeText(context, mess_str, Toast.LENGTH_SHORT).show();
                 context.sendBroadcast(i);
             }

@@ -19,7 +19,7 @@ import static android.net.ConnectivityManager.TYPE_WIFI;
 
  class Connection_Detector {
 
-    private Context _context;
+     private final Context _context;
 
     Connection_Detector(Context context) {
         this._context = context;

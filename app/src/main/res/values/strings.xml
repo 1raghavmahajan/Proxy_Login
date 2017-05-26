@@ -18,7 +18,4 @@
     <string name="Coder1" translatable="false">Roger Anderson</string>
     <string name="Coder2" translatable="false">Keyur Panchal</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
 </resources>

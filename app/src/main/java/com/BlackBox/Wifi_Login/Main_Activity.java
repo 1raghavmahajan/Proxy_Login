@@ -8,7 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -17,24 +16,27 @@ import android.widget.Toast;
 
 import com.android.volley.toolbox.Volley;
 
+//import android.util.Log;
+
 public class Main_Activity extends Activity {
 
-    final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
+    //final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
     final public static String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
     //final public static String URL = "http://httpbin.org/post";
-    final static String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
+    private final static String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
-    Button btn_Login;
-    EditText eT_UserName, eT_Password;
-    CheckBox cB_saveCred;
-    CheckBox cB_startService;
-    User_Info user;
-    Context context;
+    private Button btn_Login;
+    private EditText eT_UserName;
+    private EditText eT_Password;
+    private CheckBox cB_saveCred;
+    private CheckBox cB_startService;
+    private User_Info user;
+    private Context context;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i(TAG, "onCreate");
+        //Log.i(TAG, "onCreate");
         setContentView(R.layout.activity_main);
 
         btn_Login = (Button) findViewById(R.id.btn_Login);
@@ -55,7 +57,7 @@ public class Main_Activity extends Activity {
         btn_Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("YOYO", "OnCLick");
+                //Log.i("YOYO", "OnCLick");
                 Login();
             }
         });
@@ -73,8 +75,8 @@ public class Main_Activity extends Activity {
         });
     }
 
-    public void Login() {
-        Log.i(TAG, "Login");
+    private void Login() {
+        //Log.i(TAG, "Login");
 
         Connection_Detector cd = new Connection_Detector(context);
 
@@ -130,7 +132,7 @@ public class Main_Activity extends Activity {
         }
     }
 
-    public void showAlertDialog(Context context, String title, String message) {
+    private void showAlertDialog(Context context, String title, String message) {
         AlertDialog alertDialog = new AlertDialog.Builder(context).create();
         alertDialog.setTitle(title);
         alertDialog.setMessage(message);
@@ -150,11 +152,11 @@ public class Main_Activity extends Activity {
         public void onReceive(Context context, Intent intent) {
 
             boolean resultStatus = intent.getBooleanExtra("resultStatus", false);
-            Log.i("resultStatus: ", String.valueOf(resultStatus));
+            //Log.i("resultStatus: ", String.valueOf(resultStatus));
 
             if (resultStatus && cB_startService.isChecked()) {
                 if (cB_saveCred.isChecked()) {
-                    Log.i(TAG, "Starting Service..");
+                    // Log.i(TAG, "Starting Service..");
                     Intent i = new Intent(context, BackgroundService.class);
                     startService(i);
                 } else {

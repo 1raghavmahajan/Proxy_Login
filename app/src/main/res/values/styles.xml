@@ -2,7 +2,11 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
-        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/oldBackground</item>
+    </style>
+
+    <style name="StopServiceTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/oldBackground</item>
     </style>
 
 </resources>
