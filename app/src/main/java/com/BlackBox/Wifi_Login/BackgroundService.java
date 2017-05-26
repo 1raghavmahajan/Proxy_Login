@@ -22,6 +22,7 @@ public class BackgroundService extends Service {
     final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
     public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
     public static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
+    public static final int Notification_ID = 1459;
     RequestQueue requestQueue;
     Context context;
 
@@ -36,8 +37,7 @@ public class BackgroundService extends Service {
         br = new MyBroadcastReceiver();
 
         Intent notificationIntent = new Intent(this, StopServiceActivity.class);
-        //notificationIntent.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-        //notificationIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         Notification notification = new Notification.Builder(this)
@@ -49,7 +49,7 @@ public class BackgroundService extends Service {
                 .setPriority(Notification.PRIORITY_MAX)
                 .build();
 
-        startForeground(1459, notification);
+        startForeground(Notification_ID, notification);
 
         registerReceiver(br, intentFilter);
 
@@ -77,7 +77,7 @@ public class BackgroundService extends Service {
             if (connection_Status == 4) {
                 Intent i = new Intent(context, Login_Service.class);
                 i.setAction(ACTION_LOGIN);
-                i.putExtra(EXTRA_URL, "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
+                i.putExtra(EXTRA_URL, Main_Activity.URL);
                 startService(i);
             }
         }

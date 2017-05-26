@@ -69,7 +69,7 @@ class Login_Task {
                 params.put("auth_user", user.getID());
                 params.put("auth_pass", user.getpwd());
                 params.put("zone", "lan_iiti");
-                params.put("redirurl", "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti");
+                params.put("redirurl", Main_Activity.URL);
                 params.put("auth_voucher", "");
                 params.put("accept", "Sign+In");
                 return params;
@@ -112,6 +112,7 @@ class Login_Task {
                 Toast.makeText(context, mess_str, Toast.LENGTH_SHORT).show();
                 context.sendBroadcast(i);
             }
+
         };
 
         // Adding request to request queue

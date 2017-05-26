@@ -447,12 +447,15 @@
     <string name="cB_SaveCred">Remember Password</string>
     <string name="cB_Service">Automatically Login</string>
     <string name="hello_world">Hello world!</string>
+    <string name="main_subtitle1">by</string>
+    <string name="main_subtitle2">BlackBox</string>
     <string name="search_menu_title">Search</string>
     <string name="special_msg">Made with Love</string>
+    <string name="splash_subtitle">A BlackBox Creation</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="te_Password">password</string>
     <string name="te_User">user name</string>
-    <string name="title_name">IITI Proxy Authenticator</string>
+    <string name="title_name">Wifi Login</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

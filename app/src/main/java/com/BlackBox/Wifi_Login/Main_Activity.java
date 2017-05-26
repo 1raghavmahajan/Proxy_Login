@@ -20,8 +20,9 @@ import com.android.volley.toolbox.Volley;
 public class Main_Activity extends Activity {
 
     final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
-    final private String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
-    final String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
+    final public static String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
+    //final public static String URL = "http://httpbin.org/post";
+    final static String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
     Button btn_Login;
     EditText eT_UserName, eT_Password;
