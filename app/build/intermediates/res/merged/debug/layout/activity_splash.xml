@@ -16,7 +16,7 @@
         android:textSize="17sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tV_mvl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -30,7 +30,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
+        android:layout_above="@+id/tV_mvl"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="false"
         android:paddingBottom="7dp"
@@ -47,6 +47,6 @@
         android:paddingBottom="150dp"
         android:text="@string/title_name"
         android:textColor="#bdbdbd"
-        android:textSize="30sp" />
+        android:textSize="50sp" />
 
 </RelativeLayout>

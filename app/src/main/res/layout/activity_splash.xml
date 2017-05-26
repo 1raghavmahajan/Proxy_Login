@@ -8,7 +8,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView4"
+        android:layout_above="@+id/tV_mvl"
         android:layout_centerHorizontal="true"
         android:paddingBottom="7dp"
         android:text="@string/Coder1"
@@ -16,7 +16,7 @@
         android:textSize="17sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tV_mvl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -24,29 +24,42 @@
         android:paddingBottom="7dp"
         android:text="@string/special_msg"
         android:textColor="#bdbdbd"
-        android:textSize="15sp" />
+        android:textSize="13sp" />
 
+    <!--
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
+        android:layout_above="@+id/tV_mvl"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="false"
         android:paddingBottom="7dp"
-        android:text="@string/Coder2"
+        android:text="Blackbox"
+        android:textStyle="bold"
         android:textColor="#bdbdbd"
-        android:textSize="17sp" />
+        android:textSize="16sp" />
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/splash_subtitle"
+        android:id="@+id/tV_Subtitle"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:paddingBottom="150dp"
+        android:layout_above="@id/tV_Subtitle"
+        android:layout_marginBottom="20dp"
         android:text="@string/title_name"
         android:textColor="#bdbdbd"
-        android:textSize="50sp" />
+        android:textSize="55sp" />
+
 
 </RelativeLayout>

@@ -10,20 +10,41 @@
         android:id="@+id/tV_Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="110dp"
         android:text="@string/title_name"
-
-        android:textSize="40sp"
+        android:textSize="50sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tV_Title"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_subtitle1"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_subtitle2"
+            android:paddingTop="5dp"
+            android:textSize="15sp" />
+    </LinearLayout>
 
     <EditText
         android:id="@+id/eT_UserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/eT_Password"
         android:layout_centerHorizontal="true"
-        android:layout_centerInParent="false"
         android:layout_centerVertical="true"
         android:layout_gravity="start"
         android:layout_margin="5dp"
@@ -37,9 +58,8 @@
         android:id="@+id/eT_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/eT_UserName"
+        android:layout_below="@id/eT_UserName"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:ems="10"
         android:hint="@string/te_Password"
         android:inputType="textPassword" />
