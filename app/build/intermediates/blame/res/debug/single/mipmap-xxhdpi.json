@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_app.png",
         "source": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_app.png"
+    },
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_error.png",

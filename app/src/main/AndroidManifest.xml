@@ -9,17 +9,18 @@
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/OtherTheme">
         <activity
-            android:name="com.BlackBox.Wifi_Login.Main_Activity"
+            android:name="com.BlackBox.Wifi_Login.Activities.Main_Activity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.BlackBox.Wifi_Login.Splash_Screen"
+            android:name="com.BlackBox.Wifi_Login.Activities.Splash_Screen"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -30,12 +31,12 @@
         </activity>
 
         <service
-            android:name="com.BlackBox.Wifi_Login.Login_Service"
+            android:name="com.BlackBox.Wifi_Login.Services.Login_Service"
             android:exported="false" />
-        <service android:name="com.BlackBox.Wifi_Login.BackgroundService" />
+        <service android:name="com.BlackBox.Wifi_Login.Services.BackgroundService" />
 
         <activity
-            android:name="com.BlackBox.Wifi_Login.StopServiceActivity"
+            android:name="com.BlackBox.Wifi_Login.Activities.StopServiceActivity"
             android:excludeFromRecents="true"
             android:screenOrientation="portrait" />
 

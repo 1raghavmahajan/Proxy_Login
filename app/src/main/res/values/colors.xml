@@ -3,4 +3,10 @@
 
     <color name="oldBackground">#303032</color>
 
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorAccent">#cddc39</color>
+    <color name="colorBackground">#263238</color>
+
+
 </resources>

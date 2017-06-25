@@ -1,36 +1,39 @@
-package com.BlackBox.Wifi_Login;
+package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
+import com.BlackBox.Wifi_Login.Activities.Main_Activity;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 
 import java.net.HttpURLConnection;
 import java.util.HashMap;
 import java.util.Map;
 
+//import com.android.volley.VolleyLog;
+
 //import static com.android.volley.VolleyLog.TAG;
 
-class Login_Task {
+public class Login_Task {
 
-    private final User_Info user;
-    private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
+    private final User_Cred user;
+    //private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
+    public static final String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
-    Login_Task(User_Info user_info) {
-        user = user_info;
+    public Login_Task(User_Cred user_cred) {
+        user = user_cred;
     }
 
-    void Login(String url, final Context context, RequestQueue requestQueue) {
+    public void Login(String url, final Context context, RequestQueue requestQueue) {
 
         // Tag used to cancel the request
         String request_Tag = "POST_REQUEST";
-        final String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
+
 
         StringRequest strReq = new StringRequest
                 (
@@ -53,7 +56,7 @@ class Login_Task {
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
+                                //VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
                                 Toast.makeText(context, "Error: " + error.getMessage(), Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(ACTION_RESULT);
                                 i.putExtra("resultStatus", false);

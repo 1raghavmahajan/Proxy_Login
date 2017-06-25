@@ -15,10 +15,10 @@ android {
         applicationId 'com.BlackBox.Wifi_Login'
         minSdkVersion 16
         targetSdkVersion 25
-        versionName '2.2'
+        versionName '2.21'
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         signingConfig signingConfigs.BlackBox_India
-        versionCode 2
+        versionCode 3
     }
     buildTypes {
         release {
@@ -38,6 +38,8 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.volley:volley:1.0.0'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'

@@ -1,4 +1,4 @@
-package com.BlackBox.Wifi_Login;
+package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -17,16 +17,16 @@ import static android.net.ConnectivityManager.TYPE_WIFI;
 */
 
 
- class Connection_Detector {
+public class Connection_Detector {
 
      private final Context _context;
 
-    Connection_Detector(Context context) {
+    public Connection_Detector(Context context) {
         this._context = context;
     }
 
     //checks if connected to IITI network (Returns 4 if true)
-    int isConnectedToWifi() {
+    public int isConnectedToWifi() {
 
         ConnectivityManager connectivityManager = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivityManager != null)

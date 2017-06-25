@@ -1,12 +1,19 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
-        <item name="android:windowBackground">@color/oldBackground</item>
+    <style name="OtherTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
     </style>
 
-    <style name="StopServiceTheme" parent="Theme.AppCompat">
-        <item name="android:windowBackground">@color/oldBackground</item>
+    <style name="OtherStopServiceTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
     </style>
 
 </resources>

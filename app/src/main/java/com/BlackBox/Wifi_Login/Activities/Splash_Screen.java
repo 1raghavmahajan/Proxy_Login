@@ -1,11 +1,13 @@
-package com.BlackBox.Wifi_Login;
+package com.BlackBox.Wifi_Login.Activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 
-public class Splash_Screen extends Activity {
+import com.BlackBox.Wifi_Login.R;
+
+public class Splash_Screen extends AppCompatActivity {
 
     // Splash screen timer
     static final int SPLASH_TIME_OUT = 1000;

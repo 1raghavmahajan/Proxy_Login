@@ -1,6 +1,5 @@
-package com.BlackBox.Wifi_Login;
+package com.BlackBox.Wifi_Login.Activities;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,29 +7,33 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.support.design.widget.TextInputEditText;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.Toast;
 
+import com.BlackBox.Wifi_Login.Classes.Connection_Detector;
+import com.BlackBox.Wifi_Login.Classes.Login_Task;
+import com.BlackBox.Wifi_Login.Classes.User_Cred;
+import com.BlackBox.Wifi_Login.R;
+import com.BlackBox.Wifi_Login.Services.BackgroundService;
 import com.android.volley.toolbox.Volley;
 
 //import android.util.Log;
 
-public class Main_Activity extends Activity {
+public class Main_Activity extends AppCompatActivity {
 
     //final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
     final public static String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
     //final public static String URL = "http://httpbin.org/post";
-    private final static String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
-    private Button btn_Login;
-    private EditText eT_UserName;
-    private EditText eT_Password;
+    private TextInputEditText eT_UserName;
+    private TextInputEditText eT_Password;
     private CheckBox cB_saveCred;
     private CheckBox cB_startService;
-    private User_Info user;
+    private User_Cred user;
     private Context context;
 
     @Override
@@ -39,14 +42,14 @@ public class Main_Activity extends Activity {
         //Log.i(TAG, "onCreate");
         setContentView(R.layout.activity_main);
 
-        btn_Login = (Button) findViewById(R.id.btn_Login);
-        eT_UserName = (EditText) findViewById(R.id.eT_UserName);
-        eT_Password = (EditText) findViewById(R.id.eT_Password);
+        Button btn_Login = (Button) findViewById(R.id.btn_Login);
+        eT_UserName = (TextInputEditText) findViewById(R.id.eT_UserName);
+        eT_Password = (TextInputEditText) findViewById(R.id.eT_Password);
         cB_saveCred = (CheckBox) findViewById(R.id.cB_saveCred);
         cB_startService = (CheckBox) findViewById(R.id.cB_startService);
         context = getApplicationContext();
 
-        user = new User_Info();
+        user = new User_Cred();
         if (user.load_Cred(context)) //if cred are saved
         {
             eT_UserName.setText(user.getID());
@@ -57,7 +60,6 @@ public class Main_Activity extends Activity {
         btn_Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Log.i("YOYO", "OnCLick");
                 Login();
             }
         });
@@ -85,11 +87,11 @@ public class Main_Activity extends Activity {
 
         if (user.getID().equals(""))
         {
-            Toast.makeText(Main_Activity.this,"Name Field is empty", Toast.LENGTH_SHORT).show();
+            eT_UserName.setError("Field Empty");
         }
         else if (user.getpwd().equals(""))
         {
-            Toast.makeText(Main_Activity.this,"Contact Field is empty", Toast.LENGTH_SHORT).show();
+            eT_Password.setError("Field Empty");
         }
         else
         {
@@ -125,7 +127,7 @@ public class Main_Activity extends Activity {
 
                 login_task.Login(URL, context, Volley.newRequestQueue(context));
 
-                IntentFilter intentFilter = new IntentFilter(ACTION_RESULT);
+                IntentFilter intentFilter = new IntentFilter(Login_Task.ACTION_RESULT);
                 registerReceiver(new MyOtherBroadcastReceiver(), intentFilter);
 
             }

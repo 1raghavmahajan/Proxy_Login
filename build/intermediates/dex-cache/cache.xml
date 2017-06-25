@@ -3,102 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\raghav\.android\build-cache\0fa60be1c428bbe983208d098f9930f844cc63cf\output\jars\classes.jar"
+        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f457a42effe057d57f18be34aba34b05630210b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\0fa60be1c428bbe983208d098f9930f844cc63cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9dfd5243b1404002f123f9f2620c660306a633c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f457a42effe057d57f18be34aba34b05630210b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\118b40013d5ca4f1341f4d67eff573a657362a53\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_21b0563455d621c93d6ab5c468d0e76ef3b4555b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f457a42effe057d57f18be34aba34b05630210b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="302402e7965acad53eb2dcc661a5dc71ff5a6b7c">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eb1f5b44dedb5fc892de8d6b90f2d45168d77e07\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\6c96984c71c1337f0de8d3cbeec900fd138c883d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_3ee2aaaec00f6467697207fd82926354803ecda0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.2_1758ff044eaa80f579efde3835de11cfdaaa074b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\9cf84116fc31db12cc469cdddf8bce98710f359d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_5ebcbf65ff77e55425f102cdc1d51e8967c8eff5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\c066e95ec1ae50588a79577f57d373541086e2bb\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_cbea65a7c255ad402d43d61765176c60dcb02c41.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\4c12ac4aa4a744a01cb6f668942e271f257f47ca\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_ef61b1d4ef8c5a6759b4f6dadc170bfefa4c9df7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\867ef1a7691e041351065f9c91740444a13a0595\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_f1398a131e668b1035a376d36e4e51782ae47e71.jar" />
+        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae68a953a6cbb32bec61170f049c3a5a0749a9c6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -110,67 +29,22 @@
         <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eb1f5b44dedb5fc892de8d6b90f2d45168d77e07\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\680ec5b7b64c4d0392b7a5c007a17369e9639bdc\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_373c215c2a2f179553ebfb0b4d2cfbda47fb19b2.jar" />
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f457a42effe057d57f18be34aba34b05630210b6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\raghav\.android\build-cache\0fa60be1c428bbe983208d098f9930f844cc63cf\output\jars\classes.jar"
+        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9dfd5243b1404002f123f9f2620c660306a633c\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\0fa60be1c428bbe983208d098f9930f844cc63cf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_b9dfd5243b1404002f123f9f2620c660306a633c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\59be1cd01b23624f5666a6278834a64598b244aa\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_3e1615fa05c38bd667ee04dbe1e95b7bbb106686.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\1d86899099ea3051b9822f5dcfaed13e6d90d552\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_f46477fa5b8577eee5f294e91da32e98d7d53a47.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\support-annotations-25.3.1_4de426ff793e6f5098fe112b2a2bbde26dc452e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\raghav\.android\build-cache\4d6a580859699a74768484a9f49bfe782f9dd21a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\pre-dexed\release\classes_8e38d6c1191f8668c93311faa82a69ece279b243.jar" />
+        sha1="b82ca4d2c575f09982c195a6600a619522d3993f">
+        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eb1f5b44dedb5fc892de8d6b90f2d45168d77e07\classes.dex" />
     </item>
 
 </items>

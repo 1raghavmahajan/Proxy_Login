@@ -1,15 +1,17 @@
-package com.BlackBox.Wifi_Login;
+package com.BlackBox.Wifi_Login.Services;
 
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
 
+import com.BlackBox.Wifi_Login.Classes.Login_Task;
+import com.BlackBox.Wifi_Login.Classes.User_Cred;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 public class Login_Service extends IntentService {
 
-    private static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
+    public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
     private static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
     private RequestQueue requestQueue;
 
@@ -34,7 +36,7 @@ public class Login_Service extends IntentService {
 
     private void Login(String URL) {
 
-        User_Info user = new User_Info();
+        User_Cred user = new User_Cred();
         user.load_Cred(context);
         Login_Task login_task = new Login_Task(user);
         requestQueue = Volley.newRequestQueue(context);

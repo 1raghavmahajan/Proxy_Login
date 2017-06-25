@@ -1,4 +1,4 @@
-package com.BlackBox.Wifi_Login;
+package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -14,28 +14,28 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 
-class User_Info {
+public class User_Cred {
 
     private String id;
     private String pwd;
 
-    String getID() {
+    public String getID() {
         return id;
     }
 
-    void setID(String id) {
+    public void setID(String id) {
         this.id = id;
     }
 
-    String getpwd() {
+    public String getpwd() {
         return pwd;
     }
 
-    void setpwd(String pwd) {
+    public void setpwd(String pwd) {
         this.pwd = pwd;
     }
 
-    boolean load_Cred(Context context) {
+    public boolean load_Cred(Context context) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         boolean checkBoxValue = sharedPreferences.getBoolean("CheckBox_Value", false);
         String tmp_id = sharedPreferences.getString("saved_id", "");
@@ -51,7 +51,7 @@ class User_Info {
         return checkBoxValue;
     }
 
-    void save_cred(Context context) {
+    public void save_cred(Context context) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         String tmp_id = "";
@@ -73,7 +73,7 @@ class User_Info {
 
     }
 
-    void clear_cred(Context context) {
+    public void clear_cred(Context context) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         String tmp_id = "";
@@ -99,7 +99,7 @@ class User_Info {
          */
         private static String encrypt(String secretKey, String data) throws Exception {
 
-            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
+            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1YOYO");
             KeySpec spec = new PBEKeySpec(secretKey.toCharArray(), secretKey.getBytes(), 128, 256);
             SecretKey tmp = factory.generateSecret(spec);
             SecretKey key = new SecretKeySpec(tmp.getEncoded(), ALGORITHM);
@@ -120,7 +120,7 @@ class User_Info {
          */
         private static String decrypt(String secretKey, String data) throws Exception {
 
-            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
+            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1YOYO");
             KeySpec spec = new PBEKeySpec(secretKey.toCharArray(), secretKey.getBytes(), 128, 256);
             SecretKey tmp = factory.generateSecret(spec);
             SecretKey key = new SecretKeySpec(tmp.getEncoded(), ALGORITHM);
@@ -147,8 +147,8 @@ class User_Info {
         private static String toHex(byte[] stringBytes) {
             StringBuffer result = new StringBuffer(2 * stringBytes.length);
 
-            for (int i = 0; i < stringBytes.length; i++) {
-                result.append(HEX.charAt((stringBytes[i] >> 4) & 0x0f)).append(HEX.charAt(stringBytes[i] & 0x0f));
+            for (byte stringByte : stringBytes) {
+                result.append(HEX.charAt((stringByte >> 4) & 0x0f)).append(HEX.charAt(stringByte & 0x0f));
             }
 
             return result.toString();
