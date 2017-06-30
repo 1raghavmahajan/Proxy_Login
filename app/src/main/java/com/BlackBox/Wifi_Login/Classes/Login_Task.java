@@ -2,7 +2,6 @@ package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
 import android.content.Intent;
-import android.widget.Toast;
 
 import com.BlackBox.Wifi_Login.Activities.Main_Activity;
 import com.android.volley.Request;
@@ -14,10 +13,6 @@ import com.android.volley.toolbox.StringRequest;
 import java.net.HttpURLConnection;
 import java.util.HashMap;
 import java.util.Map;
-
-//import com.android.volley.VolleyLog;
-
-//import static com.android.volley.VolleyLog.TAG;
 
 public class Login_Task {
 
@@ -45,10 +40,11 @@ public class Login_Task {
 
                                 Intent i = new Intent(ACTION_RESULT);
                                 i.putExtra("resultStatus", false);
+
                                 if (response.toString().contains("Invalid")) {
-                                    Toast.makeText(context, "Invalid Credentials Provided.", Toast.LENGTH_SHORT).show();
+                                    i.putExtra("ERROR", "Invalid Credentials Provided");
                                 } else {
-                                    Toast.makeText(context, "Unknown error.", Toast.LENGTH_SHORT).show();
+                                    i.putExtra("ERROR", "Unknown error");
                                 }
                                 context.sendBroadcast(i);
                             }
@@ -56,10 +52,10 @@ public class Login_Task {
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-                                //VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
-                                Toast.makeText(context, "Error: " + error.getMessage(), Toast.LENGTH_SHORT).show();
+//                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
                                 Intent i = new Intent(ACTION_RESULT);
                                 i.putExtra("resultStatus", false);
+                                i.putExtra("ERROR", error.getMessage());
                                 context.sendBroadcast(i);
                             }
                         }
@@ -84,11 +80,12 @@ public class Login_Task {
 
                 String mess_str = "Unknown deliveryError";
                 if (error != null) {
+
                     //Log.i(TAG, "Error details: " + error.toString());
                     if (error.toString().contains("Timeout")) {
-                        mess_str = "Authentication server not reachable. Please try after some time.";
+                        mess_str = "Authentication server not reachable. Please try after some time";
                     } else if (error.toString().contains("NoConnectionError")) {
-                        mess_str = "No Connection. Please try after some time.";
+                        mess_str = "No Connection. Please try after some time";
                     } else {
                         if (error.networkResponse != null) //network response
                         {
@@ -102,7 +99,7 @@ public class Login_Task {
                                     mess_str = "Successfully Authenticated!";
                                     i.putExtra("resultStatus", true);
                                 } else {
-                                    mess_str = "Invalid Credentials Provided.";
+                                    mess_str = "Invalid Credentials Provided";
                                 }
                             }
                         } else {
@@ -110,14 +107,14 @@ public class Login_Task {
                         }
                     }
                 }
-                //Log.i("YOYO", "Message for noobs: " + mess_str);
-                Toast.makeText(context, mess_str, Toast.LENGTH_SHORT).show();
+//                Log.i("YOYO", "Message for noobs: " + mess_str);
+                i.putExtra("ERROR", mess_str);
+
                 context.sendBroadcast(i);
             }
 
         };
 
-        // Adding request to request queue
         strReq.setTag(request_Tag);
         requestQueue.add(strReq);
     }

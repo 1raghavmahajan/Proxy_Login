@@ -36,6 +36,7 @@ public class Login_Service extends IntentService {
 
     private void Login(String URL) {
 
+//        Log.i("YOYO","Login initiated!");
         User_Cred user = new User_Cred();
         user.load_Cred(context);
         Login_Task login_task = new Login_Task(user);

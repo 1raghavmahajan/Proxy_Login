@@ -22,7 +22,7 @@ public class BackgroundService extends Service {
 
     private MyBroadcastReceiver br;
 
-    //final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
+    final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
     private static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
     private static final int Notification_ID = 1459;
     private Context context;
@@ -30,7 +30,7 @@ public class BackgroundService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        //Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
+//        Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
         context = getApplicationContext();
 
         IntentFilter intentFilter = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
@@ -69,11 +69,11 @@ public class BackgroundService extends Service {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            //Log.i(TAG, "received " + Thread.currentThread().getName());
+//            Log.i(TAG, "received " + Thread.currentThread().getName());
 
             Connection_Detector connection_detector = new Connection_Detector(context);
             int connection_Status = connection_detector.isConnectedToWifi();
-            //Log.i(TAG, "connection_Status: " + connection_Status);
+//            Log.i(TAG, "connection_Status: " + connection_Status);
             if (connection_Status == 4) {
                 Intent i = new Intent(context, Login_Service.class);
                 i.setAction(Login_Service.ACTION_LOGIN);

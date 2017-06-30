@@ -99,7 +99,7 @@ public class User_Cred {
          */
         private static String encrypt(String secretKey, String data) throws Exception {
 
-            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1YOYO");
+            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
             KeySpec spec = new PBEKeySpec(secretKey.toCharArray(), secretKey.getBytes(), 128, 256);
             SecretKey tmp = factory.generateSecret(spec);
             SecretKey key = new SecretKeySpec(tmp.getEncoded(), ALGORITHM);
@@ -120,7 +120,7 @@ public class User_Cred {
          */
         private static String decrypt(String secretKey, String data) throws Exception {
 
-            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1YOYO");
+            SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
             KeySpec spec = new PBEKeySpec(secretKey.toCharArray(), secretKey.getBytes(), 128, 256);
             SecretKey tmp = factory.generateSecret(spec);
             SecretKey key = new SecretKeySpec(tmp.getEncoded(), ALGORITHM);
