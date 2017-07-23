@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.BlackBox.Wifi_Login"
+      android:versionCode="3"
+      android:versionName="2.21"
+      split="lib_slice_4_apk">
+</manifest>

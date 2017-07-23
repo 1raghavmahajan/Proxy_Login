@@ -125,12 +125,12 @@ public class Main_Activity extends AppCompatActivity {
 
                 //Toast.makeText(context, "Logging in...", Toast.LENGTH_LONG).show();
 
-                Login_Task login_task = new Login_Task(user);
+                Login_Task login_task = new Login_Task(user, context, Volley.newRequestQueue(context));
 
                 progressDialog = ProgressDialog.show(context, "Logging in", "Please wait", true, false);
                 //progressDialog.show();
 
-                login_task.Login(URL, context, Volley.newRequestQueue(context));
+                login_task.Login();
 
                 IntentFilter intentFilter = new IntentFilter(Login_Task.ACTION_RESULT);
                 registerReceiver(new MyOtherBroadcastReceiver(), intentFilter);
@@ -155,6 +155,7 @@ public class Main_Activity extends AppCompatActivity {
 
     private void createSnackbar(String error, int length) {
         Snackbar snackbar = Snackbar.make(findViewById(R.id.relative), error, length);
+        //noinspection deprecation
         snackbar.getView().setBackgroundColor(getResources().getColor(R.color.colorSnack));
         snackbar.show();
     }

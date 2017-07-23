@@ -39,9 +39,7 @@ public class Login_Service extends IntentService {
 //        Log.i("YOYO","Login initiated!");
         User_Cred user = new User_Cred();
         user.load_Cred(context);
-        Login_Task login_task = new Login_Task(user);
-        requestQueue = Volley.newRequestQueue(context);
-        login_task.Login(URL, context, requestQueue);
-
+        Login_Task login_task = new Login_Task(user, context,Volley.newRequestQueue(context));
+        login_task.Login();
     }
 }

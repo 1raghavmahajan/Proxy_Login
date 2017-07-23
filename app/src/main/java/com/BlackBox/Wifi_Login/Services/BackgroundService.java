@@ -7,8 +7,11 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.BitmapFactory;
+import android.os.Build;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
+import android.support.v7.app.NotificationCompat;
 import android.widget.Toast;
 
 import com.BlackBox.Wifi_Login.Activities.Main_Activity;
@@ -40,16 +43,21 @@ public class BackgroundService extends Service {
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        Notification notification = new Notification.Builder(this)
+        Notification.Builder builder = new Notification.Builder(this)
                 //.setCategory(Notification.CATEGORY_SERVICE)
                 .setContentTitle("Login Service")
-                .setSmallIcon(R.mipmap.ic_error)
+                .setSmallIcon(R.drawable.ic_icon)
+                .setLargeIcon(BitmapFactory.decodeResource(context.getResources(),
+                        R.drawable.ic_icon))
                 .setContentIntent(pendingIntent)
                 .setOngoing(true)
-                .setPriority(Notification.PRIORITY_MAX)
-                .build();
+                .setPriority(Notification.PRIORITY_MIN);
 
-        startForeground(Notification_ID, notification);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder.setVisibility(NotificationCompat.VISIBILITY_SECRET);
+        }
+
+        startForeground(Notification_ID, builder.build());
 
         registerReceiver(br, intentFilter);
 
