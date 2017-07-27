@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\ic_icon.xml",
+        "source": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Android\\.android\\build-cache\\e83ea0c4c57d437b428fc62fcc5ea7b06fe4906e\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Android\\.android\\build-cache\\e83ea0c4c57d437b428fc62fcc5ea7b06fe4906e\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    }
+]

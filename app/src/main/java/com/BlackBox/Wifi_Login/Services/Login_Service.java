@@ -6,14 +6,11 @@ import android.content.Intent;
 
 import com.BlackBox.Wifi_Login.Classes.Login_Task;
 import com.BlackBox.Wifi_Login.Classes.User_Cred;
-import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 public class Login_Service extends IntentService {
 
     public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
-    private static final String EXTRA_URL = "com.BlackBox.Wifi_Login.extra.URL";
-    private RequestQueue requestQueue;
 
     private Context context;
 
@@ -28,13 +25,12 @@ public class Login_Service extends IntentService {
             final String action = intent.getAction();
             if (ACTION_LOGIN.equals(action)) {
                 context = getApplicationContext();
-                final String URL = intent.getStringExtra(EXTRA_URL);
-                Login(URL);
+                Login();
             }
         }
     }
 
-    private void Login(String URL) {
+    private void Login() {
 
 //        Log.i("YOYO","Login initiated!");
         User_Cred user = new User_Cred();

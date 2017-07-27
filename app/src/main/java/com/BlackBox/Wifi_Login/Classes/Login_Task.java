@@ -2,7 +2,6 @@ package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -13,8 +12,6 @@ import com.android.volley.toolbox.StringRequest;
 import java.net.HttpURLConnection;
 import java.util.HashMap;
 import java.util.Map;
-
-import static com.android.volley.VolleyLog.TAG;
 
 public class Login_Task {
 
@@ -84,17 +81,15 @@ public class Login_Task {
                         if (error.networkResponse != null) //network response
                         {
                             final int status = error.networkResponse.statusCode;
-                            //Log.i(TAG, "Status : " + status);
-                            // Handle 30x
                             if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
                                 f = false;
                                 String location = error.networkResponse.headers.get("Location");
-                                Log.i(TAG, "redirect url: "+location);
                                 sendPost(location);
                             }
-                        } else {
+                            else
+                                mess_str = "Unknown Response";
+                        } else
                             mess_str = "No Network response";
-                        }
                     }
                 }
                 if(f) {
@@ -114,13 +109,6 @@ public class Login_Task {
 
         // Tag used to cancel the request
         String request_Tag = "POST_REQUEST";
-
-        Log.i(TAG, "sendPost: url"+url);
-
-//        url = "https://fwiiti1.iiti.ac.in:8003/index.php?zone=iiti_auth";
-
-        Log.i(TAG, "sendPost: id: "+user.getID());
-        Log.i(TAG, "sendPost: pass: "+user.getpwd());
 
         StringRequest strReq = new StringRequest
                 (

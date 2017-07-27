@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="support-v4-26.0.0">
+    <CLASSES>
+      <root url="file://C:/Android/.android/build-cache/9b3d0cdaeba22c416e60f0cb4c98db335cfe2a26/output/res" />
+      <root url="jar://C:/Android/.android/build-cache/9b3d0cdaeba22c416e60f0cb4c98db335cfe2a26/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/26.0.0/a4b6958051fecf31c0241bbfe5ac1976c81a201f/support-v4-26.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

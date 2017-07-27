@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/OtherTheme"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/tV_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="@string/title_name"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tV_Title"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_subtitle1"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_subtitle2"
+            android:paddingTop="5dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_IDFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eT_UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/te_User"
+            android:focusable="true"
+            android:inputType="text" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_PassFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_IDFrame">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eT_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/te_Password"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <CheckBox
+        android:id="@+id/cB_saveCred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_PassFrame"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="@string/cB_SaveCred" />
+
+    <CheckBox
+        android:id="@+id/cB_startService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cB_saveCred"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="@string/cB_Service" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cB_startService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:text="@string/btn_Login" />
+
+
+</RelativeLayout>

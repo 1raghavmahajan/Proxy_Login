@@ -26,11 +26,10 @@ import com.android.volley.toolbox.Volley;
 
 //import android.util.Log;
 
+@SuppressWarnings("deprecation")
 public class Main_Activity extends AppCompatActivity {
 
     //final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
-    final public static String URL = "https://hanuman.iiti.ac.in:8003/index.php?zone=lan_iiti";
-    //final public static String URL = "http://httpbin.org/post";
 
     private TextInputEditText eT_UserName;
     private TextInputEditText eT_Password;
@@ -45,11 +44,11 @@ public class Main_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn_Login = (Button) findViewById(R.id.btn_Login);
-        eT_UserName = (TextInputEditText) findViewById(R.id.eT_UserName);
-        eT_Password = (TextInputEditText) findViewById(R.id.eT_Password);
-        cB_saveCred = (CheckBox) findViewById(R.id.cB_saveCred);
-        cB_startService = (CheckBox) findViewById(R.id.cB_startService);
+        Button btn_Login = findViewById(R.id.btn_Login);
+        eT_UserName = findViewById(R.id.eT_UserName);
+        eT_Password = findViewById(R.id.eT_Password);
+        cB_saveCred = findViewById(R.id.cB_saveCred);
+        cB_startService = findViewById(R.id.cB_startService);
         context = Main_Activity.this;
 
         user = new User_Cred();

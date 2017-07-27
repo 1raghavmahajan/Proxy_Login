@@ -14,7 +14,7 @@
         android:paddingBottom="7dp"
         android:text="@string/Coder1"
         android:textColor="#bdbdbd"
-        android:textSize="17sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tV_mvl"

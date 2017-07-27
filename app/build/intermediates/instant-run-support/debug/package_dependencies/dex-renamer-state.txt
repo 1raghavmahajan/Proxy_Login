@@ -1,4 +1,4 @@
-#Sun Jun 25 18:35:25 IST 2017
+#Tue Jul 25 15:42:28 IST 2017
 file.2=C\:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_600ee0934a4a943a0373ce0a025f39da0e440020\\classes.dex
 base.2=C\:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_600ee0934a4a943a0373ce0a025f39da0e440020
 file.1=C\:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_d767826a3d2bc1975b7cf54bc241915b15fa0b0a\\classes.dex

@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6722f74181784fbd2aeef51674d51337141bcc3b">
+        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eb1f5b44dedb5fc892de8d6b90f2d45168d77e07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f457a42effe057d57f18be34aba34b05630210b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="7da6bfcc41b4f4ac7e3993c9b98def9019528e9d">
-        <dex dex="C:\Users\raghav\AndroidStudioProjects\IITI_Wifi_Login\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eb1f5b44dedb5fc892de8d6b90f2d45168d77e07\classes.dex" />
     </item>
 
 </items>
