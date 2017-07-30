@@ -16,12 +16,12 @@
         "source": "C:\\Android\\.android\\build-cache\\631841b9e322c322b222c396ee3109a3d85ac602\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Android\\.android\\build-cache\\631841b9e322c322b222c396ee3109a3d85ac602\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Android\\.android\\build-cache\\1b57cd321a6e8aed9beab3e01363bfaacb55f097\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Android\\.android\\build-cache\\631841b9e322c322b222c396ee3109a3d85ac602\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -160,12 +160,12 @@
         "source": "C:\\Android\\.android\\build-cache\\631841b9e322c322b222c396ee3109a3d85ac602\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Android\\.android\\build-cache\\1b57cd321a6e8aed9beab3e01363bfaacb55f097\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Android\\.android\\build-cache\\df2be1e0e3b1b3e82d715babf78a15a98f8bd420\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Android\\.android\\build-cache\\1b57cd321a6e8aed9beab3e01363bfaacb55f097\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -184,12 +184,12 @@
         "source": "C:\\Android\\.android\\build-cache\\df2be1e0e3b1b3e82d715babf78a15a98f8bd420\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Android\\.android\\build-cache\\df2be1e0e3b1b3e82d715babf78a15a98f8bd420\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Android\\.android\\build-cache\\631841b9e322c322b222c396ee3109a3d85ac602\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\df2be1e0e3b1b3e82d715babf78a15a98f8bd420\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -220,6 +220,10 @@
         "source": "C:\\Android\\.android\\build-cache\\c668e063bc3591d5627a0ac08342dbf174ea87ab\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Android\\.android\\build-cache\\1b57cd321a6e8aed9beab3e01363bfaacb55f097\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Android\\.android\\build-cache\\df2be1e0e3b1b3e82d715babf78a15a98f8bd420\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -230,10 +234,6 @@
     {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Android\\.android\\build-cache\\df2be1e0e3b1b3e82d715babf78a15a98f8bd420\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Android\\.android\\build-cache\\1b57cd321a6e8aed9beab3e01363bfaacb55f097\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\Users\\raghav\\AndroidStudioProjects\\IITI_Wifi_Login\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",

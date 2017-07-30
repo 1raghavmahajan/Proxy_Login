@@ -68,6 +68,7 @@ public class BackgroundService extends Service {
                         .setContentIntent(pendingIntent)
                         .setOngoing(true)
                         .setVisibility(Notification.VISIBILITY_SECRET)
+                        .setPriority(Notification.PRIORITY_MIN)
                         .setCategory(Notification.CATEGORY_SERVICE);
             }else{
                 //noinspection deprecation
@@ -76,6 +77,7 @@ public class BackgroundService extends Service {
                         .setSmallIcon(R.drawable.ic_icon)
                         .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icon))
                         .setContentIntent(pendingIntent)
+                        .setPriority(Notification.PRIORITY_MIN)
                         .setOngoing(true);
             }
         }
@@ -131,7 +133,7 @@ public class BackgroundService extends Service {
 
     @Override
     public void onTaskRemoved(Intent rootIntent) {
-        Toast.makeText(context, "onTask Removed", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(context, "onTask Removed", Toast.LENGTH_SHORT).show();
 //        unregisterReceiver(br);
 //        stopForeground(true);
 //        stopSelf();

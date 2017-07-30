@@ -3,11 +3,9 @@ package com.BlackBox.Wifi_Login.Activities;
 import android.app.ActivityManager;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
@@ -122,17 +120,44 @@ public class Main_Activity extends AppCompatActivity {
                     user.clear_cred(context);
                 }
 
-                //Toast.makeText(context, "Logging in...", Toast.LENGTH_LONG).show();
 
-                Login_Task login_task = new Login_Task(user, context, Volley.newRequestQueue(context));
+                onTaskCompleteListener listener = new onTaskCompleteListener() {
+                    @Override
+                    public void onSuccess() {
+                        progressDialog.cancel();
+                        createSnackbar("Logged In!",Snackbar.LENGTH_LONG);
+                        if (cB_startService.isChecked()) {
+
+                            if (cB_saveCred.isChecked()) {
+                                // Log.i(TAG, "Starting Service..");
+                                Intent i = new Intent(context, BackgroundService.class);
+                                if (!isMyServiceRunning(BackgroundService.class)) {
+                                    Toast.makeText(context, "Service Started!", Toast.LENGTH_SHORT).show();
+                                    startService(i);
+                                }
+                                else
+                                    Toast.makeText(context, "Service already running!", Toast.LENGTH_SHORT).show();
+                            } else {
+                                Toast.makeText(context, "You need to remember password to automatically login.", Toast.LENGTH_SHORT).show();
+                                cB_startService.setChecked(false);
+                            }
+
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(String error) {
+                        createSnackbar(error, Snackbar.LENGTH_LONG);
+                    }
+                };
+                Login_Task login_task = new Login_Task(user, context, Volley.newRequestQueue(context), listener);
 
                 progressDialog = ProgressDialog.show(context, "Logging in", "Please wait", true, false);
-                //progressDialog.show();
 
                 login_task.Login();
 
-                IntentFilter intentFilter = new IntentFilter(Login_Task.ACTION_RESULT);
-                registerReceiver(new MyOtherBroadcastReceiver(), intentFilter);
+//                IntentFilter intentFilter = new IntentFilter(Login_Task.ACTION_RESULT);
+//                registerReceiver(new MyOtherBroadcastReceiver(), intentFilter);
 
             }
         }
@@ -169,40 +194,9 @@ public class Main_Activity extends AppCompatActivity {
         return false;
     }
 
-    class MyOtherBroadcastReceiver extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-
-            boolean resultStatus = intent.getBooleanExtra("resultStatus", false);
-            //Log.i("resultStatus: ", String.valueOf(resultStatus));
-
-            progressDialog.cancel();
-
-            if (resultStatus && cB_startService.isChecked()) {
-
-
-                if (cB_saveCred.isChecked()) {
-                    // Log.i(TAG, "Starting Service..");
-                    createSnackbar("Logged in!", Snackbar.LENGTH_LONG);
-                    Intent i = new Intent(context, BackgroundService.class);
-                    if (!isMyServiceRunning(BackgroundService.class))
-                        startService(i);
-                    else
-                        Toast.makeText(context, "Service already running!", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(context, "You need to remember password to automatically login.", Toast.LENGTH_SHORT).show();
-                    cB_startService.setChecked(false);
-                }
-
-            }
-
-            if (!resultStatus) {
-                createSnackbar(intent.getStringExtra("ERROR"), Snackbar.LENGTH_LONG);
-            }
-
-            unregisterReceiver(this);
-        }
+    public interface onTaskCompleteListener {
+        void onSuccess();
+        void onFailure(String error);
     }
 
 }

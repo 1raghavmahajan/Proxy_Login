@@ -1,8 +1,8 @@
 package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
-import android.content.Intent;
 
+import com.BlackBox.Wifi_Login.Activities.Main_Activity;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -21,11 +21,13 @@ public class Login_Task {
     private User_Cred user;
     private Context context;
     private RequestQueue requestQueue;
+    private Main_Activity.onTaskCompleteListener listener;
 
-    public Login_Task(User_Cred user_cred, Context context, RequestQueue requestQueue) {
+    public Login_Task(User_Cred user_cred, Context context, RequestQueue requestQueue, Main_Activity.onTaskCompleteListener listener) {
         user = user_cred;
         this.context = context;
         this.requestQueue = requestQueue;
+        this.listener = listener;
     }
 
     public void Login(){
@@ -40,26 +42,18 @@ public class Login_Task {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-
-                                Intent i = new Intent(ACTION_RESULT);
-                                i.putExtra("resultStatus", true);
-                                context.sendBroadcast(i);
+                                listener.onSuccess();
                             }
                         },
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-//                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
-                                Intent i = new Intent(ACTION_RESULT);
-                                i.putExtra("resultStatus", false);
-                                i.putExtra("ERROR", error.getMessage());
-                                context.sendBroadcast(i);
+                                listener.onFailure(error.getMessage());
                             }
                         }
                 ) {
             @Override
             protected Map<String, String> getParams() {
-
                 return new HashMap<>();
             }
 
@@ -67,34 +61,35 @@ public class Login_Task {
             public void deliverError(final VolleyError error) {
 
                 boolean f = true;
-                Intent i = new Intent(ACTION_RESULT);
 
-                String mess_str = "Unknown deliveryError";
+                String error_str = "Unknown deliveryError";
                 if (error != null) {
 
                     //Log.i(TAG, "Error details: " + error.toString());
                     if (error.toString().contains("Timeout")) {
-                        mess_str = "Authentication server not reachable. Please try after some time";
+                        error_str = "Authentication server not reachable. Please try after some time";
                     } else if (error.toString().contains("NoConnectionError")) {
-                        mess_str = "No Connection. Please try after some time";
+                        error_str = "No Connection. Please try after some time";
                     } else {
                         if (error.networkResponse != null) //network response
                         {
                             final int status = error.networkResponse.statusCode;
-                            if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
+                            if (status == HttpURLConnection.HTTP_MOVED_PERM ||
+                                    status == HttpURLConnection.HTTP_MOVED_TEMP ||
+                                    status == HttpURLConnection.HTTP_SEE_OTHER)
+                            {
                                 f = false;
                                 String location = error.networkResponse.headers.get("Location");
                                 sendPost(location);
                             }
                             else
-                                mess_str = "Unknown Response";
+                                error_str = "Unknown Response";
                         } else
-                            mess_str = "No Network response";
+                            error_str = "No Network response";
                     }
                 }
                 if(f) {
-                    i.putExtra("ERROR", mess_str);
-                    context.sendBroadcast(i);
+                    listener.onFailure(error_str);
                 }
             }
 
@@ -117,26 +112,18 @@ public class Login_Task {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-
-                                Intent i = new Intent(ACTION_RESULT);
-                                i.putExtra("resultStatus", false);
-
                                 if (response.contains("Invalid")) {
-                                    i.putExtra("ERROR", "Invalid Credentials Provided");
+                                    listener.onFailure("Invalid Credentials Provided!");
                                 } else {
-                                    i.putExtra("ERROR", "Unknown error");
+                                    listener.onFailure("Unknown error");
                                 }
-                                context.sendBroadcast(i);
                             }
                         },
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
 //                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
-                                Intent i = new Intent(ACTION_RESULT);
-                                i.putExtra("resultStatus", false);
-                                i.putExtra("ERROR", error.getMessage());
-                                context.sendBroadcast(i);
+                                listener.onFailure(error.getMessage());
                             }
                         }
                 ) {
@@ -156,15 +143,13 @@ public class Login_Task {
             @Override
             public void deliverError(final VolleyError error) {
 
-                Intent i = new Intent(ACTION_RESULT);
-
-                String mess_str = "Unknown deliveryError";
+                String error_str = "Unknown deliveryError";
                 if (error != null) {
 
                     if (error.toString().contains("Timeout")) {
-                        mess_str = "Authentication server not reachable. Please try after some time";
+                        error_str = "Authentication server not reachable. Please try after some time";
                     } else if (error.toString().contains("NoConnectionError")) {
-                        mess_str = "No Connection. Please try after some time";
+                        error_str = "No Connection. Please try after some time";
                     } else {
                         if (error.networkResponse != null) //network response
                         {
@@ -175,22 +160,21 @@ public class Login_Task {
                                 final String location = error.networkResponse.headers.get("Location");
 
                                 if (location.contains("bing")) {
-                                    mess_str = "Successfully Authenticated!";
-                                    i.putExtra("resultStatus", true);
+                                    listener.onSuccess();
                                 } else {
-                                    mess_str = "Invalid Credentials Provided";
+                                    error_str = "Invalid Credentials Provided";
                                 }
 
                             }
                         } else {
-                            mess_str = "No Network response";
+                            error_str = "No Network response";
                         }
                     }
                 }
-//                Log.i("YOYO", "Message for noobs: " + mess_str);
-                i.putExtra("ERROR", mess_str);
+//                Log.i("YOYO", "Message for noobs: " + error_str);
 
-                context.sendBroadcast(i);
+                listener.onFailure(error_str);
+
             }
 
         };
