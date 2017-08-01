@@ -15,7 +15,7 @@
   ~ limitations under the License
   -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.Compat.NotificationActionContainer"
+    style="@style/Widget.AppCompat.NotificationActionContainer"
     android:id="@+id/action_container"
     android:layout_width="0dp"
     android:layout_weight="1"
@@ -29,7 +29,7 @@
         android:layout_gravity="center|start"
         android:scaleType="centerInside"/>
     <TextView
-        style="@style/Widget.Compat.NotificationActionText"
+        style="@style/Widget.AppCompat.NotificationActionText"
         android:id="@+id/action_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
