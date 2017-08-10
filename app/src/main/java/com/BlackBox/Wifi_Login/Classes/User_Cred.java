@@ -73,7 +73,7 @@ public class User_Cred {
 
     }
 
-    public void clear_cred(Context context) {
+    public static void clear_cred(Context context) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         String tmp_id = "";

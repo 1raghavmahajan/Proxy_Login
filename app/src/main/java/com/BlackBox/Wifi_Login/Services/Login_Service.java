@@ -13,6 +13,7 @@ import com.android.volley.toolbox.Volley;
 public class Login_Service extends IntentService {
 
     public static final String ACTION_LOGIN = "com.BlackBox.Wifi_Login.action.LOGIN";
+    private static final String TAG = Login_Service.class.getSimpleName()+" YOYO";
 
     private Context context;
 
@@ -37,15 +38,17 @@ public class Login_Service extends IntentService {
 //        Log.i("YOYO","Login initiated!");
         User_Cred user = new User_Cred();
         user.load_Cred(context);
-        Login_Task login_task = new Login_Task(user, context, Volley.newRequestQueue(context), new Main_Activity.onTaskCompleteListener() {
+        Login_Task login_task = new Login_Task(user, Volley.newRequestQueue(context), new Main_Activity.onTaskCompleteListener() {
             @Override
-            public void onSuccess() {
-                Toast.makeText(context, "Logged In!", Toast.LENGTH_SHORT).show();
+            public void onSuccess(Boolean alreadyLoggedIn) {
+                if(!alreadyLoggedIn)
+                    Toast.makeText(context, "Logged In!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onFailure(String error) {
-                Toast.makeText(context, error, Toast.LENGTH_SHORT).show();
+                //Log.e(TAG, "Login Failure: "+error);
+//                Toast.makeText(context, error, Toast.LENGTH_SHORT).show();
             }
 
         });

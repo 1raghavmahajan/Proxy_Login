@@ -83,35 +83,39 @@
 
     </android.support.design.widget.TextInputLayout>
 
-
     <CheckBox
-        android:id="@+id/cB_saveCred"
+        android:id="@+id/cB_startService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/login_PassFrame"
         android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
-        android:text="@string/cB_SaveCred" />
-
-    <CheckBox
-        android:id="@+id/cB_startService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/cB_saveCred"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="5dp"
         android:text="@string/cB_Service" />
 
-    <Button
-        android:id="@+id/btn_Login"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cB_startService"
+        android:orientation="horizontal"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="7dp"
-        android:paddingLeft="17dp"
-        android:paddingRight="17dp"
-        android:text="@string/btn_Login" />
+        android:layout_marginTop="7dp">
 
 
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Login" />
+
+        <Button
+            android:id="@+id/btn_stopService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/btn_stopService"
+            android:visibility="gone"/>
+
+    </LinearLayout>
 </RelativeLayout>

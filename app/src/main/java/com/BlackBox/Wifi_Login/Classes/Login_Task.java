@@ -1,7 +1,5 @@
 package com.BlackBox.Wifi_Login.Classes;
 
-import android.content.Context;
-
 import com.BlackBox.Wifi_Login.Activities.Main_Activity;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -16,16 +14,13 @@ import java.util.Map;
 public class Login_Task {
 
     //private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
-    public static final String ACTION_RESULT = "com.BlackBox.app.ACTION_RESULT";
 
     private User_Cred user;
-    private Context context;
     private RequestQueue requestQueue;
     private Main_Activity.onTaskCompleteListener listener;
 
-    public Login_Task(User_Cred user_cred, Context context, RequestQueue requestQueue, Main_Activity.onTaskCompleteListener listener) {
+    public Login_Task(User_Cred user_cred, RequestQueue requestQueue, Main_Activity.onTaskCompleteListener listener) {
         user = user_cred;
-        this.context = context;
         this.requestQueue = requestQueue;
         this.listener = listener;
     }
@@ -42,7 +37,7 @@ public class Login_Task {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-                                listener.onSuccess();
+                                listener.onSuccess(true);
                             }
                         },
                         new Response.ErrorListener() {
@@ -143,6 +138,7 @@ public class Login_Task {
             @Override
             public void deliverError(final VolleyError error) {
 
+                boolean f = true;
                 String error_str = "Unknown deliveryError";
                 if (error != null) {
 
@@ -159,8 +155,9 @@ public class Login_Task {
                             if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
                                 final String location = error.networkResponse.headers.get("Location");
 
-                                if (location.contains("bing")) {
-                                    listener.onSuccess();
+                                if (location.toLowerCase().contains("bing")) {
+                                    f = false;
+                                    listener.onSuccess(false);
                                 } else {
                                     error_str = "Invalid Credentials Provided";
                                 }
@@ -173,7 +170,8 @@ public class Login_Task {
                 }
 //                Log.i("YOYO", "Message for noobs: " + error_str);
 
-                listener.onFailure(error_str);
+                if(f)
+                    listener.onFailure(error_str);
 
             }
 

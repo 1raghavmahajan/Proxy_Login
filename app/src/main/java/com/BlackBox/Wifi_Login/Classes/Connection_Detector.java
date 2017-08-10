@@ -3,6 +3,7 @@ package com.BlackBox.Wifi_Login.Classes;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Build;
 
 import static android.net.ConnectivityManager.TYPE_MOBILE;
 import static android.net.ConnectivityManager.TYPE_WIFI;
@@ -34,7 +35,12 @@ public class Connection_Detector {
 
             NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
 
-            if (activeNetworkInfo != null) {
+            boolean f = true;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                if(connectivityManager.getRestrictBackgroundStatus()==ConnectivityManager.RESTRICT_BACKGROUND_STATUS_ENABLED)
+                    f = false;
+            }
+            if (activeNetworkInfo != null && f) {
                 switch (activeNetworkInfo.getType()) {
                     case TYPE_WIFI:
                         if (activeNetworkInfo.getExtraInfo().contains("IIT") || activeNetworkInfo.getExtraInfo().contains("captive")) {
@@ -48,7 +54,7 @@ public class Connection_Detector {
                         return 1;
                 }
             } else {
-                return 1;
+                return 0;
             }
         }
         return 0;

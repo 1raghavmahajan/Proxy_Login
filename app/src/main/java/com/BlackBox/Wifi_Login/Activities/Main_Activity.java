@@ -13,7 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.Toast;
 
 import com.BlackBox.Wifi_Login.Classes.Connection_Detector;
 import com.BlackBox.Wifi_Login.Classes.Login_Task;
@@ -29,10 +28,9 @@ public class Main_Activity extends AppCompatActivity {
 
     //final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
 
-    private TextInputEditText eT_UserName;
-    private TextInputEditText eT_Password;
-    private CheckBox cB_saveCred;
+    private TextInputEditText eT_UserName, eT_Password;
     private CheckBox cB_startService;
+    private Button btn_stopService;
     private User_Cred user;
     private Context context;
     private ProgressDialog progressDialog;
@@ -45,8 +43,8 @@ public class Main_Activity extends AppCompatActivity {
         Button btn_Login = findViewById(R.id.btn_Login);
         eT_UserName = findViewById(R.id.eT_UserName);
         eT_Password = findViewById(R.id.eT_Password);
-        cB_saveCred = findViewById(R.id.cB_saveCred);
         cB_startService = findViewById(R.id.cB_startService);
+        btn_stopService = findViewById(R.id.btn_stopService);
         context = Main_Activity.this;
 
         user = new User_Cred();
@@ -54,7 +52,11 @@ public class Main_Activity extends AppCompatActivity {
         {
             eT_UserName.setText(user.getID());
             eT_Password.setText(user.getpwd());
-            cB_saveCred.setChecked(true);
+            cB_startService.setChecked(true);
+            if(isMyServiceRunning(BackgroundService.class))
+                btn_stopService.setVisibility(View.VISIBLE);
+            else
+                btn_stopService.setVisibility(View.GONE);
         }
 
         btn_Login.setOnClickListener(new View.OnClickListener() {
@@ -64,17 +66,25 @@ public class Main_Activity extends AppCompatActivity {
             }
         });
 
-        cB_startService.setOnClickListener(new View.OnClickListener() {
+        btn_stopService.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                if (cB_startService.isChecked()) {
-                    if (!cB_saveCred.isChecked()) {
-                        Toast.makeText(context, "You need to remember password to automatically login.", Toast.LENGTH_SHORT).show();
-                        cB_saveCred.setChecked(true);
+            public void onClick(View view) {
+                if(isMyServiceRunning(BackgroundService.class)){
+                    Intent i = new Intent(context, BackgroundService.class);
+                    if(stopService(i)){
+                        createSnackbar("Service Stopped!", Snackbar.LENGTH_SHORT);
+                        btn_stopService.setVisibility(View.GONE);
+                    }else {
+                        if(!isMyServiceRunning(BackgroundService.class)){
+                            createSnackbar("Service Stopped!", Snackbar.LENGTH_SHORT);
+                            btn_stopService.setVisibility(View.GONE);
+                        }else
+                            createSnackbar("Some error occured, please try again.", Snackbar.LENGTH_SHORT);
                     }
                 }
             }
         });
+
     }
 
     private void Login() {
@@ -114,34 +124,30 @@ public class Main_Activity extends AppCompatActivity {
             }
             else
             {
-                if (cB_saveCred.isChecked()) {
-                    user.save_cred(context);
-                } else {
-                    user.clear_cred(context);
-                }
+                User_Cred cred = new User_Cred();
+                if(cred.load_Cred(context))
+                    User_Cred.clear_cred(context);
 
+                user.save_cred(context);
 
                 onTaskCompleteListener listener = new onTaskCompleteListener() {
                     @Override
-                    public void onSuccess() {
+                    public void onSuccess(Boolean alreadyLoggedIn) {
                         progressDialog.cancel();
-                        createSnackbar("Logged In!",Snackbar.LENGTH_LONG);
                         if (cB_startService.isChecked()) {
 
-                            if (cB_saveCred.isChecked()) {
-                                // Log.i(TAG, "Starting Service..");
-                                Intent i = new Intent(context, BackgroundService.class);
-                                if (!isMyServiceRunning(BackgroundService.class)) {
-                                    Toast.makeText(context, "Service Started!", Toast.LENGTH_SHORT).show();
-                                    startService(i);
-                                }
-                                else
-                                    Toast.makeText(context, "Service already running!", Toast.LENGTH_SHORT).show();
-                            } else {
-                                Toast.makeText(context, "You need to remember password to automatically login.", Toast.LENGTH_SHORT).show();
-                                cB_startService.setChecked(false);
+                            // Log.i(TAG, "Starting Service..");
+                            Intent i = new Intent(context, BackgroundService.class);
+                            if (!isMyServiceRunning(BackgroundService.class)) {
+                                createSnackbar("Logged In and Service Started!",Snackbar.LENGTH_SHORT);
+                                startService(i);
+                                btn_stopService.setVisibility(View.VISIBLE);
                             }
+                            else
+                                createSnackbar("Logged in!",Snackbar.LENGTH_SHORT);
 
+                        }else {
+                            createSnackbar("Logged in!",Snackbar.LENGTH_LONG);
                         }
                     }
 
@@ -150,7 +156,7 @@ public class Main_Activity extends AppCompatActivity {
                         createSnackbar(error, Snackbar.LENGTH_LONG);
                     }
                 };
-                Login_Task login_task = new Login_Task(user, context, Volley.newRequestQueue(context), listener);
+                Login_Task login_task = new Login_Task(user, Volley.newRequestQueue(context), listener);
 
                 progressDialog = ProgressDialog.show(context, "Logging in", "Please wait", true, false);
 
@@ -161,6 +167,15 @@ public class Main_Activity extends AppCompatActivity {
 
             }
         }
+    }
+
+    @Override
+    protected void onResume() {
+        if(isMyServiceRunning(BackgroundService.class))
+            btn_stopService.setVisibility(View.VISIBLE);
+        else
+            btn_stopService.setVisibility(View.GONE);
+        super.onResume();
     }
 
     private void showAlertDialog(String title, String message) {
@@ -177,8 +192,8 @@ public class Main_Activity extends AppCompatActivity {
         alertDialog.show();
     }
 
-    private void createSnackbar(String error, int length) {
-        Snackbar snackbar = Snackbar.make(findViewById(R.id.relative), error, length);
+    private void createSnackbar(String message, int length) {
+        Snackbar snackbar = Snackbar.make(findViewById(R.id.relative), message, length);
         //noinspection deprecation
         snackbar.getView().setBackgroundColor(getResources().getColor(R.color.colorSnack));
         snackbar.show();
@@ -195,7 +210,7 @@ public class Main_Activity extends AppCompatActivity {
     }
 
     public interface onTaskCompleteListener {
-        void onSuccess();
+        void onSuccess(Boolean alreadyLoggedIn);
         void onFailure(String error);
     }
 

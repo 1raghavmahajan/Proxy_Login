@@ -17,7 +17,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.BlackBox.Wifi_Login.Activities.StopServiceActivity;
+import com.BlackBox.Wifi_Login.Activities.Main_Activity;
 import com.BlackBox.Wifi_Login.Classes.Connection_Detector;
 import com.BlackBox.Wifi_Login.R;
 
@@ -32,15 +32,16 @@ public class BackgroundService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
+        //Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
         context = getApplicationContext();
 
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
-        intentFilter.addAction(Intent.ACTION_SCREEN_ON);
+        intentFilter.addAction(Intent.ACTION_USER_PRESENT);
         br = new MyBroadcastReceiver();
 
-        Intent notificationIntent = new Intent(this, StopServiceActivity.class);
+        Intent notificationIntent = new Intent(this, Main_Activity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
@@ -98,9 +99,15 @@ public class BackgroundService extends Service {
     @Override
     public void onDestroy() {
         Log.i(TAG, "onDestroy");
-        unregisterReceiver(br);
+        try{
+            if(br!= null) {
+                unregisterReceiver(br);
+            }
+        } catch (Exception e){
+            // already unregistered
+            Log.e(TAG, "onDestroy: br", e);
+        }
         stopForeground(true);
-        stopSelf();
         super.onDestroy();
     }
 
@@ -108,11 +115,11 @@ public class BackgroundService extends Service {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.i(TAG, "received " + Thread.currentThread().getName());
+            //Log.i(TAG, "received " + intent);
 
             Connection_Detector connection_detector = new Connection_Detector(context);
             int connection_Status = connection_detector.isConnectedToWifi();
-            Log.i(TAG, "connection_Status: " + connection_Status);
+            //Log.i(TAG, "connection_Status: " + connection_Status);
             if (connection_Status == 4) {
                 Intent i = new Intent(context, Login_Service.class);
                 i.setAction(Login_Service.ACTION_LOGIN);
@@ -124,20 +131,12 @@ public class BackgroundService extends Service {
 
     @Override
     public void onLowMemory() {
+        Log.i(TAG, "onLowMemory: ");
         Toast.makeText(context, "Low Memory", Toast.LENGTH_SHORT).show();
         unregisterReceiver(br);
         stopForeground(true);
         stopSelf();
         super.onLowMemory();
-    }
-
-    @Override
-    public void onTaskRemoved(Intent rootIntent) {
-//        Toast.makeText(context, "onTask Removed", Toast.LENGTH_SHORT).show();
-//        unregisterReceiver(br);
-//        stopForeground(true);
-//        stopSelf();
-        super.onTaskRemoved(rootIntent);
     }
 
     @Nullable
