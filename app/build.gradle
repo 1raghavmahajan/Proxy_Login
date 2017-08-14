@@ -26,7 +26,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.BlackBox_India
             pseudoLocalesEnabled true
-            proguardFile 'C:/Users/raghav/AndroidStudioProjects/IITI_Wifi_Login/app/proguard-rules.pro'
+            proguardFile 'C:/Users/raghav/AndroidStudioProjects/Proxy_Login/app/proguard-rules.pro'
         }
     }
     productFlavors {

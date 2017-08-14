@@ -133,9 +133,16 @@ public class BackgroundService extends Service {
     public void onLowMemory() {
         Log.i(TAG, "onLowMemory: ");
         Toast.makeText(context, "Low Memory", Toast.LENGTH_SHORT).show();
-        unregisterReceiver(br);
+        Log.i(TAG, "onDestroy");
+        try{
+            if(br!= null) {
+                unregisterReceiver(br);
+            }
+        } catch (Exception e){
+            // already unregistered
+            Log.e(TAG, "onDestroy: br", e);
+        }
         stopForeground(true);
-        stopSelf();
         super.onLowMemory();
     }
 
