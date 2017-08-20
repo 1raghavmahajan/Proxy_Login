@@ -1,5 +1,7 @@
 package com.BlackBox.Wifi_Login.Classes;
 
+import android.util.Log;
+
 import com.BlackBox.Wifi_Login.Activities.Main_Activity;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -13,7 +15,7 @@ import java.util.Map;
 
 public class Login_Task {
 
-    //private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
+    private static final String TAG = Login_Task.class.getSimpleName() + " YOYO";
 
     private User_Cred user;
     private RequestQueue requestQueue;
@@ -60,11 +62,14 @@ public class Login_Task {
                 String error_str = "Unknown deliveryError";
                 if (error != null) {
 
-                    //Log.i(TAG, "Error details: " + error.toString());
+                    Log.i(TAG, "Error details: " + error.toString());
                     if (error.toString().contains("Timeout")) {
                         error_str = "Authentication server not reachable. Please try after some time";
                     } else if (error.toString().contains("NoConnectionError")) {
-                        error_str = "No Connection. Please try after some time";
+                        if(error.toString().contains("UnknownHostException"))
+                            error_str = "IITI server down. Please try after some time.";
+                        else
+                            error_str = "No Connection. Please try after some time";
                     } else {
                         if (error.networkResponse != null) //network response
                         {

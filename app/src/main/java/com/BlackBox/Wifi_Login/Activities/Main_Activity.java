@@ -19,6 +19,7 @@ import com.BlackBox.Wifi_Login.Classes.Login_Task;
 import com.BlackBox.Wifi_Login.Classes.User_Cred;
 import com.BlackBox.Wifi_Login.R;
 import com.BlackBox.Wifi_Login.Services.BackgroundService;
+import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 //import android.util.Log;
@@ -34,6 +35,7 @@ public class Main_Activity extends AppCompatActivity {
     private User_Cred user;
     private Context context;
     private ProgressDialog progressDialog;
+    private RequestQueue requestQueue;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,6 +48,8 @@ public class Main_Activity extends AppCompatActivity {
         cB_startService = findViewById(R.id.cB_startService);
         btn_stopService = findViewById(R.id.btn_stopService);
         context = Main_Activity.this;
+
+        requestQueue = Volley.newRequestQueue(context);
 
         user = new User_Cred();
         if (user.load_Cred(context)) //if cred are saved
@@ -79,7 +83,7 @@ public class Main_Activity extends AppCompatActivity {
                             createSnackbar("Service Stopped!", Snackbar.LENGTH_SHORT);
                             btn_stopService.setVisibility(View.GONE);
                         }else
-                            createSnackbar("Some error occured, please try again.", Snackbar.LENGTH_SHORT);
+                            createSnackbar("Some error occurred, please try again.", Snackbar.LENGTH_SHORT);
                     }
                 }
             }
@@ -133,7 +137,8 @@ public class Main_Activity extends AppCompatActivity {
                 onTaskCompleteListener listener = new onTaskCompleteListener() {
                     @Override
                     public void onSuccess(Boolean alreadyLoggedIn) {
-                        progressDialog.cancel();
+                        if(progressDialog!=null && progressDialog.isShowing())
+                            progressDialog.dismiss();
                         if (cB_startService.isChecked()) {
 
                             // Log.i(TAG, "Starting Service..");
@@ -153,17 +158,22 @@ public class Main_Activity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(String error) {
+                        if(progressDialog!=null && progressDialog.isShowing())
+                            progressDialog.dismiss();
                         createSnackbar(error, Snackbar.LENGTH_LONG);
                     }
                 };
-                Login_Task login_task = new Login_Task(user, Volley.newRequestQueue(context), listener);
+                Login_Task login_task = new Login_Task(user, requestQueue, listener);
 
-                progressDialog = ProgressDialog.show(context, "Logging in", "Please wait", true, false);
+                progressDialog = ProgressDialog.show(context, "Logging in", "Please wait", true, true, new DialogInterface.OnCancelListener() {
+                    @Override
+                    public void onCancel(DialogInterface dialogInterface) {
+                        requestQueue.cancelAll("URL_REQUEST");
+                        requestQueue.cancelAll("POST_REQUEST");
+                    }
+                });
 
                 login_task.Login();
-
-//                IntentFilter intentFilter = new IntentFilter(Login_Task.ACTION_RESULT);
-//                registerReceiver(new MyOtherBroadcastReceiver(), intentFilter);
 
             }
         }
@@ -214,4 +224,12 @@ public class Main_Activity extends AppCompatActivity {
         void onFailure(String error);
     }
 
+    @Override
+    protected void onPause() {
+        if(progressDialog!=null && progressDialog.isShowing())
+            progressDialog.dismiss();
+        requestQueue.cancelAll("URL_REQUEST");
+        requestQueue.cancelAll("POST_REQUEST");
+        super.onPause();
+    }
 }

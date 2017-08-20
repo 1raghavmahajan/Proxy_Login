@@ -20,7 +20,8 @@ import static android.net.ConnectivityManager.TYPE_WIFI;
 
 public class Connection_Detector {
 
-     private final Context _context;
+    private final Context _context;
+    private final String TAG = Connection_Detector.class.getSimpleName()+" YOYO";
 
     public Connection_Detector(Context context) {
         this._context = context;
@@ -43,11 +44,17 @@ public class Connection_Detector {
             if (activeNetworkInfo != null && f) {
                 switch (activeNetworkInfo.getType()) {
                     case TYPE_WIFI:
-                        if (activeNetworkInfo.getExtraInfo().contains("IIT") || activeNetworkInfo.getExtraInfo().contains("captive")) {
-                            return 4; // all fine
-                        } else {
-                            return 3;
+
+                        if(activeNetworkInfo.getExtraInfo()!=null) {
+                            if (activeNetworkInfo.getExtraInfo().contains("IIT") || activeNetworkInfo.getExtraInfo().contains("captive")) {
+                                return 4; // all fine
+                            } else {
+                                return 3;
+                            }
+                        }else {
+                            return 0;
                         }
+
                     case TYPE_MOBILE:
                         return 2;
                     default:

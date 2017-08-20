@@ -13,7 +13,6 @@ public class StartOnBoot extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.i(TAG, "onReceive: ");
         User_Cred user_cred = new User_Cred();
         boolean b = user_cred.load_Cred(context);
         if(b) {

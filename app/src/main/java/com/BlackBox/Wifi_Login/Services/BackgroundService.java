@@ -41,14 +41,14 @@ public class BackgroundService extends Service {
         br = new MyBroadcastReceiver();
 
         Intent notificationIntent = new Intent(this, Main_Activity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        notificationIntent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         Notification.Builder builder;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel notificationChannel = new NotificationChannel(NotificationChannel.DEFAULT_CHANNEL_ID,getPackageName()+"_CHANNEL",NotificationManager.IMPORTANCE_MIN);
+            NotificationChannel notificationChannel = new NotificationChannel(NotificationChannel.DEFAULT_CHANNEL_ID, getPackageName() + "_CHANNEL", NotificationManager.IMPORTANCE_MIN);
             notificationManager.createNotificationChannel(notificationChannel);
             builder = new Notification.Builder(context, NotificationChannel.DEFAULT_CHANNEL_ID)
                     .setContentTitle("Login Service")
@@ -59,7 +59,7 @@ public class BackgroundService extends Service {
                     .setVisibility(Notification.VISIBILITY_SECRET)
                     .setCategory(Notification.CATEGORY_SERVICE);
 
-        }else {
+        } else {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 //noinspection deprecation
                 builder = new Notification.Builder(context)
@@ -71,7 +71,7 @@ public class BackgroundService extends Service {
                         .setVisibility(Notification.VISIBILITY_SECRET)
                         .setPriority(Notification.PRIORITY_MIN)
                         .setCategory(Notification.CATEGORY_SERVICE);
-            }else{
+            } else {
                 //noinspection deprecation
                 builder = new Notification.Builder(context)
                         .setContentTitle("Login Service")
@@ -83,9 +83,10 @@ public class BackgroundService extends Service {
             }
         }
 
+//        Todo:
 //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 //            new JobInfo.Builder(125,new ComponentName(context,Login_Service.class))
-////                    .setPersisted(true)
+//                    .setPersisted(true)
 //            .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY);
 //        }
 
@@ -115,11 +116,11 @@ public class BackgroundService extends Service {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            //Log.i(TAG, "received " + intent);
+            Log.i(TAG, "received " + intent);
 
             Connection_Detector connection_detector = new Connection_Detector(context);
             int connection_Status = connection_detector.isConnectedToWifi();
-            //Log.i(TAG, "connection_Status: " + connection_Status);
+            Log.i(TAG, "connection_Status: " + connection_Status);
             if (connection_Status == 4) {
                 Intent i = new Intent(context, Login_Service.class);
                 i.setAction(Login_Service.ACTION_LOGIN);

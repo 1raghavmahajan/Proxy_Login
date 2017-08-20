@@ -15,10 +15,10 @@ android {
         applicationId 'com.BlackBox.Wifi_Login'
         minSdkVersion 16
         targetSdkVersion 26
-        versionName '2.4'
+        versionName '2.41'
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         signingConfig signingConfigs.BlackBox_India
-        versionCode 5
+        versionCode 6
     }
     buildTypes {
         release {
