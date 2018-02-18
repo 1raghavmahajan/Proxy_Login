@@ -14,6 +14,7 @@
     <string name="special_msg">Made with Love</string>
     <string name="btn_stopService">Stop Service</string>
 
+    <string name="service_desc">Accessibility Service for Wifi Login</string>
 
     <string name="Coder1" translatable="false">Raghav Mahajan</string>
     <string name="Coder2" translatable="false">Keyur Panchal</string>

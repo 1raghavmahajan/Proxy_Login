@@ -1,15 +1,20 @@
 package com.BlackBox.Wifi_Login.Activities;
 
+import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.PowerManager;
+import android.provider.Settings;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -22,12 +27,9 @@ import com.BlackBox.Wifi_Login.Services.BackgroundService;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
-//import android.util.Log;
-
-@SuppressWarnings("deprecation")
 public class Main_Activity extends AppCompatActivity {
 
-    //final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
+    final public String TAG = Main_Activity.class.getSimpleName() + " YOYO";
 
     private TextInputEditText eT_UserName, eT_Password;
     private CheckBox cB_startService;
@@ -92,7 +94,7 @@ public class Main_Activity extends AppCompatActivity {
     }
 
     private void Login() {
-        //Log.i(TAG, "Login");
+        Log.i(TAG, "Login");
 
         Connection_Detector cd = new Connection_Detector(context);
 
@@ -123,8 +125,7 @@ public class Main_Activity extends AppCompatActivity {
                     break;
             }
             if(Con_Status != 4) {
-                showAlertDialog("Error",
-                        Alert_Status);
+                showErrorDialog(Alert_Status);
             }
             else
             {
@@ -141,11 +142,47 @@ public class Main_Activity extends AppCompatActivity {
                             progressDialog.dismiss();
                         if (cB_startService.isChecked()) {
 
-                            // Log.i(TAG, "Starting Service..");
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                String packageName = context.getPackageName();
+                                PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+                                if (pm != null) {
+                                    if (pm.isIgnoringBatteryOptimizations(packageName)) {
+                                        AlertDialog alertDialog = new AlertDialog.Builder(context).create();
+                                        alertDialog.setTitle("Info");
+                                        alertDialog.setMessage(
+                                                "For the service to start after REBOOT we need to disable battery optimisation." +
+                                                        "\nFind the app and\n" +
+                                                        "Click on \"Don't Optimise\".");
+
+                                        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
+                                            @SuppressLint("InlinedApi")
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                Intent myIntent = new Intent();
+                                                myIntent.setAction(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
+                                                startActivity(myIntent);
+                                            }
+                                        });
+                                        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "CANCEL", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                dialog.cancel();
+                                            }
+                                        });
+                                        alertDialog.show();
+                                    }
+                                }
+                            }
+
+                            Log.i(TAG, "Starting Service..");
                             Intent i = new Intent(context, BackgroundService.class);
                             if (!isMyServiceRunning(BackgroundService.class)) {
                                 createSnackbar("Logged In and Service Started!",Snackbar.LENGTH_SHORT);
-                                startService(i);
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                    startForegroundService(i);
+                                }else {
+                                    startService(i);
+                                }
                                 btn_stopService.setVisibility(View.VISIBLE);
                             }
                             else
@@ -163,6 +200,7 @@ public class Main_Activity extends AppCompatActivity {
                         createSnackbar(error, Snackbar.LENGTH_LONG);
                     }
                 };
+
                 Login_Task login_task = new Login_Task(user, requestQueue, listener);
 
                 progressDialog = ProgressDialog.show(context, "Logging in", "Please wait", true, true, new DialogInterface.OnCancelListener() {
@@ -188,9 +226,9 @@ public class Main_Activity extends AppCompatActivity {
         super.onResume();
     }
 
-    private void showAlertDialog(String title, String message) {
+    private void showErrorDialog(String message) {
         AlertDialog alertDialog = new AlertDialog.Builder(context).create();
-        alertDialog.setTitle(title);
+        alertDialog.setTitle("Error");
         alertDialog.setMessage(message);
         //alertDialog.setIcon(R.mipmap.ic_app);
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
@@ -211,9 +249,11 @@ public class Main_Activity extends AppCompatActivity {
 
     private boolean isMyServiceRunning(Class<?> serviceClass) {
         ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
-            if (serviceClass.getName().equals(service.service.getClassName())) {
-                return true;
+        if (manager != null) {
+            for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
+                if (serviceClass.getName().equals(service.service.getClassName())) {
+                    return true;
+                }
             }
         }
         return false;

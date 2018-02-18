@@ -10,7 +10,7 @@ import com.BlackBox.Wifi_Login.R;
 public class Splash_Screen extends AppCompatActivity {
 
     // Splash screen timer
-    static final int SPLASH_TIME_OUT = 700;
+    static final int SPLASH_TIME_OUT = 900;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,6 +7,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 
 import java.net.HttpURLConnection;
@@ -39,7 +40,20 @@ public class Login_Task {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-                                listener.onSuccess(true);
+                                if(response.contains("Authentication") && response.contains("IITI"))
+                                {
+                                    String ss = "<form method=\"post\" action=\"";
+                                    int i = response.indexOf(ss);
+                                    i += ss.length();
+                                    int j = response.indexOf("\"",i);
+                                    String url = response.substring(i,j);
+                                    Log.i(TAG, "onResponse: "+url);
+                                    sendPost(url);
+                                }
+                                else {
+                                    Log.i(TAG, "Already Logged In! ");
+                                    listener.onSuccess(true);
+                                }
                             }
                         },
                         new Response.ErrorListener() {
@@ -80,6 +94,7 @@ public class Login_Task {
                             {
                                 f = false;
                                 String location = error.networkResponse.headers.get("Location");
+                                Log.i(TAG, "location: "+location);
                                 sendPost(location);
                             }
                             else
@@ -122,7 +137,7 @@ public class Login_Task {
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-//                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
+                                VolleyLog.d(TAG, "onErrorResponse: " + error.getMessage());
                                 listener.onFailure(error.getMessage());
                             }
                         }
@@ -155,7 +170,7 @@ public class Login_Task {
                         if (error.networkResponse != null) //network response
                         {
                             final int status = error.networkResponse.statusCode;
-                            //Log.i(TAG, "Status : " + status);
+                            Log.i(TAG, "Status : " + status);
                             // Handle 30x
                             if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {
                                 final String location = error.networkResponse.headers.get("Location");
@@ -173,7 +188,7 @@ public class Login_Task {
                         }
                     }
                 }
-//                Log.i("YOYO", "Message for noobs: " + error_str);
+                Log.i("YOYO", "Message for noobs: " + error_str);
 
                 if(f)
                     listener.onFailure(error_str);

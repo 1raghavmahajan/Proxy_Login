@@ -5,7 +5,6 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -18,27 +17,28 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.BlackBox.Wifi_Login.Activities.Main_Activity;
-import com.BlackBox.Wifi_Login.Classes.Connection_Detector;
 import com.BlackBox.Wifi_Login.R;
 
 public class BackgroundService extends Service {
 
-    private MyBroadcastReceiver br;
+    private ConChangeReceiver br;
 
     final public String TAG = BackgroundService.class.getSimpleName() + " YOYO";
-    private static final int Notification_ID = 1459;
+    private static final int Notification_ID = 5151;
     private Context context;
+
+
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        //Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
+        Log.i(TAG, "onStartCommand  " + Thread.currentThread().getName());
         context = getApplicationContext();
 
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
         intentFilter.addAction(Intent.ACTION_USER_PRESENT);
-        br = new MyBroadcastReceiver();
+        br = new ConChangeReceiver();
 
         Intent notificationIntent = new Intent(this, Main_Activity.class);
         notificationIntent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -47,40 +47,65 @@ public class BackgroundService extends Service {
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         Notification.Builder builder;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel notificationChannel = new NotificationChannel(NotificationChannel.DEFAULT_CHANNEL_ID, getPackageName() + "_CHANNEL", NotificationManager.IMPORTANCE_MIN);
-            notificationManager.createNotificationChannel(notificationChannel);
-            builder = new Notification.Builder(context, NotificationChannel.DEFAULT_CHANNEL_ID)
-                    .setContentTitle("Login Service")
-                    .setSmallIcon(R.drawable.ic_icon)
-                    .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icon))
-                    .setContentIntent(pendingIntent)
-                    .setOngoing(true)
-                    .setVisibility(Notification.VISIBILITY_SECRET)
-                    .setCategory(Notification.CATEGORY_SERVICE);
+        if (notificationManager != null) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                String id = "WifiLogin_Service_01";
+                CharSequence name = "Wifi_Login_Service";
+                String description = "Service to automate Wifi Login";
+                int importance = NotificationManager.IMPORTANCE_LOW;
+                NotificationChannel notificationChannel = new NotificationChannel(id, name, importance);
+                notificationChannel.setDescription(description);
+                notificationManager.createNotificationChannel(notificationChannel);
 
-        } else {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                //noinspection deprecation
-                builder = new Notification.Builder(context)
+                notificationChannel.enableLights(false);
+                notificationChannel.enableVibration(false);
+                notificationChannel.setLockscreenVisibility(Notification.VISIBILITY_SECRET);
+                notificationChannel.setSound(null,null);
+
+                builder = new Notification.Builder(context, id)
                         .setContentTitle("Login Service")
+                        .setContentText(description)
                         .setSmallIcon(R.drawable.ic_icon)
-                        .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icon))
                         .setContentIntent(pendingIntent)
                         .setOngoing(true)
                         .setVisibility(Notification.VISIBILITY_SECRET)
-                        .setPriority(Notification.PRIORITY_MIN)
                         .setCategory(Notification.CATEGORY_SERVICE);
+
             } else {
-                //noinspection deprecation
-                builder = new Notification.Builder(context)
-                        .setContentTitle("Login Service")
-                        .setSmallIcon(R.drawable.ic_icon)
-                        .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icon))
-                        .setContentIntent(pendingIntent)
-                        .setPriority(Notification.PRIORITY_MIN)
-                        .setOngoing(true);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    //noinspection deprecation
+                    builder = new Notification.Builder(context)
+                            .setContentTitle("Login Service")
+                            .setSmallIcon(R.drawable.ic_icon)
+                            .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icon))
+                            .setContentIntent(pendingIntent)
+                            .setOngoing(true)
+                            .setVisibility(Notification.VISIBILITY_SECRET)
+                            .setPriority(Notification.PRIORITY_MIN)
+                            .setCategory(Notification.CATEGORY_SERVICE);
+                } else {
+                    //noinspection deprecation
+                    builder = new Notification.Builder(context)
+                            .setContentTitle("Login Service")
+                            .setSmallIcon(R.drawable.ic_icon)
+                            .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icon))
+                            .setContentIntent(pendingIntent)
+                            .setPriority(Notification.PRIORITY_MIN)
+                            .setOngoing(true);
+                }
             }
+
+            startForeground(Notification_ID, builder.build());
+
+            registerReceiver(br, intentFilter);
+
+            return START_STICKY;
+        }
+        else{
+
+            stopSelf();
+            return START_REDELIVER_INTENT;
+
         }
 
 //        Todo:
@@ -89,12 +114,6 @@ public class BackgroundService extends Service {
 //                    .setPersisted(true)
 //            .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY);
 //        }
-
-        startForeground(Notification_ID, builder.build());
-
-        registerReceiver(br, intentFilter);
-
-        return START_STICKY;
     }
 
     @Override
@@ -110,24 +129,6 @@ public class BackgroundService extends Service {
         }
         stopForeground(true);
         super.onDestroy();
-    }
-
-    class MyBroadcastReceiver extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            Log.i(TAG, "received " + intent);
-
-            Connection_Detector connection_detector = new Connection_Detector(context);
-            int connection_Status = connection_detector.isConnectedToWifi();
-            Log.i(TAG, "connection_Status: " + connection_Status);
-            if (connection_Status == 4) {
-                Intent i = new Intent(context, Login_Service.class);
-                i.setAction(Login_Service.ACTION_LOGIN);
-                startService(i);
-            }
-        }
-
     }
 
     @Override

@@ -38,7 +38,7 @@ public class Connection_Detector {
 
             boolean f = true;
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                if(connectivityManager.getRestrictBackgroundStatus()==ConnectivityManager.RESTRICT_BACKGROUND_STATUS_ENABLED)
+                if(connectivityManager.getRestrictBackgroundStatus()== ConnectivityManager.RESTRICT_BACKGROUND_STATUS_ENABLED)
                     f = false;
             }
             if (activeNetworkInfo != null && f) {
