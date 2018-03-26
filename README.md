@@ -15,7 +15,7 @@ Currently in working condition at IIT Indore.
 
 <h2>Screenshots:</h2>
 <p align="center">
-<img src="https://iiti-blackbox.000webhostapp.com/Screenshots/wifi/p1.jpg" width="250"/>
-<img src="https://iiti-blackbox.000webhostapp.com/Screenshots/wifi/p2.jpg" width="250"/>
-<img src="https://iiti-blackbox.000webhostapp.com/Screenshots/wifi/p3.jpg" width="250"/>
+<img src="https://user-images.githubusercontent.com/12858001/37887117-8baceca6-30dd-11e8-883f-0304af7c56b0.jpg" width="250"/>
+<img src="https://user-images.githubusercontent.com/12858001/37887115-8b314a10-30dd-11e8-9f77-09e02a54b2ac.jpg" width="250"/>
+<img src="https://user-images.githubusercontent.com/12858001/37887116-8b722936-30dd-11e8-89c2-72d08af67733.jpg" width="250"/>
 </p>
