@@ -3,22 +3,21 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         BlackBox_India {
-            keyAlias 'BlackBox_India'
-            keyPassword 'HelloWorld98!'
-            storeFile file('C:/Users/raghav/OneDrive/BlackBox.jks')
-            storePassword 'HelloWorld98!'
+            keyAlias 'Black'
+            keyPassword 'HelloWorld'
+            storeFile file('C:/Users/Roger/OneDrive/BlackBox/BlackBox.jks')
+            storePassword 'Black@IITI1459'
         }
     }
     compileSdkVersion 27
-    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId 'com.BlackBox.Wifi_Login'
         minSdkVersion 16
         targetSdkVersion 27
-        versionName '2.42'
+        versionName '3'
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         signingConfig signingConfigs.BlackBox_India
-        versionCode 7
+        versionCode 9
     }
     buildTypes {
         release {
@@ -35,13 +34,13 @@ android {
 
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:27.0.2'
-    compile 'com.android.support:design:27.0.2'
-    compile 'com.android.support:support-v4:27.0.2'
-    compile 'com.android.volley:volley:1.1.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
 }

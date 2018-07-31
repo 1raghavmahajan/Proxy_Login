@@ -6,14 +6,16 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorControlHighlight">@color/colorAccent</item>
         <item name="colorControlActivated">@color/colorAccent</item>
-        <item name="android:windowBackground">@color/colorBackground</item>
+        <!--<item name="android:windowBackground">@color/colorBackground</item>-->
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
     </style>
 
     <style name="OtherStopServiceTheme" parent="Theme.AppCompat">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowBackground">@color/colorBackground</item>
+        <!--<item name="android:windowBackground">@color/colorBackground</item>-->
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
     </style>
 
 </resources>
