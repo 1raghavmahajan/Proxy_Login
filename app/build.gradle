@@ -3,10 +3,10 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         BlackBox_India {
-            keyAlias 'Black'
-            keyPassword 'HelloWorld'
-            storeFile file('C:/Users/Roger/OneDrive/BlackBox/BlackBox.jks')
-            storePassword 'Black@IITI1459'
+            keyAlias 'BlackBox_India'
+            keyPassword 'HelloWorld98!'
+            storeFile file('C:/Users/Roger/OneDrive/BlackBox.jks')
+            storePassword 'HelloWorld98!'
         }
     }
     compileSdkVersion 27
@@ -16,16 +16,15 @@ android {
         targetSdkVersion 27
         versionName '3'
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-        signingConfig signingConfigs.BlackBox_India
         versionCode 9
     }
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.BlackBox_India
             pseudoLocalesEnabled true
             proguardFile 'C:/Users/raghav/AndroidStudioProjects/Proxy_Login/app/proguard-rules.pro'
+            signingConfig signingConfigs.BlackBox_India
         }
     }
     productFlavors {

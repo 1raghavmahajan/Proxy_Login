@@ -2,11 +2,11 @@
     <string name="app_name">Wifi Login</string>
     <string name="title_name">Wifi Login</string>
     <string name="main_subtitle1">by</string>
-    <string name="main_subtitle2">BlackBox</string>
-    <string name="splash_subtitle">A BlackBox Creation</string>
+    <string name="main_subtitle2">Anderson</string>
+    <string name="splash_subtitle">An A Creation</string>
 
 
-    <string name="te_User">user name</string>
+    <string name="te_User">username</string>
     <string name="te_Password">password</string>
     <string name="btn_Login">Log In</string>
     <string name="cB_SaveCred">Remember Password</string>
