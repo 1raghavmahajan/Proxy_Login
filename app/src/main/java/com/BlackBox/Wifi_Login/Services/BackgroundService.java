@@ -1,6 +1,7 @@
 package com.BlackBox.Wifi_Login.Services;
 
 import android.app.Notification;
+import android.app.Notification.Builder;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -11,6 +12,8 @@ import android.content.IntentFilter;
 import android.graphics.BitmapFactory;
 import android.net.ConnectivityManager;
 import android.os.Build;
+import android.os.Build.VERSION;
+import android.os.Build.VERSION_CODES;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -38,6 +41,10 @@ public class BackgroundService extends Service {
     IntentFilter intentFilter = new IntentFilter();
     intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
     intentFilter.addAction(Intent.ACTION_USER_PRESENT);
+    if (VERSION.SDK_INT >= VERSION_CODES.N) {
+      intentFilter.addAction(Intent.ACTION_USER_UNLOCKED);
+    }
+    intentFilter.addAction(Intent.ACTION_SCREEN_ON);
     br = new ConChangeReceiver();
 
 //    Intent notificationIntent = new Intent(this, Main_Activity.class);
@@ -50,9 +57,9 @@ public class BackgroundService extends Service {
     PendingIntent pendingIntent = PendingIntent.getService(this, 0, loginIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
     NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-    Notification.Builder builder;
+    Builder builder;
     if (notificationManager != null) {
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+      if (VERSION.SDK_INT >= VERSION_CODES.O) {
         String id = "WifiLogin_Service_01";
         CharSequence name = "Wifi_Login_Service";
         String description = "Service to automate Wifi Login";
@@ -67,7 +74,7 @@ public class BackgroundService extends Service {
         notificationChannel.setLockscreenVisibility(Notification.VISIBILITY_SECRET);
         notificationChannel.setSound(null, null);
 
-        builder = new Notification.Builder(context, id)
+        builder = new Builder(context, id)
             .setContentTitle(TITLE)
             .setContentText(TEXT)
             .setSmallIcon(R.drawable.ic_icon)
@@ -77,9 +84,9 @@ public class BackgroundService extends Service {
             .setCategory(Notification.CATEGORY_SERVICE);
 
       } else {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        if (VERSION.SDK_INT >= VERSION_CODES.LOLLIPOP) {
           //noinspection deprecation
-          builder = new Notification.Builder(context)
+          builder = new Builder(context)
               .setContentTitle(TITLE)
               .setContentText(TEXT)
               .setSmallIcon(R.drawable.ic_icon)
@@ -91,7 +98,7 @@ public class BackgroundService extends Service {
               .setCategory(Notification.CATEGORY_SERVICE);
         } else {
           //noinspection deprecation
-          builder = new Notification.Builder(context)
+          builder = new Builder(context)
               .setContentTitle(TITLE)
               .setContentText(TEXT)
               .setSmallIcon(R.drawable.ic_icon)

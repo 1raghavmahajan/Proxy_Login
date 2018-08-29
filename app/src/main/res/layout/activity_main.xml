@@ -152,6 +152,7 @@
       android:foreground="@drawable/ripple_login"
       android:text="@string/btn_stopService"
       android:textColor="@android:color/white"
+      android:visibility="gone"
       />
 
   </LinearLayout>

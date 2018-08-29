@@ -16,7 +16,7 @@ android {
         targetSdkVersion 27
         versionName '3'
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-        versionCode 9
+        versionCode 10
     }
     buildTypes {
         release {

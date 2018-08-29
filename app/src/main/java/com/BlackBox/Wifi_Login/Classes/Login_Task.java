@@ -29,11 +29,11 @@ public class Login_Task {
   public void Login() {
 
     String request_Tag = "URL_REQUEST";
-    final String url = "http://www.bing.com";
+    final String url = "http://www.google.co.in";
 
     StringRequest strReq = new StringRequest
         (
-            Request.Method.POST,
+            Request.Method.GET,
             url,
             new Response.Listener<String>() {
               @Override
@@ -85,6 +85,7 @@ public class Login_Task {
             if (error.networkResponse != null) //network response
             {
               final int status = error.networkResponse.statusCode;
+              Log.i(TAG, "statusCode: "+status);
               if (status == HttpURLConnection.HTTP_MOVED_PERM ||
                   status == HttpURLConnection.HTTP_MOVED_TEMP ||
                   status == HttpURLConnection.HTTP_SEE_OTHER) {
@@ -108,6 +109,7 @@ public class Login_Task {
     };
 
     strReq.setTag(request_Tag);
+
     requestQueue.add(strReq);
 
   }
@@ -172,8 +174,9 @@ public class Login_Task {
               if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP
                   || status == HttpURLConnection.HTTP_SEE_OTHER) {
                 final String location = error.networkResponse.headers.get("Location");
+                Log.i(TAG, "location: "+location);
 
-                if (location.toLowerCase().contains("bing")) {
+                if (location.toLowerCase().contains("bing") || location.toLowerCase().contains("alerts")) {
                   f = false;
                   listener.onSuccess(false);
                 } else {
