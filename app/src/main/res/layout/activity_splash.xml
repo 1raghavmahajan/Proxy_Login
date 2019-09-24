@@ -36,7 +36,7 @@
     android:layout_above="@+id/tV_mvl"
     android:layout_centerHorizontal="true"
     android:paddingBottom="7dp"
-    android:text="@string/Coder1"
+    android:text="@string/Coder"
     android:textColor="@android:color/white"
     android:textSize="16sp"
     app:layout_constraintLeft_toLeftOf="parent"

@@ -58,7 +58,7 @@ public class Main_Activity extends AppCompatActivity {
       eT_UserName.setText(user.getID());
       eT_Password.setText(user.getpwd());
       cB_startService.setChecked(true);
-      if (isMyServiceRunning(BackgroundService.class)) {
+      if (isMyServiceRunning()) {
         btn_stopService.setVisibility(View.VISIBLE);
       } else {
         btn_stopService.setVisibility(View.GONE);
@@ -75,13 +75,13 @@ public class Main_Activity extends AppCompatActivity {
     btn_stopService.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        if (isMyServiceRunning(BackgroundService.class)) {
+        if (isMyServiceRunning()) {
           Intent i = new Intent(context, BackgroundService.class);
           if (stopService(i)) {
             createSnackbar("Service Stopped!", Snackbar.LENGTH_SHORT);
             btn_stopService.setVisibility(View.GONE);
           } else {
-            if (!isMyServiceRunning(BackgroundService.class)) {
+            if (!isMyServiceRunning()) {
               createSnackbar("Service Stopped!", Snackbar.LENGTH_SHORT);
               btn_stopService.setVisibility(View.GONE);
             } else {
@@ -146,9 +146,7 @@ public class Main_Activity extends AppCompatActivity {
 
                     AlertDialog alertDialog = new AlertDialog.Builder(context).create();
                     alertDialog.setTitle("Info");
-                    alertDialog.setMessage("For the service to start on boot, you need to disable battery optimisation" +
-                        "\nOn the next screen, find \"Wifi Login\" and\n" +
-                        "Click on \"Don't Optimise\"");
+                    alertDialog.setMessage(getString(R.string.service_request));
 
                     alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
                       @SuppressLint("InlinedApi")
@@ -173,7 +171,7 @@ public class Main_Activity extends AppCompatActivity {
 
               Log.i(TAG, "Starting Service..");
               Intent i = new Intent(context, BackgroundService.class);
-              if (!isMyServiceRunning(BackgroundService.class)) {
+              if (!isMyServiceRunning()) {
                 createSnackbar("Logged In and Service Started!", Snackbar.LENGTH_SHORT);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                   startForegroundService(i);
@@ -217,7 +215,7 @@ public class Main_Activity extends AppCompatActivity {
 
   @Override
   protected void onResume() {
-    if (isMyServiceRunning(BackgroundService.class)) {
+    if (isMyServiceRunning()) {
       btn_stopService.setVisibility(View.VISIBLE);
     } else {
       btn_stopService.setVisibility(View.GONE);
@@ -241,16 +239,15 @@ public class Main_Activity extends AppCompatActivity {
 
   private void createSnackbar(String message, int length) {
     Snackbar snackbar = Snackbar.make(findViewById(R.id.relative), message, length);
-    //noinspection deprecation
     snackbar.getView().setBackgroundColor(getResources().getColor(R.color.colorSnack));
     snackbar.show();
   }
 
-  private boolean isMyServiceRunning(Class<?> serviceClass) {
+  private boolean isMyServiceRunning() {
     ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
     if (manager != null) {
       for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
-        if (serviceClass.getName().equals(service.service.getClassName())) {
+        if (BackgroundService.class.getName().equals(service.service.getClassName())) {
           return true;
         }
       }

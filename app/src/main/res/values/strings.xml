@@ -2,8 +2,7 @@
     <string name="app_name">Wifi Login</string>
     <string name="title_name">Wifi Login</string>
     <string name="main_subtitle1">by</string>
-    <string name="main_subtitle2">Anderson</string>
-    <string name="splash_subtitle">An A Creation</string>
+  <string name="main_subtitle2">Developer Students Club</string>
 
 
     <string name="te_User">username</string>
@@ -16,7 +15,8 @@
 
     <string name="service_desc">Accessibility Service for Wifi Login</string>
 
-    <string name="Coder1" translatable="false">Raghav Mahajan</string>
-    <string name="Coder2" translatable="false">Keyur Panchal</string>
+  <string name="Coder" translatable="false">Raghav Mahajan</string>
+  <string name="main_subtitle_l2">IIT Indore</string>
+  <string name="service_request">For the app to start on boot, you need to disable battery optimisation.\nOn the next screen, find \"Wifi Login\" and click on \"Don\'t Optimise\"</string>
 
 </resources>

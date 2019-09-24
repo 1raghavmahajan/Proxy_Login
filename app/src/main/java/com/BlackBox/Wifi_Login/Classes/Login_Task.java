@@ -29,7 +29,9 @@ public class Login_Task {
   public void Login() {
 
     String request_Tag = "URL_REQUEST";
-    final String url = "http://www.google.co.in";
+    final String url = "http://www.msftconnecttest.com";
+    //final String url = "http://www.google.co.in";
+
 
     StringRequest strReq = new StringRequest
         (
@@ -128,6 +130,8 @@ public class Login_Task {
               public void onResponse(String response) {
                 if (response.contains("Invalid")) {
                   listener.onFailure("Invalid Credentials Provided!");
+                } else if (response.contains("Top Stories")) {
+                  listener.onSuccess(false);
                 } else {
                   listener.onFailure("Unknown error");
                 }
@@ -174,22 +178,25 @@ public class Login_Task {
               if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP
                   || status == HttpURLConnection.HTTP_SEE_OTHER) {
                 final String location = error.networkResponse.headers.get("Location");
-                Log.i(TAG, "location: "+location);
-
-                if (location.toLowerCase().contains("bing") || location.toLowerCase().contains("alerts")) {
-                  f = false;
-                  listener.onSuccess(false);
+                if (location != null) {
+                  Log.i(TAG, "location: " + location);
+                  if (location.toLowerCase().contains("bing") || location.toLowerCase().contains("alerts") || location.toLowerCase()
+                      .equalsIgnoreCase("http://iiti.ac.in")) {
+                    f = false;
+                    listener.onSuccess(false);
+                  } else {
+                    error_str = "Invalid Credentials Provided";
+                  }
                 } else {
-                  error_str = "Invalid Credentials Provided";
+                  error_str = "Invalid Redirect";
                 }
-
               }
             } else {
               error_str = "No Network response";
             }
           }
         }
-        Log.i("YOYO", "Message for noobs: " + error_str);
+        Log.i("YOYO", "Error: " + error_str);
 
         if (f) {
           listener.onFailure(error_str);
