@@ -2,8 +2,8 @@ package com.BlackBox.Wifi_Login.Classes;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.util.Base64;
+import androidx.preference.PreferenceManager;
 import java.security.MessageDigest;
 import java.security.spec.KeySpec;
 import javax.crypto.Cipher;
@@ -145,7 +145,7 @@ public class User_Cred {
     }
 
     private static String toHex(byte[] stringBytes) {
-      StringBuffer result = new StringBuffer(2 * stringBytes.length);
+      StringBuilder result = new StringBuilder(2 * stringBytes.length);
 
       for (byte stringByte : stringBytes) {
         result.append(HEX.charAt((stringByte >> 4) & 0x0f)).append(HEX.charAt(stringByte & 0x0f));

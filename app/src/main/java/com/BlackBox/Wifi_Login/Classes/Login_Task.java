@@ -128,12 +128,21 @@ public class Login_Task {
             new Response.Listener<String>() {
               @Override
               public void onResponse(String response) {
-                if (response.contains("Invalid")) {
-                  listener.onFailure("Invalid Credentials Provided!");
-                } else if (response.contains("Top Stories")) {
-                  listener.onSuccess(false);
+                response = response.toLowerCase();
+                if (response.contains("iit indore")) {
+                  if (response.contains("network authentication")) {
+                    if (response.contains("invalid")) {
+                      listener.onFailure("Invalid Credentials Provided!");
+                    } else {
+                      VolleyLog.d(TAG, "onResponse, Unknown Error: " + response);
+                      listener.onFailure("Unknown Error");
+                    }
+                  } else {
+                    listener.onSuccess(false);
+                  }
                 } else {
-                  listener.onFailure("Unknown error");
+                  VolleyLog.d(TAG, "onResponse, Unknown Response: " + response);
+                  listener.onFailure("Unknown Response");
                 }
               }
             },

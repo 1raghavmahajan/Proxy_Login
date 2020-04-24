@@ -11,13 +11,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.provider.Settings;
-import android.support.design.widget.Snackbar;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import androidx.appcompat.app.AppCompatActivity;
 import com.BlackBox.Wifi_Login.Classes.Connection_Detector;
 import com.BlackBox.Wifi_Login.Classes.Login_Task;
 import com.BlackBox.Wifi_Login.Classes.User_Cred;
@@ -25,6 +23,8 @@ import com.BlackBox.Wifi_Login.R;
 import com.BlackBox.Wifi_Login.Services.BackgroundService;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class Main_Activity extends AppCompatActivity {
 
@@ -99,7 +99,9 @@ public class Main_Activity extends AppCompatActivity {
 
     Connection_Detector cd = new Connection_Detector(context);
 
+    //noinspection ConstantConditions
     user.setID(eT_UserName.getText().toString().trim());
+    //noinspection ConstantConditions
     user.setpwd(eT_Password.getText().toString().trim());
 
     if (user.getID().equals("")) {

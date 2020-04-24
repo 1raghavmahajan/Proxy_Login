@@ -21,7 +21,6 @@ public class OnBootReceiver extends BroadcastReceiver {
           action.equalsIgnoreCase("android.intent.action.REBOOT") ||
           action.equalsIgnoreCase("android.intent.action.QUICKBOOT_POWERON") ||
           action.equalsIgnoreCase("android.intent.action.LOCKED_BOOT_COMPLETED") ||
-          action.equalsIgnoreCase("android.intent.action.REBOOT") ||
           action.equalsIgnoreCase("com.htc.intent.action.QUICKBOOT_POWERON")) {
 
         User_Cred user_cred = new User_Cred();

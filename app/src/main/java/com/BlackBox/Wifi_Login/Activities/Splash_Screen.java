@@ -3,7 +3,7 @@ package com.BlackBox.Wifi_Login.Activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import com.BlackBox.Wifi_Login.R;
 
 public class Splash_Screen extends AppCompatActivity {

@@ -11,13 +11,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.BitmapFactory;
 import android.net.ConnectivityManager;
-import android.os.Build;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
+import androidx.annotation.Nullable;
 import com.BlackBox.Wifi_Login.R;
 
 public class BackgroundService extends Service {
@@ -85,7 +84,6 @@ public class BackgroundService extends Service {
 
       } else {
         if (VERSION.SDK_INT >= VERSION_CODES.LOLLIPOP) {
-          //noinspection deprecation
           builder = new Builder(context)
               .setContentTitle(TITLE)
               .setContentText(TEXT)
@@ -97,7 +95,6 @@ public class BackgroundService extends Service {
               .setPriority(Notification.PRIORITY_MIN)
               .setCategory(Notification.CATEGORY_SERVICE);
         } else {
-          //noinspection deprecation
           builder = new Builder(context)
               .setContentTitle(TITLE)
               .setContentText(TEXT)

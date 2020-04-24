@@ -9,14 +9,15 @@ android {
             storePassword 'HelloWorld98!'
         }
     }
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId 'com.BlackBox.Wifi_Login'
         minSdkVersion 16
-        targetSdkVersion 28
-        versionName '3.1'
-        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-        versionCode 11
+        targetSdkVersion 29
+        versionName '3.11'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        versionCode 12
+        signingConfig signingConfigs.BlackBox_India
     }
     buildTypes {
         release {
@@ -25,6 +26,10 @@ android {
             pseudoLocalesEnabled true
             proguardFile 'C:/Users/raghav/AndroidStudioProjects/Proxy_Login/app/proguard-rules.pro'
             signingConfig signingConfigs.BlackBox_India
+            versionNameSuffix = 'r'
+        }
+        debug {
+            versionNameSuffix = 'd'
         }
     }
     productFlavors {
@@ -34,12 +39,13 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
-    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation "androidx.preference:preference:1.1.1"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.android.volley:volley:1.1.1'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.0', {
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
 }
